@@ -1,0 +1,30 @@
+.curso1-container {
+  padding: 20px;
+  background-color: #00000050;
+  border-radius: 30px;
+  color: #ffffff;
+
+  h1, h2, h3, h4 {
+    margin-top: 20px;
+    color: #ffdf8f;
+  }
+
+  p, li {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #e0e0e0;
+  }
+
+  ul, ol {
+    margin-left: 20px;
+  }
+
+  .curso1-imagen {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 4px 80px rgba(0, 0, 0, 0.4);
+  }
+}

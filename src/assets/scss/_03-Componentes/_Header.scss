@@ -1,0 +1,90 @@
+/* Asegúrate de que no haya margen o padding en el body y html */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; // Para manejar correctamente los bordes y paddings
+}
+
+/* Estilos del header */
+.header {
+  background-color: rgba(63, 11, 63, 0.185);
+  // background-image: url(../../../../img/00-fondos/fondo1.jpeg);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  // border-bottom: 5px dotted rgba(255, 238, 0, 0.5); // Mantener color sin variables
+  box-sizing: border-box; // Asegura que los bordes se manejen correctamente
+  
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .logoHeader {
+      max-width: 50px;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px; // Ajusta el padding interno de la barra de navegación
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    font-size: large;
+
+
+    .nav-link {
+      
+      color: #ffffff; // Texto blanco
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #00b7ff; // Color primario sin variables
+      }
+    }
+  }
+
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+
+    .auth-icon {
+      color: #ffffff; // Blanco
+  
+        transition: color 0.3s ease;
+
+      &:hover {
+        color: #ff5e00; // Color de acento
+      }
+    }
+  }
+
+
+  .menu-icon {
+    font-size: x-large;
+    color: #ffffff; // Blanco
+  }
+
+  .auth-welcome-container {
+    display: flex;
+    align-items: center;
+    color: #ffffff; // Blanco
+    font-size: medium;
+
+    }
+  }
+
