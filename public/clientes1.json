@@ -1,384 +1,154 @@
 [
   {
     "id": 1,
-    "nombre": "EstiloBag",
+    "nombre": "Administración ConsorMar",
     "imagen portada": "/img/08-imagenes-clientes/id01-c1.png",
-    "tipo": "Diseño de Carteras",
-    "categoria": "Moda",
-    "recomendacion del cliente": "La calidad de su trabajo es excepcional.",
+    "tipo": "Administración de Consorcios",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "El sistema nos permitió simplificar la gestión y reducir reclamos.",
     "comentarios": [
-      "Las carteras personalizadas son únicas.",
-      "Variedad de colores y diseños creativos."
+      "Cálculo de expensas automatizado y sin errores.",
+      "Portal de vecinos muy fácil de usar."
     ],
     "imagenes del cliente": [
-      "/img/08-imagenes-clientes/id01-estilobag-1.png",
-      "/img/08-imagenes-clientes/id01-estilobag-2.png",
-      "/img/08-imagenes-clientes/id01-estilobag-3.png",
-      "/img/08-imagenes-clientes/id01-estilobag-4.png"
+      "/img/08-imagenes-clientes/id01-1.png",
+      "/img/08-imagenes-clientes/id01-2.png",
+      "/img/08-imagenes-clientes/id01-3.png",
+      "/img/08-imagenes-clientes/id01-4.png"
     ],
-    "sitio_web": "https://www.estilobag.com"
+    "sitio_web": "https://www.consormar.com"
   },
   {
     "id": 2,
-    "nombre": "Nike",
+    "nombre": "Consorcio Torre Atlántico",
     "imagen portada": "/img/08-imagenes-clientes/id02-c2.png",
-    "tipo": "Diseño de Zapatillas",
-    "categoria": "Calzado",
-    "recomendacion del cliente": "Innovación en cada par.",
+    "tipo": "Edificio de Propiedad Horizontal",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "Desde que usamos el sistema, todo está más organizado.",
     "comentarios": [
-      "Zapatillas personalizadas a tu estilo.",
-      "Calidad y confort en cada diseño."
+      "Los propietarios reciben sus expensas por email.",
+      "Los pagos online funcionan excelente."
     ],
     "imagenes del cliente": [
-      "/img/08-imagenes-clientes/id02-zapato-1.png",
-      "/img/08-imagenes-clientes/id02-zapato-2.png",
-      "/img/08-imagenes-clientes/id02-zapato-3.png",
-      "/img/08-imagenes-clientes/id02-zapato-4.png"
+      "/img/08-imagenes-clientes/id02-1.png",
+      "/img/08-imagenes-clientes/id02-2.png",
+      "/img/08-imagenes-clientes/id02-3.png",
+      "/img/08-imagenes-clientes/id02-4.png"
     ],
-    "sitio_web": "https://www.nike.com"
+    "sitio_web": "https://www.torreatlantico.com"
   },
   {
     "id": 3,
-    "nombre": "IKEA",
+    "nombre": "Edificio Costa Dorada",
     "imagen portada": "/img/08-imagenes-clientes/id03-c3.png",
-    "tipo": "Decoración del Hogar",
-    "categoria": "Hogar",
-    "recomendacion del cliente": "Diseños prácticos y elegantes.",
+    "tipo": "Consorcio Residencial",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "Muy conforme con el sistema, es fácil y práctico.",
     "comentarios": [
-      "Decoración personalizada para tu hogar.",
-      "Textiles únicos y personalizables."
+      "Los informes mensuales son claros.",
+      "Resolvimos rápido el tema de la reserva del SUM."
     ],
     "imagenes del cliente": [
-      "/img/08-imagenes-clientes/id03-casacreativa-1.png",
-      "/img/08-imagenes-clientes/id03-casacreativa-2.png",
-      "/img/08-imagenes-clientes/id03-casacreativa-3.png",
-      "/img/08-imagenes-clientes/id03-casacreativa-4.png"
+      "/img/08-imagenes-clientes/id03-1.png",
+      "/img/08-imagenes-clientes/id03-2.png",
+      "/img/08-imagenes-clientes/id03-3.png",
+      "/img/08-imagenes-clientes/id03-4.png"
     ],
-    "sitio_web": "https://www.casaikea.com"
+    "sitio_web": "https://www.costadorada.com"
   },
   {
     "id": 4,
-    "nombre": "Samsung",
+    "nombre": "Gestión Integral Urbana",
     "imagen portada": "/img/08-imagenes-clientes/id04-c4.png",
-    "tipo": "Accesorios de Tecnología",
-    "categoria": "Accesorios",
-    "recomendacion del cliente": "Perfecto para nuestros productos tecnológicos.",
+    "tipo": "Administración de Consorcios",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "Nos agilizó el trabajo y mejoró la comunicación con los propietarios.",
     "comentarios": [
-      "Fundas tecnológicas personalizadas.",
-      "Excelente protección y estilo."
+      "La app móvil es muy útil.",
+      "Excelente soporte técnico."
     ],
     "imagenes del cliente": [
-      "/img/08-imagenes-clientes/id04-techcase-1.png",
-      "/img/08-imagenes-clientes/id04-techcase-2.png",
-      "/img/08-imagenes-clientes/id04-techcase-3.png",
-      "/img/08-imagenes-clientes/id04-techcase-4.png"
+      "/img/08-imagenes-clientes/id04-1.png",
+      "/img/08-imagenes-clientes/id04-2.png",
+      "/img/08-imagenes-clientes/id04-3.png",
+      "/img/08-imagenes-clientes/id04-4.png"
     ],
-    "sitio_web": "https://www.samsung.com"
+    "sitio_web": "https://www.urbanaadmin.com"
   },
   {
     "id": 5,
-    "nombre": "Adidas",
+    "nombre": "Consorcio Las Lomas",
     "imagen portada": "/img/08-imagenes-clientes/id05-c5.png",
-    "tipo": "Accesorios de Moda",
-    "categoria": "Moda",
-    "recomendacion del cliente": "Siempre a la moda.",
+    "tipo": "Edificio Residencial",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "El portal de gestión nos dio transparencia y confianza.",
     "comentarios": [
-      "Gorras y sombreros personalizables.",
-      "Diseños frescos y modernos."
+      "Todos acceden a la liquidación en línea.",
+      "Nos olvidamos de los papeles y los reclamos."
     ],
     "imagenes del cliente": [
-      "/img/08-imagenes-clientes/id05-gorratrendy-1.png",
-      "/img/08-imagenes-clientes/id05-gorratrendy-2.png",
-      "/img/08-imagenes-clientes/id05-gorratrendy-3.png",
-      "/img/08-imagenes-clientes/id05-gorratrendy-4.png"
+      "/img/08-imagenes-clientes/id05-1.png",
+      "/img/08-imagenes-clientes/id05-2.png",
+      "/img/08-imagenes-clientes/id05-3.png",
+      "/img/08-imagenes-clientes/id05-4.png"
     ],
-    "sitio_web": "https://www.gorratrendy.com"
+    "sitio_web": "https://www.laslomasconsorcio.com"
   },
-
   {
     "id": 6,
-    "nombre": "Coca-Cola",
+    "nombre": "Administración Costamar",
     "imagen portada": "/img/08-imagenes-clientes/id06-c6.png",
-    "tipo": "Marketing Digital",
-    "categoria": "Bebidas",
-    "recomendacion del cliente": "Un enfoque innovador en nuestras campañas.",
+    "tipo": "Administración de Consorcios",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "Excelente plataforma para gestionar edificios grandes.",
     "comentarios": [
-      "Diseños creativos y efectivos.",
-      "Gran respuesta de nuestro público."
+      "Control total de ingresos y egresos.",
+      "Facilidad en la comunicación con los vecinos."
     ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id06-cocacola-1.png",
-      "/img/08-imagenes-clientes/id06-cocacola-2.png",
-      "/img/08-imagenes-clientes/id06-cocacola-3.png",
-      "/img/08-imagenes-clientes/id06-cocacola-4.png"
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id06-1.png",
+      "/img/08-imagenes-clientes/id06-2.png",
+      "/img/08-imagenes-clientes/id06-3.png",
+      "/img/08-imagenes-clientes/id06-4.png"
     ],
-    "sitio_web": "https://www.coca-cola.com"
+    "sitio_web": "https://www.costamaradmin.com"
   },
   {
     "id": 7,
-    "nombre": "Starbucks",
+    "nombre": "Edificio Mirador del Parque",
     "imagen portada": "/img/08-imagenes-clientes/id07-c7.png",
-    "tipo": "Diseño de Menú",
-    "categoria": "Alimentos y Bebidas",
-    "recomendacion del cliente": "Un diseño fresco que atrajo a más clientes.",
+    "tipo": "Consorcio Residencial",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "Muy recomendable, el sistema es práctico y accesible.",
     "comentarios": [
-      "Menús innovadores y visuales.",
-      "La personalización ha sido clave."
+      "Los vecinos pueden ver los gastos desde su celular.",
+      "Las reservas de espacios comunes se hacen online."
     ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id07-starbs-1.png",
-      "/img/08-imagenes-clientes/id07-starbs-2.png",
-      "/img/08-imagenes-clientes/id07-starbs-3.png",
-      "/img/08-imagenes-clientes/id07-starbs-4.png"
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id07-1.png",
+      "/img/08-imagenes-clientes/id07-2.png",
+      "/img/08-imagenes-clientes/id07-3.png",
+      "/img/08-imagenes-clientes/id07-4.png"
     ],
-    "sitio_web": "https://www.starbucks.com"
+    "sitio_web": "https://www.miradordelparque.com"
   },
   {
     "id": 8,
-    "nombre": "Microsoft",
+    "nombre": "Gestión Urbana Plus",
     "imagen portada": "/img/08-imagenes-clientes/id08-c8.png",
-    "tipo": "Desarrollo de Aplicaciones",
-    "categoria": "Tecnología",
-    "recomendacion del cliente": "Tecnología de vanguardia en cada proyecto.",
+    "tipo": "Administración Integral de Consorcios",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "Mejoró notablemente la eficiencia administrativa.",
     "comentarios": [
-      "Aplicaciones intuitivas y eficientes.",
-      "Gran atención al detalle."
+      "Sistema completo y fácil de implementar.",
+      "Ideal para administrar varios edificios a la vez."
     ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id08-microsoft-1.png",
-      "/img/08-imagenes-clientes/id08-microsoft-2.png",
-      "/img/08-imagenes-clientes/id08-microsoft-3.png",
-      "/img/08-imagenes-clientes/id08-microsoft-4.png"
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id08-1.png",
+      "/img/08-imagenes-clientes/id08-2.png",
+      "/img/08-imagenes-clientes/id08-3.png",
+      "/img/08-imagenes-clientes/id08-4.png"
     ],
-    "sitio_web": "https://www.apple.com"
-  },
-  {
-    "id": 9,
-    "nombre": "Pepsi",
-    "imagen portada": "/img/08-imagenes-clientes/id09-c9.png",
-    "tipo": "Estrategia de Marca",
-    "categoria": "Bebidas",
-    "recomendacion del cliente": "Un trabajo excepcional en rebranding.",
-    "comentarios": [
-      "Campañas impactantes y memorables.",
-      "Diseños que resuenan con los consumidores."
-    ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id09-pepsi-1.png",
-      "/img/08-imagenes-clientes/id09-pepsi-2.png",
-      "/img/08-imagenes-clientes/id09-pepsi-3.png",
-      "/img/08-imagenes-clientes/id09-pepsi-4.png"
-    ],
-    "sitio_web": "https://www.pepsi.com"
-  },
-  {
-    "id": 10,
-    "nombre": "Lego",
-    "imagen portada": "/img/08-imagenes-clientes/id10-c10.png",
-    "tipo": "Diseño de Producto",
-    "categoria": "Juguetes",
-    "recomendacion del cliente": "Creatividad sin límites en cada diseño.",
-    "comentarios": [
-      "Proyectos interactivos y educativos.",
-      "Gran impacto en el desarrollo infantil."
-    ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id10-lego-1.png",
-      "/img/08-imagenes-clientes/id10-lego-2.png",
-      "/img/08-imagenes-clientes/id10-lego-3.png",
-      "/img/08-imagenes-clientes/id10-lego-4.png"
-    ],
-    "sitio_web": "https://www.lego.com"
-  },
-  {
-    "id": 11,
-    "nombre": "McDonald's",
-    "imagen portada": "/img/08-imagenes-clientes/id11-c11.png",
-    "tipo": "Diseño de Publicidad",
-    "categoria": "Alimentos",
-    "recomendacion del cliente": "Publicidades que realmente conectan.",
-    "comentarios": [
-      "Campañas que impulsan nuestras ventas.",
-      "Estilo que resuena con nuestra marca."
-    ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id11-mcdonalds-1.png",
-      "/img/08-imagenes-clientes/id11-mcdonalds-2.png",
-      "/img/08-imagenes-clientes/id11-mcdonalds-3.png",
-      "/img/08-imagenes-clientes/id11-mcdonalds-4.png"
-    ],
-    "sitio_web": "https://www.mcdonalds.com"
-  },
-  {
-    "id": 12,
-    "nombre": "H&M",
-    "imagen portada": "/img/08-imagenes-clientes/id12-c12.png",
-    "tipo": "Diseño de Ropa",
-    "categoria": "Moda",
-    "recomendacion del cliente": "Una visión moderna en cada colección.",
-    "comentarios": [
-      "Ropa que destaca en el mercado.",
-      "Excelentes colaboraciones creativas."
-    ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id12-hm-1.png",
-      "/img/08-imagenes-clientes/id12-hm-2.png",
-      "/img/08-imagenes-clientes/id12-hm-3.png",
-      "/img/08-imagenes-clientes/id12-hm-4.png"
-    ],
-    "sitio_web": "https://www.hm.com"
-  },
-  {
-    "id": 13,
-    "nombre": "Zara",
-    "imagen portada": "/img/08-imagenes-clientes/id13-c13.png",
-    "tipo": "Estrategia de Marca",
-    "categoria": "Moda",
-    "recomendacion del cliente": "Innovación constante y adaptabilidad.",
-    "comentarios": [
-      "Campañas visuales que impactan.",
-      "Diseños que marcan tendencias."
-    ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id13-zara-1.png",
-      "/img/08-imagenes-clientes/id13-zara-2.png",
-      "/img/08-imagenes-clientes/id13-zara-3.png",
-      "/img/08-imagenes-clientes/id13-zara-4.png"
-    ],
-    "sitio_web": "https://www.zara.com"
-  },
-  {
-    "id": 14,
-    "nombre": "Sony",
-    "imagen portada": "/img/08-imagenes-clientes/id14-c14.png",
-    "tipo": "Desarrollo de Software",
-    "categoria": "Tecnología",
-    "recomendacion del cliente": "Un socio confiable en innovación.",
-    "comentarios": [
-      "Soluciones tecnológicas efectivas.",
-      "Gran atención al cliente."
-    ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id14-sony-1.png",
-      "/img/08-imagenes-clientes/id14-sony-2.png",
-      "/img/08-imagenes-clientes/id14-sony-3.png",
-      "/img/08-imagenes-clientes/id14-sony-4.png"
-    ],
-    "sitio_web": "https://www.sony.com"
-  },
-  {
-    "id": 15,
-    "nombre": "Disney",
-    "imagen portada": "/img/08-imagenes-clientes/id15-c15.png",
-    "tipo": "Diseño de Experiencias",
-    "categoria": "Entretenimiento",
-    "recomendacion del cliente": "Creatividad mágica en cada proyecto.",
-    "comentarios": [
-      "Experiencias inolvidables para el público.",
-      "Diseños que cuentan historias."
-    ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id15-disney-1.png",
-      "/img/08-imagenes-clientes/id15-disney-2.png",
-      "/img/08-imagenes-clientes/id15-disney-3.png",
-      "/img/08-imagenes-clientes/id15-disney-4.png"
-    ],
-    "sitio_web": "https://www.disney.com"
-  },
-  {
-    "id": 16,
-    "nombre": "Asics",
-    "imagen portada": "/img/08-imagenes-clientes/id16-c16.png",
-    "tipo": "Calzado Deportivo",
-    "categoria": "Ropa Deportiva",
-    "recomendacion del cliente": "Innovación y comodidad en el deporte.",
-    "comentarios": [
-      "Productos que mejoran el rendimiento.",
-      "Gran calidad y durabilidad."
-    ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id24-asics-1.png",
-      "/img/08-imagenes-clientes/id24-asics-2.png",
-      "/img/08-imagenes-clientes/id24-asics-3.png",
-      "/img/08-imagenes-clientes/id24-asics-4.png"
-    ],
-    "sitio_web": "https://www.asics.com"
-
-  },
-  {
-    "id": 17,
-    "nombre": "Tiffany & Co.",
-    "imagen portada": "/img/08-imagenes-clientes/id17-c17.png",
-    "tipo": "Diseño de Marca",
-    "categoria": "Joyería",
-    "recomendacion del cliente": "Estilo y elegancia en cada detalle.",
-    "comentarios": [
-      "Diseños que destacan en el lujo.",
-      "Gran atención al cliente."
-    ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id19-tiffany-1.png",
-      "/img/08-imagenes-clientes/id19-tiffany-2.png",
-      "/img/08-imagenes-clientes/id19-tiffany-3.png",
-      "/img/08-imagenes-clientes/id19-tiffany-4.png"
-    ],
-    "sitio_web": "https://www.tiffany.com"
-  },
-  {
-    "id": 18,
-    "nombre": "Gucci",
-    "imagen portada": "/img/08-imagenes-clientes/id18-c18.png",
-    "tipo": "Diseño de Moda",
-    "categoria": "Moda de Lujo",
-    "recomendacion del cliente": "Elegancia y exclusividad en cada pieza.",
-    "comentarios": [
-      "Diseños que resaltan en el lujo.",
-      "Colaboraciones creativas excepcionales."
-    ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id22-gucci-1.png",
-      "/img/08-imagenes-clientes/id22-gucci-2.png",
-      "/img/08-imagenes-clientes/id22-gucci-3.png",
-      "/img/08-imagenes-clientes/id22-gucci-4.png"
-    ],
-    "sitio_web": "https://www.gucci.com"
-  },
-  {
-    "id": 19,
-    "nombre": "Bose",
-    "imagen portada": "/img/08-imagenes-clientes/id19-c19.png",
-    "tipo": "Audio",
-    "categoria": "Tecnología",
-    "recomendacion del cliente": "Experiencias de sonido excepcionales.",
-    "comentarios": [
-      "Innovación en cada producto.",
-      "Calidad de sonido insuperable."
-    ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id21-bose-1.png",
-      "/img/08-imagenes-clientes/id21-bose-2.png",
-      "/img/08-imagenes-clientes/id21-bose-3.png",
-      "/img/08-imagenes-clientes/id21-bose-4.png"
-    ],
-    "sitio_web": "https://www.bose.com"
-    },
-  {
-    "id": 20,
-    "nombre": "The North Face",
-    "imagen portada": "/img/08-imagenes-clientes/id20-c20.png",
-    "tipo": "Diseño de Producto",
-    "categoria": "Ropa Deportiva",
-    "recomendacion del cliente": "Innovación en la ropa para aventureros.",
-    "comentarios": [
-      "Productos que resisten condiciones extremas.",
-      "Gran calidad y estilo."
-    ],
-    "imagenes trabajo": [
-      "/img/08-imagenes-clientes/id20-northface-1.png",
-      "/img/08-imagenes-clientes/id20-northface-2.png",
-      "/img/08-imagenes-clientes/id20-northface-3.png",
-      "/img/08-imagenes-clientes/id20-northface-4.png"
-    ],
-    "sitio_web": "https://www.thenorthface.com"
+    "sitio_web": "https://www.gestionurbanaplus.com"
   }
 ]

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nombre": "Gestión de Instalaciones Comunes",
-    "imagenes portada": "/img/10-imagenes-aplicar/id11.png",
+    "imagenes portada": "/img/10-imagenes-cursos/id11.png",
     "tipo": "Teórico-Práctico",
     "categoria": "Mantenimiento",
     "complejidad": "intermedia",
@@ -14,15 +14,15 @@
       "Ideal para entender las instalaciones básicas y su cuidado."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id11-1.png",
-      "/img/10-imagenes-aplicar/id11-2.png",
-      "/img/10-imagenes-aplicar/id11-3.png"
+      "/img/10-imagenes-cursos/id11-1.png",
+      "/img/10-imagenes-cursos/id11-2.png",
+      "/img/10-imagenes-cursos/id11-3.png"
     ]
   },
   {
     "id": 2,
     "nombre": "Interpretación de Planos Edilicios",
-    "imagenes portada": "/img/10-imagenes-aplicar/id3.png",
+    "imagenes portada": "/img/10-imagenes-cursos/id3.png",
     "tipo": "Teórico",
     "categoria": "Arquitectura",
     "complejidad": "intermedia",
@@ -34,15 +34,15 @@
       "Explicaciones claras y con ejemplos prácticos."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id3-1.png",
-      "/img/10-imagenes-aplicar/id3-2.png",
-      "/img/10-imagenes-aplicar/id3-3.png"
+      "/img/10-imagenes-cursos/id3-1.png",
+      "/img/10-imagenes-cursos/id3-2.png",
+      "/img/10-imagenes-cursos/id3-3.png"
     ]
   },
   {
     "id": 3,
     "nombre": "Mantenimiento Preventivo en Consorcios",
-    "imagenes portada": "/img/10-imagenes-aplicar/id2.png",
+    "imagenes portada": "/img/10-imagenes-cursos/id2.png",
     "tipo": "Práctico",
     "categoria": "Mantenimiento",
     "complejidad": "intermedia",
@@ -54,15 +54,15 @@
       "Muy didáctico, me dio herramientas concretas."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id2-1.png",
-      "/img/10-imagenes-aplicar/id2-2.png",
-      "/img/10-imagenes-aplicar/id2-3.png"
+      "/img/10-imagenes-cursos/id2-1.png",
+      "/img/10-imagenes-cursos/id2-2.png",
+      "/img/10-imagenes-cursos/id2-3.png"
     ]
   },
   {
     "id": 4,
     "nombre": "Uso y Mantenimiento de Ascensores",
-    "imagenes portada": "/img/10-imagenes-aplicar/id4.png",
+    "imagenes portada": "/img/10-imagenes-cursos/id4.png",
     "tipo": "Técnico",
     "categoria": "Equipamiento",
     "complejidad": "intermedia",
@@ -74,15 +74,15 @@
       "Muy práctico y adaptado al contexto local."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id4-1.png",
-      "/img/10-imagenes-aplicar/id4-2.png",
-      "/img/10-imagenes-aplicar/id4-3.png"
+      "/img/10-imagenes-cursos/id4-1.png",
+      "/img/10-imagenes-cursos/id4-2.png",
+      "/img/10-imagenes-cursos/id4-3.png"
     ]
   },
   {
     "id": 5,
     "nombre": "Gestión de Emergencias Edilicias",
-    "imagenes portada": "/img/10-imagenes-aplicar/id5.png",
+    "imagenes portada": "/img/10-imagenes-cursos/id5.png",
     "tipo": "Teórico-Práctico",
     "categoria": "Seguridad",
     "complejidad": "intermedia",
@@ -94,15 +94,15 @@
       "Excelente contenido, muy aplicable."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id5-1.png",
-      "/img/10-imagenes-aplicar/id5-2.png",
-      "/img/10-imagenes-aplicar/id5-3.png"
+      "/img/10-imagenes-cursos/id5-1.png",
+      "/img/10-imagenes-cursos/id5-2.png",
+      "/img/10-imagenes-cursos/id5-3.png"
     ]
   },
   {
     "id": 6,
     "nombre": "Mantenimiento de Espacios Verdes",
-    "imagenes portada": "/img/10-imagenes-aplicar/id6.png",
+    "imagenes portada": "/img/10-imagenes-cursos/id6.png",
     "tipo": "Práctico",
     "categoria": "Jardinería",
     "complejidad": "intermedia",
@@ -114,15 +114,15 @@
       "Consejos simples que generan un gran impacto."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id6-1.png",
-      "/img/10-imagenes-aplicar/id6-2.png",
-      "/img/10-imagenes-aplicar/id6-3.png"
+      "/img/10-imagenes-cursos/id6-1.png",
+      "/img/10-imagenes-cursos/id6-2.png",
+      "/img/10-imagenes-cursos/id6-3.png"
     ]
   },
   {
     "id": 7,
     "nombre": "Conservación de Fachadas y Revoques",
-    "imagenes portada": "/img/10-imagenes-aplicar/id7.png",
+    "imagenes portada": "/img/10-imagenes-cursos/id7.png",
     "tipo": "Técnico",
     "categoria": "Construcción",
     "complejidad": "intermedia",
@@ -134,15 +134,15 @@
       "Información clara y bien explicada."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id7-1.png",
-      "/img/10-imagenes-aplicar/id7-2.png",
-      "/img/10-imagenes-aplicar/id7-3.png"
+      "/img/10-imagenes-cursos/id7-1.png",
+      "/img/10-imagenes-cursos/id7-2.png",
+      "/img/10-imagenes-cursos/id7-3.png"
     ]
   },
   {
     "id": 8,
     "nombre": "Control de Plagas en Edificios",
-    "imagenes portada": "/img/10-imagenes-aplicar/id8.png",
+    "imagenes portada": "/img/10-imagenes-cursos/id8.png",
     "tipo": "Teórico-Práctico",
     "categoria": "Higiene",
     "complejidad": "intermedia",
@@ -154,15 +154,15 @@
       "Mejoró la higiene general del edificio."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id8-1.png",
-      "/img/10-imagenes-aplicar/id8-2.png",
-      "/img/10-imagenes-aplicar/id8-3.png"
+      "/img/10-imagenes-cursos/id8-1.png",
+      "/img/10-imagenes-cursos/id8-2.png",
+      "/img/10-imagenes-cursos/id8-3.png"
     ]
   },
   {
     "id": 9,
     "nombre": "Eficiencia Energética en Edificios",
-    "imagenes portada": "/img/10-imagenes-aplicar/id1.png",
+    "imagenes portada": "/img/10-imagenes-cursos/id1.png",
     "tipo": "Técnico",
     "categoria": "Sustentabilidad",
     "complejidad": "intermedia",
@@ -174,15 +174,15 @@
       "Muy aplicable en edificios antiguos."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id1-1.png",
-      "/img/10-imagenes-aplicar/id1-2.png",
-      "/img/10-imagenes-aplicar/id1-3.png"
+      "/img/10-imagenes-cursos/id1-1.png",
+      "/img/10-imagenes-cursos/id1-2.png",
+      "/img/10-imagenes-cursos/id1-3.png"
     ]
   },
   {
     "id": 10,
     "nombre": "Administración de Consorcios",
-    "imagenes portada": "/img/10-imagenes-aplicar/id10.png",
+    "imagenes portada": "/img/10-imagenes-cursos/id10.png",
     "tipo": "Teórico",
     "categoria": "Gestión",
     "complejidad": "intermedia",
@@ -194,15 +194,15 @@
       "Muy claro, incluso para principiantes."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id10-1.png",
-      "/img/10-imagenes-aplicar/id10-2.png",
-      "/img/10-imagenes-aplicar/id10-3.png"
+      "/img/10-imagenes-cursos/id10-1.png",
+      "/img/10-imagenes-cursos/id10-2.png",
+      "/img/10-imagenes-cursos/id10-3.png"
     ]
   },
   {
     "id": 11,
     "nombre": "Normativas Vigentes para Edificios",
-    "imagenes portada": "/img/10-imagenes-aplicar/id9.png",
+    "imagenes portada": "/img/10-imagenes-cursos/id9.png",
     "tipo": "Teórico",
     "categoria": "Legal",
     "complejidad": "intermedia",
@@ -214,15 +214,15 @@
       "Me dio mucha tranquilidad en mi rol de administrador."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id9-1.png",
-      "/img/10-imagenes-aplicar/id9-2.png",
-      "/img/10-imagenes-aplicar/id9-3.png"
+      "/img/10-imagenes-cursos/id9-1.png",
+      "/img/10-imagenes-cursos/id9-2.png",
+      "/img/10-imagenes-cursos/id9-3.png"
     ]
   },
   {
     "id": 12,
     "nombre": "Higiene y Seguridad en Edificios",
-    "imagenes portada": "/img/10-imagenes-aplicar/id12.png",
+    "imagenes portada": "/img/10-imagenes-cursos/id12.png",
     "tipo": "Teórico-Práctico",
     "categoria": "Seguridad",
     "complejidad": "intermedia",
@@ -234,9 +234,9 @@
       "Curso excelente y aplicable."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id12-1.png",
-      "/img/10-imagenes-aplicar/id12-2.png",
-      "/img/10-imagenes-aplicar/id12-3.png"
+      "/img/10-imagenes-cursos/id12-1.png",
+      "/img/10-imagenes-cursos/id12-2.png",
+      "/img/10-imagenes-cursos/id12-3.png"
     ]
   }
 ]

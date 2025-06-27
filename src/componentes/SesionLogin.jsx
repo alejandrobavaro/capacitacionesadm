@@ -34,7 +34,7 @@ const SesionLogin = () => {
           <div className="auth-content">
             <img
               className="auth-image top-image"
-              src="/img/05-img-costados-larga/3.png"
+              src="/img/02-logos/logo1.png"
               alt="Arcade Logo"
             />
             <form onSubmit={handleLogin} className="auth-form">

@@ -24,7 +24,7 @@ const Header = () => {
             className={`navbar-collapse ${isMobileMenuOpen ? "show" : ""}`}
           >
          <Navbar.Brand as={Link} to="/" className="logo-container">
-              <img src="../../img/02-logos/logo-personalizá-2.png" alt="Logo" className="logoHeader" />
+              <img src="../../img/02-logos/logo1.png" alt="Logo" className="logoHeader" />
             </Navbar.Brand>
 
             <Nav className="ml-auto navbar-nav">
@@ -33,8 +33,7 @@ const Header = () => {
               <Nav.Link as={Link} to="/servicio" onClick={() => setIsMobileMenuOpen(false)}>SERVICIO</Nav.Link>
               <Nav.Link as={Link} to="/CursosListado1" onClick={() => setIsMobileMenuOpen(false)}>Cursos</Nav.Link>
               <Nav.Link as={Link} to="/area-privada" onClick={() => setIsMobileMenuOpen(false)}>Área Privada</Nav.Link>
-              <Nav.Link as={Link} to="/faq" onClick={() => setIsMobileMenuOpen(false)}>FAQ</Nav.Link>
-              <Nav.Link as={Link} to="/testimonios" onClick={() => setIsMobileMenuOpen(false)}>Testimonios</Nav.Link>
+  
               <Nav.Link as={Link} to="/contacto" onClick={() => setIsMobileMenuOpen(false)}>CONTACTO</Nav.Link>
             </Nav>
 

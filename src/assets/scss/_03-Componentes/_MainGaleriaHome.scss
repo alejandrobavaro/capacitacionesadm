@@ -1,0 +1,29 @@
+
+// === MainGaleriaHome.scss ===
+.mainGaleriaHome {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+  
+    h2 {
+      color: #ffc400;
+      margin-bottom: 15px;
+    }
+  
+    .galeriaGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+  
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        object-fit: cover;
+      }
+    }
+  }

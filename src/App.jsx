@@ -1,8 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 
 //------------ESTILOS--------------//
-import "./assets/scss/_01-General/_BodyIndexApp.scss";
+import "./assets/scss/_01-General/_App.scss";
 import "./assets/scss/_01-General/_Toastify.scss";
 
 //------------HEADER--------------//
@@ -31,9 +31,20 @@ import Curso1 from "./componentes/Curso1";
 import Servicio from "./componentes/Servicio";
 
 //----------------------NUEVOS-----------------------//
+import MainPreguntasFrecuentes from "./componentes/MainPreguntasFrecuentes";
+import MainTestimonios from "./componentes/MainTestimonios";
+
+//------------ADMINISTRACIÓN--------------//
 import AreaPrivada from "./componentes/AreaPrivada";
-import PreguntasFrecuentes from "./componentes/PreguntasFrecuentes";
-import Testimonios from "./componentes/Testimonios";
+import AreaAdministracionSistema from "./componentes/AreaAdministracionSistema";
+import AreaAdministracionReclamos from "./componentes/AreaAdministracionReclamos";
+import AreaAdministracionExpensas from "./componentes/AreaAdministracionExpensas";
+import AreaConsorcistas from "./componentes/AreaConsorcistas";
+
+import AreaReportes from "./componentes/AreaReportes";
+
+// Componente provisional para reportes
+const ReportesComponent = () => <div className="admin-container"><h2>Módulo de Reportes en desarrollo</h2></div>;
 
 function App() {
   return (
@@ -59,9 +70,19 @@ function App() {
             <Route path="/clientes" element={<Clientes />} />
             <Route path="/servicio" element={<Servicio />} />
 
-            <Route path="/area-privada" element={<AreaPrivada />} />
-            <Route path="/faq" element={<PreguntasFrecuentes />} />
-            <Route path="/testimonios" element={<Testimonios />} />
+            {/* Ruta del área privada con sus sub-rutas */}
+      
+<Route path="/area-privada" element={<AreaPrivada />}>
+  <Route index element={<Navigate to="sistema" replace />} />
+  <Route path="sistema" element={<AreaAdministracionSistema />} />
+  <Route path="reclamos" element={<AreaAdministracionReclamos />} />
+  <Route path="expensas" element={<AreaAdministracionExpensas />} />
+  <Route path="usuarios" element={<AreaConsorcistas />} />
+  <Route path="reportes" element={<AreaReportes />} /> {/* Esta es la única línea para reportes */}
+</Route>
+
+            <Route path="/MainPreguntasFrecuentes" element={<MainPreguntasFrecuentes />} />
+            <Route path="/MainTestimonios" element={<MainTestimonios />} />
 
             <Route path="/CursosListado1" element={<CursosListado1 />} />
             <Route path="/CursosListado1/1" element={<Curso2 />} />

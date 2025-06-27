@@ -56,7 +56,7 @@ const SesionRegister = () => {
               />
               <button type="submit">Register</button>
             </form>
-            <img className='auth-image bottom-image' src="/img/05-img-costados-larga/3.png" alt="" />
+            <img className='auth-image bottom-image' src="/img/02-logos/logo1.png" alt="" />
           </div>
         )}
       </div>

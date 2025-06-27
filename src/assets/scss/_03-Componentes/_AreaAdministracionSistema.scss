@@ -1,0 +1,167 @@
+.sistema-admin-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background: rgba(3, 0, 44, 0.562);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 38, 255, 0.3);
+  box-shadow: 0 0 30px rgba(0, 38, 255, 0.2);
+
+  h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(180, 180, 180, 0.418);
+  }
+}
+
+.sistema-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.config-section {
+  background: rgba(13, 8, 70, 0.514);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(0, 38, 255, 0.2);
+
+  h3 {
+    color: #dbe3ff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  position: relative;
+  padding-left: 60px;
+  min-height: 30px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 25px;
+  background-color: rgba(219, 227, 255, 0.2);
+  transition: all 0.3s ease;
+  border-radius: 34px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #dbe3ff;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+  }
+}
+
+input:checked + .slider {
+  background-color: rgba(18, 110, 138, 0.5);
+}
+
+input:checked + .slider::before {
+  transform: translateX(24px);
+}
+
+.switch-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #dbe3ff;
+  font-size: 0.95rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border: none;
+  }
+}
+
+.save-btn {
+  background: rgba(11, 23, 87, 0.418);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 38, 255, 0.3);
+
+  &:hover {
+    background: rgba(6, 20, 100, 0.9);
+  }
+}
+
+.reset-btn {
+  background: transparent;
+  color: #dbe3ff;
+  border: 1px solid rgba(219, 227, 255, 0.3);
+
+  &:hover {
+    background: rgba(219, 227, 255, 0.1);
+  }
+}
+
+/* Tablet (768px) */
+@media (max-width: 768px) {
+  .sistema-admin-container {
+    padding: 1.2rem;
+  }
+
+  .config-section {
+    padding: 1.2rem;
+  }
+}
+
+/* Mobile (576px) */
+@media (max-width: 576px) {
+  .form-actions {
+    flex-direction: column;
+  }
+
+  .sistema-admin-container {
+    padding: 1rem;
+    border-radius: 12px;
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}

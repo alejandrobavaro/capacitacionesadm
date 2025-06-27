@@ -1,18 +1,14 @@
-// Estilos generales
-
 .telefonoWhattsapp {
   font-size: small; 
   text-align: center; 
   white-space: nowrap;
-  color: #ffffff; // Color cian para resaltar
+  color: #ffffff;
 }
 
-/* Logo de WhatsApp */
 .logoWhats {
   width: 1em;
 }
 
-// Estilos del mapa
 .mapaEstilo {
   background-color: transparent;
   color: #ffffff; 
@@ -21,10 +17,9 @@
   height: 600px;
   padding: 20px;
   border-radius: 20px;
-  border: 5px solid #0026ff; // Borde cian
+  border: 5px solid #0026ff;
 }
 
-// Contenedor principal del grid
 .gridPadreContacto1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -48,30 +43,33 @@
   }
 }
 
-// Contenedor de logos e íconos de contacto
 .contact-logo-rede-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 5%;
+  gap: 20px;
   padding: 20px;
-  background:  #03002c70; 
+  background: #03002c70; 
   border-radius: 50px;
+  width: 100%;
+  
+  @media (min-width: 992px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
   
   @media (max-width: 768px) {
-    gap: 3%;
+    gap: 15px;
     padding: 15px;
   }
   
   @media (max-width: 480px) {
-    gap: 5px;
+    gap: 10px;
     padding: 10px;
-    flex-direction: column; // Cambiamos a disposición columna en mobile
-    align-items: center; // Centramos los elementos en mobile
   }
 }
 
-// Columna de logos principales
 .logo-column {
   display: flex;
   flex-direction: column;
@@ -95,30 +93,26 @@
 .logo-main {
   width: 100%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.808);
+  }
 }
 
-.logo-main:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.808);
-}
-
-// Logos secundarios
 .logo-secondary-container {
   display: flex;
   gap: 20px;
   justify-content: center;
 
   @media (max-width: 480px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; // Aseguramos que ocupe todo el espacio
+    width: 100%;
   }
 }
 
 .logo-secondary {
   width: 400px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 
   &:hover {
     transform: scale(1.1);
@@ -129,13 +123,13 @@
   }
 
   @media (max-width: 480px) {
-    width: 100%; // Ocupar el espacio disponible en mobile
-    max-width: 200px; // Limitar el tamaño máximo en mobile
-    margin: 0 auto; // Centrar el logo en mobile
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
   }
 }
 
-// Íconos de contacto
+
 .contact-icons {
   display: flex;
   flex-direction: column;
@@ -146,16 +140,42 @@
   width: 100%;
   text-align: center;
 
+  // Añade esto para contener la imagen:
+  .contact-image-container {
+    width: 100%;
+    margin-top: 20px;
+    
+    .contact-image {
+      max-width: 100%;
+      height: auto;
+      max-height: 300px; // Ajusta este valor según necesites
+      border-radius: 10px;
+      object-fit: contain;
+    }
+  }
+
   @media (max-width: 768px) {
     padding: 15px;
+    
+    .contact-image-container {
+      .contact-image {
+        max-height: 250px;
+      }
+    }
   }
 
   @media (max-width: 480px) {
     padding: 10px;
+    
+    .contact-image-container {
+      .contact-image {
+        max-height: 200px;
+      }
+    }
   }
 }
 
-// Estilo para cada ítem de contacto
+
 .contact-item {
   border-radius: 20px;
   padding: 10px;
@@ -171,7 +191,7 @@
   transition: color 0.3s ease, transform 0.3s ease;
 
   &:hover {
-    color:  #fbff00; // Color verde al hover
+    color: #fbff00;
     transform: translateY(-2px);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
   }
@@ -202,23 +222,47 @@
   }
 }
 
-// Ocultar otras imágenes en modo mobile
-@media (max-width: 480px) {
-  // Ocultar todos los logos principales en mobile
-  .logo-column .logo-main {
-    display: none;
-  }
-
-  // Si hay otras imágenes en la sección de contacto, las ocultamos
-  .contact-icons img.logo-img {
-    display: none;
+.side-image-container {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  
+  @media (min-width: 768px) {
+    flex: 1;
+    max-width: 600px;
+    margin: 0 auto;
   }
 }
 
-// Línea divisoria transparente
+.side-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  
+  @media (min-width: 992px) {
+    max-height: 500px;
+  }
+  
+  @media (max-width: 991px) {
+    max-height: 400px;
+  }
+  
+  @media (max-width: 480px) {
+    max-height: 300px;
+  }
+}
+
 .transparent-hr {
   border: none;
   height: 1px;
-  background-color: rgba(255, 208, 0, 0.774); // Línea sutil con transparencia
+  background-color: rgba(255, 208, 0, 0.774);
   margin: 20px 0;
+}
+
+@media (max-width: 480px) {
+  .logo-column .logo-main {
+    display: none;
+  }
 }

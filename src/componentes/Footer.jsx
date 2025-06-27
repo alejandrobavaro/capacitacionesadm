@@ -17,7 +17,7 @@ function Footer() {
             <a href="#">
               <img
                 className="footer-logo"
-                src="../../img/05-img-costados-larga/3.png"
+                src="../../img/02-logos/logo1.png"
                 alt="Logo Izquierda"
               />
             </a>
@@ -60,7 +60,7 @@ function Footer() {
             <a href="#">
               <img
                 className="footer-logo"
-                src="../../img/05-img-costados-larga/3.png"
+                src="../../img/02-logos/logo1.png"
                 alt="Logo Derecha"
               />
             </a>

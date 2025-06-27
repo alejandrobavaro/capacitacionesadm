@@ -1,48 +1,169 @@
-.area-privada-container {
-    padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px);
-    border-radius: 1rem;
-    color: #fff;
+/* Estilos base (mobile) */
+.admin-privada {
+  width: 100%;
+  padding: 15px;
+
+  
+  &__contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 6px 40px rgba(0, 247, 255, 0.3);
+  }
+
+  &__header {
+    padding: 1rem;
+    background-color: rgba(20, 24, 45, 0.95);
+    border-bottom: 1px solid rgba(0, 247, 255, 0.3);
+  }
+
+  &__titulo {
+    font-size: 1.2rem;
+    color: #f3fbff;
+    margin: 0 0 0.5rem 0;
     text-align: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  
-    h1 {
-      color: #ffcc00;
-      margin-bottom: 1rem;
-    }
-  
-    p {
-      font-size: 1rem;
-      margin-bottom: 1.5rem;
-      color: #dcdcdc;
-    }
-  
-    .opciones-acceso {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-  
-      .btn-opcion {
-        background-color: #00438a;
-        color: #fff;
-        padding: 0.8rem 1.5rem;
-        border: none;
-        border-radius: 0.5rem;
-        cursor: pointer;
-        transition: background-color 0.3s;
-  
-        &:hover {
-          background-color: #002c5a;
-        }
-      }
-    }
-  
-    .nota {
-      font-size: 0.9rem;
-      color: #aaa;
+  }
+
+  &__usuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  &__nombre {
+    font-size: 0.9rem;
+    color: #ffffff;
+  }
+
+  &__avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #d2f0fd;
+    color: #03002c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  &__contenido {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__navegacion {
+    background-color: rgba(20, 24, 45, 0.95);
+    border-bottom: 1px solid rgba(0, 247, 255, 0.2);
+  }
+
+  &__menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    overflow-x: auto;
+  }
+
+  &__item {
+    padding: 0.8rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    min-width: 80px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #ffffff;
+    
+    &:hover {
+      background-color: rgba(0, 247, 255, 0.1);
     }
   }
-  
+
+  &__item--activo {
+    color: #e0e0e0;
+    border-bottom: 2px solid #fffcec;
+    background-color: rgba(0, 247, 255, 0.1);
+  }
+
+  &__icono {
+    font-size: 1.2rem;
+    color: currentColor;
+  }
+
+  &__principal {
+    padding: 1rem;
+    background-color: rgba(20, 24, 45, 0.8);
+    min-height: 60vh;
+  }
+}
+
+/* Tablet (768px) */
+@media (min-width: 768px) {
+  .admin-privada {
+    padding: 30px;
+    
+    &__header {
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__titulo {
+      font-size: 1.5rem;
+      margin: 0;
+      text-align: left;
+    }
+
+    &__contenido {
+      flex-direction: row;
+      min-height: calc(100vh - 120px);
+    }
+
+    &__navegacion {
+      width: 200px;
+      border-bottom: none;
+      border-right: 1px solid rgba(0, 247, 255, 0.2);
+    }
+
+    &__menu {
+      flex-direction: column;
+      overflow-x: visible;
+    }
+
+    &__item {
+      flex-direction: row;
+      justify-content: flex-start;
+      padding: 0.8rem 1.5rem;
+      min-width: auto;
+      gap: 0.8rem;
+    }
+
+    &__item--activo {
+      border-bottom: none;
+      border-left: 3px solid #ffffff;
+    }
+
+    &__principal {
+      padding: 2rem;
+      flex: 1;
+    }
+  }
+}
+
+/* Escritorio (1024px) */
+@media (min-width: 1024px) {
+  .admin-privada {
+    &__navegacion {
+      width: 250px;
+    }
+
+    &__principal {
+      padding: 2rem 3rem;
+    }
+  }
+}
