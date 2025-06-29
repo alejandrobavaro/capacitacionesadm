@@ -1,15 +1,17 @@
 //---------Estilos Generales--------------------//
 .mainContent {
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   background: transparent;
-  padding: 30px;
-  border-radius: 50%;
-  box-shadow: 0 0px 300px rgba(98, 0, 255, 0.212);
-  margin-top: 0px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0px 100px rgba(98, 0, 255, 0.2);
   color: #ffffff;
+}
 
   
-}
+
 
 //---------Carrusel--------------------//
 .banner-container {

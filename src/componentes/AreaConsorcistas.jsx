@@ -137,7 +137,7 @@ const AreaConsorcistas = () => {
                           <BiEdit /> <span>Editar</span>
                         </button>
                         <button className="btn delete-btn">
-                          <BiTrash /> <span>Eliminar</span>
+                          <BiTrash /> 
                         </button>
                       </div>
                     </td>

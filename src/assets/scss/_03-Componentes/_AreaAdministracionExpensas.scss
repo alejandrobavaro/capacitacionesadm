@@ -47,7 +47,6 @@
   &.active {
     color: #dbe3ff;
   
-
     &::after {
       content: '';
       position: absolute;
@@ -136,16 +135,16 @@
   box-shadow: 0 0 10px rgba(219, 227, 255, 0.5);
 
   &:hover {
-    background: darken(#dbe3ff, 10%);
+    background: #b9c6ff; /* Color manual más oscuro que #dbe3ff */
     box-shadow: 0 0 15px rgba(219, 227, 255, 0.7);
   }
 }
+
 
 .preview-btn {
   background: transparent;
   color: #dbe3ff;
   border: 1px solid #dbe3ff;
-
 
   &:hover {
     background: rgba(67, 85, 150, 0.1);
@@ -340,7 +339,6 @@
     align-items: flex-end;
   }
 }
-
 
 .custom-select {
   position: relative;

@@ -1,9 +1,7 @@
-/* Estilos base (mobile) */
 .admin-privada {
   width: 100%;
   padding: 15px;
 
-  
   &__contenedor {
     max-width: 1200px;
     margin: 0 auto;
@@ -16,13 +14,13 @@
     padding: 1rem;
     background-color: rgba(20, 24, 45, 0.95);
     border-bottom: 1px solid rgba(0, 247, 255, 0.3);
+    text-align: center;
   }
 
   &__titulo {
     font-size: 1.2rem;
     color: #f3fbff;
     margin: 0 0 0.5rem 0;
-    text-align: center;
   }
 
   &__usuario {
@@ -77,10 +75,10 @@
     cursor: pointer;
     transition: all 0.3s ease;
     color: #ffffff;
-    
-    &:hover {
-      background-color: rgba(0, 247, 255, 0.1);
-    }
+  }
+
+  &__item:hover {
+    background-color: rgba(0, 247, 255, 0.1);
   }
 
   &__item--activo {
@@ -101,22 +99,22 @@
   }
 }
 
-/* Tablet (768px) */
+/* Tablet (min-width: 768px) */
 @media (min-width: 768px) {
   .admin-privada {
     padding: 30px;
-    
+
     &__header {
       padding: 1.5rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      text-align: left;
     }
 
     &__titulo {
       font-size: 1.5rem;
       margin: 0;
-      text-align: left;
     }
 
     &__contenido {
@@ -155,7 +153,7 @@
   }
 }
 
-/* Escritorio (1024px) */
+/* Escritorio (min-width: 1024px) */
 @media (min-width: 1024px) {
   .admin-privada {
     &__navegacion {
