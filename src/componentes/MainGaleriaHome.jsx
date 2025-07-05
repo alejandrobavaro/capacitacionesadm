@@ -10,7 +10,7 @@ const MainGaleriaHome = () => {
 
   return (
     <section className="mainGaleriaHome">
-      <h2>Galería de Imágenes</h2>
+      {/* <h2>Galería de Imágenes</h2> */}
       <div className="galeriaGrid">
         {galeria.map((img, index) => (
           <img key={index} src={img} alt={`Imagen ${index + 1}`} />

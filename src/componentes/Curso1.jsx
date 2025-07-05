@@ -4,81 +4,97 @@ import "../assets/scss/_03-Componentes/_Curso1.scss";
 const Curso1 = () => {
   return (
     <div className="curso1-container">
-      <h1 className="curso1-title">CLASE N°1 - EL EDIFICIO Y SUS COMPONENTES</h1>
+      <h1 className="curso1-title">CLASE N°1 - EFICIENCIA ENERGÉTICA EN EDIFICIOS</h1>
+      
       <p>
-        El mantenimiento del edificio administrado es la base indispensable para la correcta gestión edilicia y económica del administrador.
-        Dentro de las tecnologías constructivas de los edificios, existen diferencias de diseño y de calidad que condicionan la durabilidad,
-        y por ende, de los edificios son más homogéneas, por lo que se generaliza la conformación del edificio tipo, que permitirá conocer
-        las distintas clases de edificios que puede tener un administrador entre sus clientes...
+        Los edificios consumen aproximadamente el 40% de la energía global. Optimizar su funcionamiento es clave para ahorrar dinero, mejorar el confort y reducir el impacto ambiental.
       </p>
 
-      <h2>La composición de un edificio presenta dos campos netamente diferenciados:</h2>
+      <h2>1. El Edificio como Sistema</h2>
+      <p>
+        Un edificio es un sistema complejo donde se combinan estructuras, instalaciones y el entorno. Cada decisión constructiva impacta en su desempeño energético.
+      </p>
+      <img src="/img/10-imagenes-cursos/id1-1.png" alt="Esquema del edificio como sistema" className="curso1-imagen" />
+
+      <h2>2. Componentes Principales</h2>
       <ul>
-        <li>Las obras civiles</li>
-        <li>Las instalaciones</li>
+        <li><strong>Obras Civiles:</strong> Estructura, muros, cerramientos y techos.</li>
+        <li><strong>Instalaciones:</strong> Electricidad, agua, climatización, ventilación y domótica.</li>
       </ul>
 
-      <h3>Las Obras Civiles</h3>
-      <p>Denomínase obras civiles a la obra húmeda que constituye el cuerpo del edificio. Su función es estática y se caracteriza por tener poco desgaste y gran durabilidad.</p>
+      <h3>2.1. Obras Civiles</h3>
+      <h4>a) Estructura Portante</h4>
+      <p>
+        Soporta las cargas del edificio. Las más comunes en Argentina son de Hormigón Armado, aunque también se utilizan estructuras metálicas o mixtas.
+      </p>
+      <h4>b) Muros y Tabiques</h4>
+      <p>
+        Separan ambientes y contribuyen al aislamiento térmico y acústico. Los sistemas livianos ganan terreno por su practicidad.
+      </p>
+      <h4>c) Cerramientos y Carpinterías</h4>
+      <p>
+        Protegen del clima. Las ventanas con doble vidrio hermético (DVH) son fundamentales para la eficiencia energética.
+      </p>
+      <h4>d) Techos y Cubiertas</h4>
+      <p>
+        Además de proteger, pueden incorporar soluciones como techos verdes o paneles solares.
+      </p>
+      <img src="/img/10-imagenes-cursos/id1-2.png" alt="Ejemplo de techos sostenibles" className="curso1-imagen" />
 
-      <h4>a) Estructuras</h4>
-      <p>Su finalidad es dar soporte y base a la forma del edificio. Las estructuras portantes se clasifican:</p>
+      <h3>2.2. Instalaciones Eficientes</h3>
       <ul>
-        <li><strong>Según el material:</strong> Hormigón Armado (las más comunes en Argentina) y Metálicas.</li>
-        <li><strong>Según la época:</strong> Vigente, corresponde a edificios antiguos.</li>
+        <li>Iluminación LED y sensores.</li>
+        <li>Climatización eficiente (equipos con etiqueta A).</li>
+        <li>Aislación adecuada de cañerías.</li>
+        <li>Incorporación de energías renovables.</li>
       </ul>
 
-      <h4>b) Muros y tabiques</h4>
-      <h4>c) Cerramientos</h4>
-      <h4>d) Carpinterías</h4>
-      <p>Delimitan el contorno del edificio, brindando protección hidrófuga, térmica y acústica.</p>
-      <h4>e) Techos</h4>
-      <p>Completan los cerramientos permitiendo iluminación y ventilación.</p>
-
-      <img src="../../img/IMG-20250626-WA0021.jpg" alt="Imagen curso" className="curso1-imagen" />
-
-      <h3>CLAVES DE CORRECCIÓN</h3>
+      <h2>3. Claves de Eficiencia Energética</h2>
       <ul>
-        <li>Clase 9</li>
-        <li>Clase 10</li>
-        <li>Clase 11</li>
-        <li>Clase 12</li>
+        <li>Buen aislamiento térmico.</li>
+        <li>Ventanas eficientes.</li>
+        <li>Equipos de climatización adecuados.</li>
+        <li>Uso racional de la energía.</li>
+        <li>Mantenimiento preventivo constante.</li>
       </ul>
 
-      <h3>Material Complementario y Bibliografía</h3>
+      <h2>4. Beneficios</h2>
       <ul>
-        <li>Sector de Viviendas (Maestranza)</li>
-        <li>Seguridad e Higiene en el Edificio</li>
-        <li>Sectores Comunes y Privados</li>
-        <li>Leyes y Ordenanzas de la Edificación</li>
-        <li>Normas IRAM, Reglamentos CIRSOC, Código de Edificación CABA</li>
+        <li>Reducción de consumos y costos.</li>
+        <li>Mayor confort interior.</li>
+        <li>Menor impacto ambiental.</li>
+        <li>Revalorización del inmueble.</li>
+      </ul>
+      <img src="/img/10-imagenes-cursos/id1-3.png" alt="Beneficios de la eficiencia energética" className="curso1-imagen" />
+
+      <h2>5. Material Complementario</h2>
+      <ul>
+        <li>Manual IRAM de Eficiencia Energética.</li>
+        <li>Guía de Buenas Prácticas de Mantenimiento.</li>
+        <li>Normas CIRSOC y Código de Edificación CABA.</li>
       </ul>
 
-      <h3>Orientaciones para el Estudio</h3>
+      <h2>6. Orientaciones para el Estudio</h2>
       <ol>
-        <li>Vea el video completo.</li>
-        <li>Revíselo nuevamente y tome nota.</li>
-        <li>Trabaje con el Módulo Gráfico.</li>
-        <li>Realice los ejercicios de autoevaluación.</li>
-        <li>Compare con la clave de corrección.</li>
-        <li>Consulte a la Unidad de Orientación al Cursante cuando lo considere necesario.</li>
+        <li>Leer detenidamente este módulo.</li>
+        <li>Observar las imágenes y esquemas.</li>
+        <li>Descargar y estudiar el material adicional.</li>
+        <li>Escuchar el audio explicativo.</li>
+        <li>Realizar los ejercicios de autoevaluación.</li>
+        <li>Consultar al tutor si tiene dudas.</li>
       </ol>
 
-      <img src="../../img/IMG-20250626-WA0017.jpg" alt="Imagen curso" className="curso1-imagen" />
+      <h2>7. Recursos Descargables y Multimedia</h2>
+      <ul>
+        <li><a href="/descargas/clase1-material.pdf" target="_blank" rel="noopener noreferrer">📥 Descargar Material PDF</a></li>
+        <li><a href="/descargas/guia-complementaria.pdf" target="_blank" rel="noopener noreferrer">📥 Guía Complementaria</a></li>
+      </ul>
 
-      <h3>¿Cómo Funciona el Sistema?</h3>
-      <ol>
-        <li>La UOC envía el material didáctico y evaluaciones.</li>
-        <li>Los cursantes realizan consultas tutoriales.</li>
-        <li>Los terceros sábados se habilitan Mesas de Evaluación.</li>
-        <li>Los cursantes presentan documentación para evaluaciones.</li>
-      </ol>
-
-      <img src="../../img/IMG-20250626-WA0014.jpg" alt="Imagen curso" className="curso1-imagen" />
-
-      <h3>Ficha Técnica del Curso</h3>
-      <p>Curso de iniciación y pre-matriculación en Administración de Propiedad Horizontal.</p>
-      <p>Dirigido a administradores en actividad y aspirantes. Modalidad semi-presencial con material didáctico a distancia y evaluaciones presenciales.</p>
+      <h3>🎧 Escuchar la Clase</h3>
+      <audio controls className="curso1-audio">
+        <source src="/audios/clase1.mp3" type="audio/mpeg" />
+        Tu navegador no soporta el elemento de audio.
+      </audio>
     </div>
   );
 };

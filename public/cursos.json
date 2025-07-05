@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "nombre": "Gestión de Instalaciones Comunes",
-    "imagenes portada": "/img/10-imagenes-cursos/id11.png",
-    "tipo": "Teórico-Práctico",
-    "categoria": "Mantenimiento",
+    "nombre": "Eficiencia Energética en Edificios",
+    "imagenes portada": "/img/10-imagenes-cursos/id1.png",
+    "tipo": "Técnico",
+    "categoria": "Sustentabilidad",
     "complejidad": "intermedia",
     "precio": "consultar",
-    "finalizados": 4500,
+    "finalizados": 1200,
     "comentarios": [
-      "Excelente material, muy claro para administrar edificios.",
-      "Me ayudó a organizar el mantenimiento general de mi consorcio.",
-      "Ideal para entender las instalaciones básicas y su cuidado."
+      "Nos ayudó a reducir los gastos de electricidad.",
+      "Curso muy recomendable, con ideas simples y efectivas.",
+      "Muy aplicable en edificios antiguos."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-cursos/id11-1.png",
-      "/img/10-imagenes-cursos/id11-2.png",
-      "/img/10-imagenes-cursos/id11-3.png"
+      "/img/10-imagenes-cursos/id1-1.png",
+      "/img/10-imagenes-cursos/id1-2.png",
+      "/img/10-imagenes-cursos/id1-3.png"
     ]
   },
   {
@@ -161,22 +161,22 @@
   },
   {
     "id": 9,
-    "nombre": "Eficiencia Energética en Edificios",
-    "imagenes portada": "/img/10-imagenes-cursos/id1.png",
-    "tipo": "Técnico",
-    "categoria": "Sustentabilidad",
+    "nombre": "Gestión de Instalaciones Comunes",
+    "imagenes portada": "/img/10-imagenes-cursos/id11.png",
+    "tipo": "Teórico-Práctico",
+    "categoria": "Mantenimiento",
     "complejidad": "intermedia",
     "precio": "consultar",
-    "finalizados": 1200,
+    "finalizados": 4500,
     "comentarios": [
-      "Nos ayudó a reducir los gastos de electricidad.",
-      "Curso muy recomendable, con ideas simples y efectivas.",
-      "Muy aplicable en edificios antiguos."
+      "Excelente material, muy claro para administrar edificios.",
+      "Me ayudó a organizar el mantenimiento general de mi consorcio.",
+      "Ideal para entender las instalaciones básicas y su cuidado."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-cursos/id1-1.png",
-      "/img/10-imagenes-cursos/id1-2.png",
-      "/img/10-imagenes-cursos/id1-3.png"
+      "/img/10-imagenes-cursos/id11-1.png",
+      "/img/10-imagenes-cursos/id11-2.png",
+      "/img/10-imagenes-cursos/id11-3.png"
     ]
   },
   {
@@ -238,5 +238,371 @@
       "/img/10-imagenes-cursos/id12-2.png",
       "/img/10-imagenes-cursos/id12-3.png"
     ]
-  }
-]
+  },
+  
+
+
+  {
+    "id": 13,
+    "nombre": "Liquidación de Expensas paso a paso",
+    "imagenes portada": "/img/10-imagenes-cursos/id13.png",
+    "tipo": "Práctico",
+    "categoria": "Gestión",
+    "complejidad": "básica",
+    "precio": "consultar",
+    "finalizados": 2100,
+    "comentarios": [
+      "Muy claro para aprender a liquidar expensas.",
+      "Ideal para evitar errores frecuentes.",
+      "Explican todo con ejemplos reales."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-cursos/id13-1.png",
+      "/img/10-imagenes-cursos/id13-2.png",
+      "/img/10-imagenes-cursos/id13-3.png"
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "Asambleas de Copropietarios: Organización y Actas",
+    "imagenes portada": "/img/10-imagenes-cursos/id14.png",
+    "tipo": "Teórico-Práctico",
+    "categoria": "Legal",
+    "complejidad": "básica",
+    "precio": "consultar",
+    "finalizados": 1800,
+    "comentarios": [
+      "Aprendí a preparar y documentar asambleas correctamente.",
+      "Muy útil para evitar conflictos legales.",
+      "Recomendado para administradores nuevos."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-cursos/id14-1.png",
+      "/img/10-imagenes-cursos/id14-2.png",
+      "/img/10-imagenes-cursos/id14-3.png"
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "Resolución de Conflictos en Consorcios",
+    "imagenes portada": "/img/10-imagenes-cursos/id15.png",
+    "tipo": "Teórico",
+    "categoria": "Gestión",
+    "complejidad": "avanzada",
+    "precio": "consultar",
+    "finalizados": 950,
+    "comentarios": [
+      "Herramientas concretas para manejar conflictos.",
+      "Me ayudó mucho en la convivencia del edificio.",
+      "Curso muy completo sobre mediación y negociación."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-cursos/id15-1.png",
+      "/img/10-imagenes-cursos/id15-2.png",
+      "/img/10-imagenes-cursos/id15-3.png"
+    ]
+  },
+  
+    {
+      "id": 16,
+      "nombre": "Tareas y Responsabilidades del Encargado de Edificio",
+      "imagenes portada": "/img/10-imagenes-cursos/id16.png",
+      "tipo": "Teórico-Práctico",
+      "categoria": "Personal",
+      "complejidad": "básica",
+      "precio": "consultar",
+      "finalizados": 2200,
+      "comentarios": [
+        "Muy útil para conocer el alcance del trabajo del encargado.",
+        "Aclaró mucho mis dudas como propietario.",
+        "Ideal para quienes supervisan personal."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id16-1.png",
+        "/img/10-imagenes-cursos/id16-2.png",
+        "/img/10-imagenes-cursos/id16-3.png"
+      ]
+    },
+    {
+      "id": 17,
+      "nombre": "Limpieza y Mantenimiento de Espacios Comunes",
+      "imagenes portada": "/img/10-imagenes-cursos/id17.png",
+      "tipo": "Práctico",
+      "categoria": "Higiene",
+      "complejidad": "básica",
+      "precio": "consultar",
+      "finalizados": 3100,
+      "comentarios": [
+        "Mejoramos mucho la imagen del edificio.",
+        "Ideal para capacitar al personal de limpieza.",
+        "Recomendado para pequeños consorcios."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id17-1.png",
+        "/img/10-imagenes-cursos/id17-2.png",
+        "/img/10-imagenes-cursos/id17-3.png"
+      ]
+    },
+    {
+      "id": 18,
+      "nombre": "Uso y Mantenimiento de Bombas de Agua",
+      "imagenes portada": "/img/10-imagenes-cursos/id18.png",
+      "tipo": "Técnico",
+      "categoria": "Mantenimiento",
+      "complejidad": "intermedia",
+      "precio": "consultar",
+      "finalizados": 1850,
+      "comentarios": [
+        "Evité varios problemas gracias a este curso.",
+        "Muy claro y aplicable al día a día.",
+        "Ideal para administradores y encargados."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id18-1.png",
+        "/img/10-imagenes-cursos/id18-2.png",
+        "/img/10-imagenes-cursos/id18-3.png"
+      ]
+    },
+    {
+      "id": 19,
+      "nombre": "Reglamento de Copropiedad: Interpretación y Aplicación",
+      "imagenes portada": "/img/10-imagenes-cursos/id19.png",
+      "tipo": "Teórico",
+      "categoria": "Legal",
+      "complejidad": "intermedia",
+      "precio": "consultar",
+      "finalizados": 2700,
+      "comentarios": [
+        "Me ayudó a entender las reglas del edificio.",
+        "Curso fundamental para administradores.",
+        "Ideal para evitar conflictos legales."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id19-1.png",
+        "/img/10-imagenes-cursos/id19-2.png",
+        "/img/10-imagenes-cursos/id19-3.png"
+      ]
+    },
+    {
+      "id": 20,
+      "nombre": "Gestión de Gastos Comunes",
+      "imagenes portada": "/img/10-imagenes-cursos/id20.png",
+      "tipo": "Teórico-Práctico",
+      "categoria": "Gestión",
+      "complejidad": "intermedia",
+      "precio": "consultar",
+      "finalizados": 1950,
+      "comentarios": [
+        "Muy útil para optimizar los gastos del consorcio.",
+        "Aprendí a controlar proveedores y presupuestos.",
+        "Recomendable incluso para copropietarios."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id20-1.png",
+        "/img/10-imagenes-cursos/id20-2.png",
+        "/img/10-imagenes-cursos/id20-3.png"
+      ]
+    },
+    {
+      "id": 21,
+      "nombre": "Balances y Cuentas Claras para Consorcios",
+      "imagenes portada": "/img/10-imagenes-cursos/id21.png",
+      "tipo": "Práctico",
+      "categoria": "Gestión",
+      "complejidad": "avanzada",
+      "precio": "consultar",
+      "finalizados": 1250,
+      "comentarios": [
+        "Me dio seguridad para presentar balances.",
+        "Ideal para transparentar las cuentas.",
+        "Explicaciones simples y bien detalladas."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id21-1.png",
+        "/img/10-imagenes-cursos/id21-2.png",
+        "/img/10-imagenes-cursos/id21-3.png"
+      ]
+    },
+    {
+      "id": 22,
+      "nombre": "Cómo Armar tu Negocio de Administración de Consorcios",
+      "imagenes portada": "/img/10-imagenes-cursos/id22.png",
+      "tipo": "Teórico-Práctico",
+      "categoria": "Emprendimiento",
+      "complejidad": "básica",
+      "precio": "consultar",
+      "finalizados": 1450,
+      "comentarios": [
+        "Me sirvió para empezar mi propio negocio.",
+        "Explican los pasos concretos y el marco legal.",
+        "Muy motivador y aplicable."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id22-1.png",
+        "/img/10-imagenes-cursos/id22-2.png",
+        "/img/10-imagenes-cursos/id22-3.png"
+      ]
+    },
+    {
+      "id": 23,
+      "nombre": "Acceso a Créditos y Financiación para Consorcios",
+      "imagenes portada": "/img/10-imagenes-cursos/id23.png",
+      "tipo": "Teórico",
+      "categoria": "Gestión",
+      "complejidad": "avanzada",
+      "precio": "consultar",
+      "finalizados": 800,
+      "comentarios": [
+        "Muy útil para conocer alternativas de financiación.",
+        "Ideal para obras o mejoras edilicias.",
+        "Información actualizada y confiable."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id23-1.png",
+        "/img/10-imagenes-cursos/id23-2.png",
+        "/img/10-imagenes-cursos/id23-3.png"
+      ]
+    },
+    {
+      "id": 24,
+      "nombre": "Manejo de Deudores y Morosidad en Consorcios",
+      "imagenes portada": "/img/10-imagenes-cursos/id24.png",
+      "tipo": "Teórico-Práctico",
+      "categoria": "Gestión",
+      "complejidad": "intermedia",
+      "precio": "consultar",
+      "finalizados": 2100,
+      "comentarios": [
+        "Aprendí a gestionar deudores sin generar conflictos.",
+        "Muy claro sobre reclamos y procedimientos legales.",
+        "Curso muy práctico y realista."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id24-1.png",
+        "/img/10-imagenes-cursos/id24-2.png",
+        "/img/10-imagenes-cursos/id24-3.png"
+      ]
+    },
+    {
+      "id": 25,
+      "nombre": "Programa de Gestión de Expensas: Uso y Configuración",
+      "imagenes portada": "/img/10-imagenes-cursos/id25.png",
+      "tipo": "Práctico",
+      "categoria": "Tecnología",
+      "complejidad": "básica",
+      "precio": "consultar",
+      "finalizados": 1600,
+      "comentarios": [
+        "Me simplificó mucho el trabajo mensual.",
+        "Muy claro sobre la carga y control de datos.",
+        "Ideal para pequeños y grandes consorcios."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id25-1.png",
+        "/img/10-imagenes-cursos/id25-2.png",
+        "/img/10-imagenes-cursos/id25-3.png"
+      ]
+    },
+    {
+      "id": 26,
+      "nombre": "Convivencia en Consorcios: Derechos y Obligaciones",
+      "imagenes portada": "/img/10-imagenes-cursos/id26.png",
+      "tipo": "Teórico",
+      "categoria": "Legal",
+      "complejidad": "básica",
+      "precio": "consultar",
+      "finalizados": 2750,
+      "comentarios": [
+        "Me ayudó a mejorar el clima en el edificio.",
+        "Ideal para comprender las normas de convivencia.",
+        "Muy recomendable para todos los vecinos."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id26-1.png",
+        "/img/10-imagenes-cursos/id26-2.png",
+        "/img/10-imagenes-cursos/id26-3.png"
+      ]
+    },
+    {
+      "id": 27,
+      "nombre": "Supervisión de Proveedores y Contratistas",
+      "imagenes portada": "/img/10-imagenes-cursos/id27.png",
+      "tipo": "Práctico",
+      "categoria": "Gestión",
+      "complejidad": "intermedia",
+      "precio": "consultar",
+      "finalizados": 1300,
+      "comentarios": [
+        "Muy útil para elegir y controlar proveedores.",
+        "Ideal para evitar fraudes o trabajos mal hechos.",
+        "Explican todo paso a paso."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id27-1.png",
+        "/img/10-imagenes-cursos/id27-2.png",
+        "/img/10-imagenes-cursos/id27-3.png"
+      ]
+    },
+    {
+      "id": 28,
+      "nombre": "Gestión Documental en Consorcios",
+      "imagenes portada": "/img/10-imagenes-cursos/id28.png",
+      "tipo": "Práctico",
+      "categoria": "Gestión",
+      "complejidad": "intermedia",
+      "precio": "consultar",
+      "finalizados": 1250,
+      "comentarios": [
+        "Me organizó todos los papeles y archivos.",
+        "Ideal para evitar pérdidas o confusiones.",
+        "Recomendado para nuevos administradores."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id28-1.png",
+        "/img/10-imagenes-cursos/id28-2.png",
+        "/img/10-imagenes-cursos/id28-3.png"
+      ]
+    },
+    {
+      "id": 29,
+      "nombre": "Planificación de Obras en Edificios",
+      "imagenes portada": "/img/10-imagenes-cursos/id29.png",
+      "tipo": "Teórico-Práctico",
+      "categoria": "Construcción",
+      "complejidad": "avanzada",
+      "precio": "consultar",
+      "finalizados": 950,
+      "comentarios": [
+        "Curso fundamental para planificar obras correctamente.",
+        "Me ayudó a gestionar proveedores y presupuestos.",
+        "Muy recomendable para grandes consorcios."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id29-1.png",
+        "/img/10-imagenes-cursos/id29-2.png",
+        "/img/10-imagenes-cursos/id29-3.png"
+      ]
+    },
+    {
+      "id": 30,
+      "nombre": "Control de Inventarios y Bienes Comunes",
+      "imagenes portada": "/img/10-imagenes-cursos/id30.png",
+      "tipo": "Práctico",
+      "categoria": "Gestión",
+      "complejidad": "básica",
+      "precio": "consultar",
+      "finalizados": 1100,
+      "comentarios": [
+        "Muy claro para tener todo bajo control.",
+        "Ideal para edificios grandes o con equipamiento.",
+        "Recomendable para evitar pérdidas o robos."
+      ],
+      "imagenes slider": [
+        "/img/10-imagenes-cursos/id30-1.png",
+        "/img/10-imagenes-cursos/id30-2.png",
+        "/img/10-imagenes-cursos/id30-3.png"
+      ]
+    }
+  ]
+  
+

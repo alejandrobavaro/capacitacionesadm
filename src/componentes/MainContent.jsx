@@ -13,10 +13,10 @@ const MainContent = () => {
     <main className="MainContentContainer">
       <MainHero />
       <MainGaleriaHome />
-      <MainNovedades />
-      <MainTestimonios />
-      <MainPreguntasFrecuentes />
-      <MainPromociones />
+      {/* <MainNovedades /> */}
+      {/* <MainTestimonios /> */}
+      {/* <MainPreguntasFrecuentes /> */}
+      {/* <MainPromociones /> */}
     </main>
   );
 };
