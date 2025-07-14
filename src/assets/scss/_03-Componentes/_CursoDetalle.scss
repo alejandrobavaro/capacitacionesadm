@@ -1,0 +1,136 @@
+/* ------------------------------------------------------------ */
+/* SECCIÓN 1: HEADER CON IMAGEN - VERSIÓN FINAL OPTIMIZADA */
+/* ------------------------------------------------------------ */
+
+.curso-header {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+  
+    /* Contenedor de la imagen */
+    .header-imagen {
+      width: 100%;
+      height: 100%;
+  
+      /* Estilo de la imagen con transparencia */
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        opacity: 0.9; /* Transparencia en la imagen */
+        filter: brightness(0.8) contrast(1.1); /* Ajustes de luminosidad */
+        border-radius: 20px;
+      }
+  
+      /* Overlay para mejorar legibilidad */
+      .header-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.7) 100%);
+        border-radius: 20px;
+      }
+    }
+  
+    /* Contenedor del texto - Máxima legibilidad */
+    .header-contenido {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 1.2rem;
+      color: #ffffff;
+      text-align: center;
+
+      z-index: 2;
+  
+      /* Título principal - Texto claro y legible */
+      h1 {
+        font-size: 1.7rem;
+        margin: 0 0 0.8rem 0;
+        font-weight: 700;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+        line-height: 1.3;
+        letter-spacing: 0.5px;
+        color: #fff; /* Blanco puro */
+      }
+  
+      /* Metadatos del curso */
+      .curso-meta {
+        display: flex;
+        justify-content: center;
+        gap: 0.8rem;
+        flex-wrap: wrap;
+  
+        span {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          font-size: 0.9rem;
+          font-weight: 600; /* Más grueso para mejor lectura */
+          color: #ffffff94; /* Blanco puro */
+          padding: 0.5rem 1rem;
+          border-radius: 20px;
+          backdrop-filter: blur(6px);
+          text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+       
+  
+          /* Iconos más visibles */
+          svg {
+            color: #6bb9ff; /* Azul más brillante */
+            filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+  
+  /* ------------------------------------------------------------ */
+  /* MEDIA QUERIES - TABLET (768px) */
+  /* ------------------------------------------------------------ */
+  @media (min-width: 768px) {
+    .curso-header {
+      .header-contenido {
+        padding: 1.5rem;
+  
+        h1 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+  
+        .curso-meta span {
+          font-size: 0.95rem;
+          padding: 0.6rem 1.2rem;
+        }
+      }
+    }
+  }
+  
+  /* ------------------------------------------------------------ */
+  /* MEDIA QUERIES - ESCRITORIO (1024px) */
+  /* ------------------------------------------------------------ */
+  @media (min-width: 1024px) {
+    .curso-header {
+      .header-contenido {
+        padding: 1.8rem;
+  
+        h1 {
+          font-size: 2.2rem;
+          letter-spacing: 0.7px;
+        }
+  
+        .curso-meta {
+          gap: 1.2rem;
+          
+          span {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }

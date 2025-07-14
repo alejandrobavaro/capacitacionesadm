@@ -1,5 +1,5 @@
 /*--------------Estilos Globales--------------*/
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -9,182 +9,122 @@
 
 html {
   font-size: 100%;
+  scroll-behavior: smooth;
 }
 
 /*--------------Estilos Body--------------*/
-
 body {
-  
-  background-image: url(../../../../img/00-fondos/IMG-20240401-WA0032.jpeg);
-  background-size: cover; // Asegúrate de que la imagen cubra todo el fondo
-  animation: backgroundAnimation 15s linear infinite; // Fondo animado
-  // font-family: 'Oxanium', sans-serif; // Cambia aquí
-  // font-family: 'Montserrat', sans-serif;
-  font-family: 'Cinzel', serif;
-
+  background-color: #f8f9fa; // Fondo claro por defecto
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  line-height: 1.6;
   text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 
-
-  // Animación de desplazamiento de fondo
-  @keyframes backgroundAnimation {
-    0% {
-      background-position: 0% 0%; // Posición inicial
-    }
-    25% {
-      background-position: 50% 0%; // Mueve el fondo hacia la mitad
-    }
-    50% {
-      background-position: 100% 0%; // Mueve el fondo hacia la derecha
-    }
-    75% {
-      background-position: 50% 0%; // Regresa a la mitad
-    }
-    100% {
-      background-position: 0% 0%; // Regresa a la posición inicial
-    }
-  }
-
-  &.dark-mode {
-    color: #fff4c7; // Amarillo patito
-  }
-
-  &.light-mode {
-    color: #333;
-  }
+  // Eliminamos la animación de fondo y la imagen para un look más profesional
 }
 
 /*--------------Estilos para el Contenedor Principal--------------*/
-
 .app {
-  padding: 2em;
-  transition: background-color 0.3s, box-shadow 0.3s;
-
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.95); // Fondo semi-transparente
 }
 
 .main-content {
+  flex: 1;
   display: flex;
-  gap: 2em;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 /*--------------Estilos para Textos y Encabezados--------------*/
-
 p {
-  font-size: medium;
-  padding: 20px;
-  color: #dcdcdc;
-
-  body.dark-mode & {
-    color: #fff4c7; // Amarillo patito
-  }
-
-  body.light-mode & {
-    color: #000000;
-  }
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 1rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-bottom: 1em;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.6); // Sombra de texto
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #2c3e50;
 }
 
 h1 {
-  font-size: xx-large;
-  color: #fff4c8; // Amarillo patito
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
-  font-size: large;
-  color: #a8bddb; // Amarillo patito
+  font-size: 2rem;
+  color: #34495e;
 }
 
-h3,
-h4,
-h5 {
-  body.dark-mode & {
-    color: #dff3ff; // Amarillo patito
-  }
-
-  body.light-mode & {
-    color: #4a4a4a;
-  }
-}
-
-h6 {
-  font-size: xx-small;
-  color: rgb(252, 252, 252);
-}
-
-/*--------------Estilos para Listas--------------*/
-
-li {
-  list-style-type: none;
-}
-
-ol {
-  list-style-type: circle;
-}
-
-td {
-  body.dark-mode & {
-    color: #d1d1d1; // Amarillo patito
-  }
-
-  body.light-mode & {
-    color: #000000;
-  }
+h3 {
+  font-size: 1.5rem;
 }
 
 /*--------------Estilos para Enlaces--------------*/
-
 a {
-  color: rgba(252, 248, 230, 0.857);
-
-  &:link,
-  &:visited {
-    text-decoration: none;
-
-    body.light-mode & {
-      color: #000000;
-    }
-  }
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
 
   &:hover {
-    color: #d4d4d4; // Amarillo patito al pasar el mouse
-    animation: shake 0.5s ease;
+    color: #2980b9;
+    text-decoration: underline;
   }
 }
 
-/* Animación de sacudida */
-@keyframes shake {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(-5px);
-  }
-  100% {
-    transform: translateX(0);
+/*--------------Estilos para Listas--------------*/
+ul, ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+
+  li {
+    margin-bottom: 0.5rem;
   }
 }
 
+/*--------------Breakpoints--------------*/
+@media (min-width: 768px) {
+  .main-content {
+    padding: 1.5rem;
+    gap: 2.5rem;
+  }
 
-/*--------------Estilos para el Contenedor Principal--------------*/
+  h1 {
+    font-size: 3rem;
+  }
 
-.main-content {
-  display: flex;
-  justify-content: center; // Centra horizontalmente
-  align-items: center; // Centra verticalmente
-  flex-direction: column; // Apila los componentes verticalmente
-  gap: 2em; // Espacio entre los componentes
+  h2 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    padding: 2rem;
+    gap: 3rem;
+  }
 
   .content {
-    max-width: 1200px; // Ajusta según el ancho deseado
-    width: 100%; // Asegúrate de que ocupe el ancho total
-    padding: 0px; // Espacio interno
+    padding: 0 2rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
   }
 }

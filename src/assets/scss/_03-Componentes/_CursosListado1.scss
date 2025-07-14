@@ -1,66 +1,207 @@
 .cursos-listado {
   padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #2c3e50;
+
+  .titulo-principal {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #34495e;
+    text-align: center;
+    padding: 0 1rem;
+  }
 
   .filtros-container {
-    margin-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: center;
 
     .filtro {
       padding: 0.5rem 1rem;
-      background: #222;
-      color: #fff;
+      background: #f8f9fa;
+      border: 1px solid #e0e0e0;
       border-radius: 20px;
+      font-size: 0.85rem;
       cursor: pointer;
-      border: none;
+      color: #4a4a4a;
+      transition: all 0.3s ease;
+      font-weight: 500;
+
       &.activo {
-        background: #00f;
+        background: #3498db;
+        color: #fff;
+        border-color: #3498db;
+      }
+
+      &:hover {
+        background: #e0e0e0;
+        color: #2c3e50;
       }
     }
   }
 
-  .barra-busqueda input {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border-radius: 5px;
-    border: 1px solid #444;
+  .barra-busqueda {
+    margin-bottom: 2rem;
+    
+    input {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+      display: block;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #fff;
+      color: #333;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      transition: border-color 0.3s, box-shadow 0.3s;
+
+      &:focus {
+        outline: none;
+        border-color: #3498db;
+        box-shadow: 0 2px 8px rgba(52, 152, 219, 0.2);
+      }
+
+      &::placeholder {
+        color: #999;
+      }
+    }
   }
 
   .grid-cursos {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
 
     .card-curso {
-      background: #111;
-      padding: 1rem;
+      background: #fff;
       border-radius: 10px;
-      color: #eee;
-      box-shadow: 0 0 10px #0af;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
 
-      h3 a {
-        color: #0af;
-        text-decoration: none;
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.12);
+      }
+
+      h3 {
+        margin: 1rem 1rem 0.5rem;
+        font-size: 1.1rem;
+        line-height: 1.3;
+        min-height: 3rem;
+
+        a {
+          color: #2c3e50;
+          text-decoration: none;
+          transition: color 0.3s;
+
+          &:hover {
+            color: #3498db;
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .categoria {
+        font-size: 0.85rem;
+        color: #7f8c8d;
+        margin: 0 1rem 0.5rem;
+        font-weight: 500;
+      }
+
+      .precio {
+        font-size: 1.1rem;
+        color: #27ae60;
+        font-weight: 600;
+        margin: 0 1rem 0.5rem;
+      }
+
+      .finalizados {
+        font-size: 0.8rem;
+        color: #95a5a6;
+        margin: 0 1rem 0.5rem;
       }
 
       .img-curso {
         width: 100%;
-        height: 180px;
+        height: 160px;
         object-fit: cover;
-        border-radius: 8px;
       }
 
       .btn-ver-mas {
         display: inline-block;
-        margin-top: 0.5rem;
-        padding: 0.4rem 0.8rem;
-        background: #00a;
-        color: white;
-        border-radius: 5px;
+        margin: 1rem auto;
+        padding: 0.6rem 1.2rem;
+        background: #3498db;
+        color: #fff;
+        border-radius: 6px;
+        font-size: 0.9rem;
         text-decoration: none;
+        transition: background 0.3s;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        margin-top: auto;
+        margin-bottom: 1rem;
+
+        &:hover {
+          background: #2980b9;
+        }
       }
+
+      .slick-slider {
+        border-bottom: 1px solid #eee;
+      }
+    }
+  }
+
+  .no-resultados {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    color: #e74c3c;
+    font-weight: 500;
+  }
+
+  /*--------------Breakpoints--------------*/
+  @media (min-width: 768px) {
+    padding: 1.5rem;
+
+    .titulo-principal {
+      font-size: 2.1rem;
+      margin-bottom: 2rem;
+    }
+
+    .filtros-container {
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+
+      .filtro {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+      }
+    }
+
+    .grid-cursos {
+      gap: 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    padding: 2rem;
+
+    .grid-cursos {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
   }
 }

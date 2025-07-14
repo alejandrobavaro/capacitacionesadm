@@ -3,9 +3,9 @@ import "../assets/scss/_03-Componentes/_MainGaleriaHome.scss";
 
 const MainGaleriaHome = () => {
   const galeria = [
-    "./img/05-img-costados-larga/1.jpeg",
-    "./img/05-img-costados-larga/3.jpeg",
-    "./img/05-img-costados-larga/5.jpeg",
+    "../../public/img/10-imagenes-cursos/bannerclase2.png",
+    "/img/10-imagenes-cursos/bannerclase3.png",
+    "/img/10-imagenes-cursos/bannerclase2.png",
   ];
 
   return (

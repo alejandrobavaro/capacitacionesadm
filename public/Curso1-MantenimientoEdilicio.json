@@ -1,0 +1,735 @@
+{
+  "materia": "Mantenimiento Edilicio",
+  "objetivos": [
+    "Lograr el conocimiento del edificio para el mantenimiento edilicio.",
+    "Desarrollar y adquirir las capacidades del administrador frente a la seguridad edilicia.",
+    "Definir la posición del administrador frente a la seguridad edilicia, el mantenimiento y seguridad edilicia.",
+    "Conocer y sistematizar el cumplimiento de las normas de seguridad."
+  ],
+  "profesor": "Ing. José Daniel Antoniucci",
+  "clavesDeCorreccion": [
+    "Vea el video en forma completa.",
+    "Revíselo nuevamente, deteniéndose cuando lo crea necesario. Tome nota de los aspectos que le resulten destacados, anote sus dudas.",
+    "Cuando considere que está comprendido, comience a trabajar con el Módulo Gráfico, en él complementará: Material complementario, Bibliografía recomendada, Claves de autoevaluación.",
+    "Resuelva los ejercicios con los conocimientos que usted recuerde; si tiene dudas, vuelva al material, al video. En caso de dudas, acuda a la clave de corrección de resultados.",
+    "Una vez realizados, compare con la clave de corrección sus resultados.",
+    "Toda vez que lo dude, haga consultas tutoriales a la UNIDAD DE ORIENTACIÓN AL CURSANTE.",
+    "La realización de los trabajos es fundamental para su aprendizaje; le resultará de máxima utilidad para el examen presencial. No deje de hacerlos.",
+    "El examen presencial consistirá en un protocolo de prueba con ejercicios semejantes a los realizados para cada clase. Para aprobar la prueba, deberá obtener un 60% del puntaje total de la prueba. En caso de desaprobar, podrá recuperar la evaluación en el próximo turno."
+  ],
+  "fichaTecnica": {
+    "habilitacionProfesional": "Gestores ante los organismos estatales de regulación y autorregulación. (Nivel Terciario) ADMINISTRADOR DE PROPIEDAD HORIZONTAL",
+    "fundacion": "FUNDACIÓN REUNIÓN DE ADMINISTRADORES (F.R.A.)",
+    "preMatriculacion": "El curso está dirigido por igual a los administradores en actividad (nivelado de conocimientos) y a los aspirantes a la actividad (inicial). Convoca a los interesados a habilitarse adquiriendo la aptitud profesional para el desempeño público de la función de ADMINISTRADOR DE PROPIEDAD HORIZONTAL, la función de administradores de consorcios.",
+    "emisor": "FUNDACIÓN REUNIÓN DE ADMINISTRADORES (F.R.A.)",
+    "aranceles": [
+      "Set-Didáctico (Gráfica + T.V.): $35,00 por materia.",
+      "Derecho de examen: $60,00 por materia.",
+      "Derecho de examen: (con presentación del troquelado Set-VHS) $85,00 por materia.",
+      "Derecho de examen: (sin troquelado) $150,00 por materia."
+    ],
+    "pagos": "Cheques o giros/Depósitos: RED/F.R.A. DE CAPACITACIÓN Cta. Cte. Bco. Galicia N° 54152/1.999/1 (FEDEFRA DE CAPACITACION)",
+    "materialesDidacticos": "Set-Vídeo / Clases-TV + Módulos Gráficos"
+  },
+  "contacto": {
+    "fundacion": {
+      "direccion": "Defensa 121, 6° Piso Of.120 (1065) Buenos Aires - Argentina",
+      "telefono": "(54-11) 4342-5788/5860/5444",
+      "fax": "(54-11) 4342-5788/5860/5444",
+      "email": "fra@datamarkets.com.ar",
+      "web": "http://www.reunion-adm.com"
+    },
+    "unidadDeOrientacionAlCursante": {
+      "telefono": "(54-11) 4343-5788/5860/5444",
+      "fax": "(54-11) 4343-5788/5860/5444",
+      "email": "uoc@datamarkets.com.ar",
+      "web": "http://www.reunion-adm.com.ar"
+    }
+  },
+  "habilitacionDeEvaluacion": [
+    {
+      "localidad": "MAR DEL PLATA",
+      "telefono": "(0223) 493-0245",
+      "email": "uocmdq@jet.com.ar",
+      "evaluador": "Adm. Jorge J. Baró"
+    },
+    {
+      "localidad": "MENDOZA",
+      "direccion": "Av. Las Heras 625-4°",
+      "evaluador": "Adm. Ana Mabel Di Gregorio"
+    },
+    {
+      "localidad": "SANTA TERESITA",
+      "direccion": "Calle 3 N° 538",
+      "evaluador": "Adm. Emilio R. Escudé"
+    },
+    {
+      "localidad": "SALTA",
+      "direccion": "Av. Reyes Católicos 1522-45° - Of. 7",
+      "telefax": "(0387) 431-7238 / (0387) 431-7239",
+      "evaluador": "Adm. José Reyes Gorriti"
+    },
+    {
+      "localidad": "BARILOCHE",
+      "direccion": "S. Albarracín 45 - 1° piso",
+      "telefax": "(02944) 43-3324",
+      "email": "mdmdte@bariloche.com.ar",
+      "evaluador": "Adm. Massimo F. A. de Matteis"
+    },
+    {
+      "localidad": "RIO GRANDE",
+      "direccion": "Libertad 1383 - Loc. D y E Chacra II",
+      "telefax": "(02964) 44-4506",
+      "email": "saccons@netcombos.com.ar",
+      "evaluador": "Adm. Claudia Aísma Bongiovanni"
+    },
+    {
+      "localidad": "CATAMARCA",
+      "direccion": "Sarmiento 272",
+      "telefax": "(03833) 42-7971",
+      "evaluador": "Adm. Jorge Hernández"
+    },
+    {
+      "localidad": "SAN BERNARDO",
+      "direccion": "Chiozza 1774 - Cine Arenas - Loc. 2",
+      "telefax": "(02257) 46-5853",
+      "evaluador": "Adm. Ana M. Guzelvich"
+    },
+    {
+      "localidad": "LA PLATA",
+      "direccion": "Calle 44 N° 1077",
+      "telefax": "(0221) 424-9921",
+      "evaluador": "Adm. Angel M. Vinocur"
+    },
+    {
+      "localidad": "TUCUMÁN",
+      "direccion": "Las Heras 78-3° piso",
+      "telefax": "(0381) 422-3399",
+      "email": "mendiañaru@networld.com.ar",
+      "evaluador": "Adm. Irma G. Palavera"
+    },
+    {
+      "localidad": "CÓRDOBA",
+      "direccion": "Buenos Aires 280, N° 347 - 4° “G”",
+      "telefax": "(0351) 422-3399",
+      "evaluador": "Adm. Irma G. Palavera"
+    },
+    {
+      "localidad": "BUENOS AIRES (CF)",
+      "direccion": "Sede central",
+      "telefax": "(011) 4382-0123",
+      "email": "uocba@arnet.com.ar",
+      "evaluador": "Adm. Jorge"
+    }
+  ],
+  "clases": [
+    {
+      "numero": 1,
+      "titulo": "El Edificio y sus Componentes. Riesgos de Falla Funcional y Operativa",
+      "contenidoExtenso": "El mantenimiento del edificio administrado es la base indispensable para la correcta gestión edilicia y económica del administrador. Dentro de las tecnologías constructivas de los edificios, existen diferencias de calidad y de seguridad. La composición de un edificio presenta dos campos netamente diferenciados por su constitución: las obras civiles y las instalaciones. Las Obras Civiles: Su finalidad es dar soporte y base a la forma del edificio. Las Instalaciones: Para brindar un servicio deseado relativo a la seguridad o confort de los usuarios del inmueble. Las mismas según su aporte o función son: Agua, Desagües, cloacal y pluvial, Gas, Sistema de bombeo y reserva, Calefacción central, Agua caliente central, Aire acondicionado central, Electricidad, Tablero eléctrico central, Televisión por aire y cable, Teléfono.",
+      "subtemas": [
+        {
+          "titulo": "El Edificio como Sistema",
+          "contenido": [
+            "El edificio como un sistema integrado que requiere mantenimiento constante para asegurar su funcionalidad y seguridad.",
+            "La importancia de la gestión edilicia y económica para el administrador.",
+            "Ejemplo: Un edificio con problemas en su sistema eléctrico puede afectar ascensores, iluminación y sistemas de seguridad."
+          ]
+        },
+        {
+          "titulo": "Componentes Principales",
+          "contenido": [
+            "Descripción detallada de las obras civiles y su función estática.",
+            "Importancia de las instalaciones para la seguridad y el confort de los usuarios.",
+            "Caso práctico: Análisis de fallas comunes en edificios de más de 10 años."
+          ]
+        }
+      ],
+      "diapositivas": [
+        {
+          "titulo": "Estructura básica de un edificio",
+          "imagen": "/img/10-imagenes-cursos/bannerclase2.png",
+          "descripcion": "Componentes estructurales y su función"
+        },
+        {
+          "titulo": "Sistemas de instalaciones",
+          "imagen": "/img/10-imagenes-cursos/bannerclase3.png",
+          "descripcion": "Diagrama de instalaciones eléctricas e hidráulicas"
+        }
+      ],
+      "resumen": {
+        "puntosClave": [
+          "Los edificios son sistemas complejos con componentes interrelacionados",
+          "El mantenimiento preventivo reduce costos a largo plazo",
+          "La documentación técnica es esencial para una gestión eficiente"
+        ],
+        "conclusion": "Un buen programa de mantenimiento comienza con el conocimiento profundo de todos los componentes del edificio y sus interrelaciones."
+      },
+      "faq": [
+        {
+          "pregunta": "¿Cada cuánto debe realizarse una inspección general del edificio?",
+          "respuesta": "Se recomienda una inspección completa al menos una vez al año, con revisiones parciales trimestrales."
+        },
+        {
+          "pregunta": "¿Qué componentes suelen requerir más mantenimiento?",
+          "respuesta": "Los sistemas hidráulicos y eléctricos son los que generalmente requieren más atención por su uso constante."
+        }
+      ],
+      "ejemploPractico": {
+        "titulo": "Análisis de un edificio con problemas recurrentes",
+        "descripcion": "Estudio de caso de un edificio de 15 años con fallas en el sistema de bombeo de agua",
+        "solucion": "Implementación de un programa de mantenimiento preventivo que redujo las fallas en un 70%"
+      },
+      "citas": [
+        "La eficiencia energética no es un lujo, es una necesidad para el futuro de la edificación."
+      ],
+      "ejercicios": [
+        {
+          "pregunta": "Describa los pasos necesarios para implementar un programa de mantenimiento.",
+          "tipo": "desarrollo"
+        },
+        {
+          "pregunta": "¿Qué tareas exceden a las consideraciones económicas y deben ser realizadas obligatoriamente?",
+          "tipo": "opcionMultiple",
+          "opciones": [
+            "Revisión de extintores",
+            "Pintura de fachada",
+            "Mantenimiento de ascensores",
+            "Todas las anteriores"
+          ],
+          "respuestaCorrecta": 3
+        }
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Manual de Eficiencia Energética",
+          "url": "/docs/clase1.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Checklist de Inspección Inicial",
+          "url": "/docs/clase1.docx",
+          "tipo": "documento"
+        }
+      ],
+      "imagenes": [
+        {
+          "src": "/img/10-imagenes-cursos/bannerclase1.png",
+          "descripcion": "Esquema del edificio como sistema",
+          "posicion": "despuesDeTexto",
+          "textoAsociado": "Este diagrama muestra la interrelación entre los diferentes sistemas del edificio"
+        }
+      ],
+      "audio": "/audios/clase1.mp3",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=video_de_la_clase1",
+        "duracion": "15:32",
+        "descripcion": "Video explicativo sobre componentes edilicios"
+      }
+    },
+    {
+      "numero": 2,
+      "titulo": "La Documentación Técnica. Código de la Edificación. Empresas de Servicios",
+      "contenidoExtenso": "Toda obra requiere documentación. El documento técnico correspondiente a su ejecución y terminación, tanto de las obras civiles como de los problemas de mantenimiento. Es de mucha importancia para la documentación técnica que el consorcio debe tener disponible, ya que el mismo debe estar actualizado y completo. Código de la Edificación: De acuerdo a la regla, establecida por el código de la edificación, todo inmueble deberá contar con la siguiente documentación aprobada: Plano de Arquitectura con plantas, cortes, fachadas. Empresas de Servicios: Las distintas empresas de servicios requieren para sus instalaciones los planos de obra y conforme aprobados.",
+      "subtemas": [
+        {
+          "titulo": "Documentación Obligatoria",
+          "contenido": [
+            "Listado completo de documentación requerida por ley",
+            "Consecuencias legales de no contar con la documentación actualizada",
+            "Ejemplo de ordenamiento de documentos para fácil acceso"
+          ]
+        }
+      ],
+      "diapositivas": [
+        {
+          "titulo": "Documentación requerida por el Código de Edificación",
+          "imagen": "/img/diapositivas/clase2-1.png",
+          "descripcion": "Listado completo de documentos obligatorios"
+        }
+      ],
+      "resumen": {
+        "puntosClave": [
+          "La documentación técnica es un requisito legal",
+          "Facilita el mantenimiento y las inspecciones",
+          "Debe estar accesible para el administrador y autoridades"
+        ],
+        "conclusion": "Mantener la documentación actualizada y organizada ahorra tiempo y problemas legales"
+      },
+      "ejercicios": [
+        {
+          "pregunta": "Elabore un checklist de verificación de documentación para un edificio de 8 pisos",
+          "tipo": "practico"
+        }
+      ],
+      "imagenes": [
+        {
+          "src": "/img/10-imagenes-cursos/id1-1.png",
+          "descripcion": "Ejemplo de organización de documentos"
+        }
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=video_de_la_clase2",
+        "duracion": "12:45",
+        "descripcion": "Cómo organizar la documentación técnica"
+      }
+    },
+    {
+      "numero": 3,
+      "titulo": "Distintos Tipos de Mantenimiento. Mantenimiento Preventivo y Correctivo",
+      "contenidoExtenso": "En función de la forma y el momento en que se efectúa, se distinguen dos clases de trabajos: Trabajos de mantenimiento y Trabajos de reparación. Mantenimiento Preventivo: Se define con este término a aquel mantenimiento realizado en forma programada, de manera que su resultado sea mantener en forma temprana la detección de fallas. Mantenimiento Correctivo: Se define como mantenimiento correctivo a aquel realizado en forma programada para accionar sobre una falla prevista o latente con acción sobre el edificio en estado potencial.",
+      "subtemas": [
+        {
+          "titulo": "Mantenimiento Preventivo",
+          "contenido": [
+            "Definición y beneficios del mantenimiento preventivo.",
+            "Ejemplos de mantenimiento preventivo en edificios."
+          ]
+        },
+        {
+          "titulo": "Mantenimiento Correctivo",
+          "contenido": [
+            "Definición y proceso del mantenimiento correctivo.",
+            "Diferencias entre mantenimiento preventivo y correctivo."
+          ]
+        }
+      ],
+      "citas": [],
+      "ejercicios": [
+        "¿Cómo se clasifica el mantenimiento?",
+        "Explique la diferencia entre trabajo de reparación y de mantenimiento.",
+        "Indique la diferencia entre control y garantía de calidad.",
+        "Indique dos normas ISO y su contenido."
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Mantenimiento Preventivo y Correctivo",
+          "url": "/docs/clase3.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "src": "/img/clase3/mantenimiento-preventivo.png",
+          "descripcion": "Mantenimiento preventivo"
+        }
+      ],
+      "audio": "/audios/clase3.mp3",
+      "video": "https://www.youtube.com/watch?v=video_de_la_clase3"
+    },
+    {
+      "numero": 4,
+      "titulo": "Organización del Mantenimiento. Costos y Resultados Económicos",
+      "contenidoExtenso": "Es importante disponer de personal capacitado y realmente para adquirir la mentalidad del trabajo deben ser optimizados. A igual trabajo, el resultado satisfactorio del mantenimiento debe cumplir tres principios o premisas fundamentales: Servicios programados minimizan la ejecución de trabajos de emergencia, y elimina los costos de la mano de obra. Las tareas a desarrollar deben ser las justas y necesarias, ya que las extra-redundancias generan costos y producen beneficios nulos. Evaluación del costo-beneficio, es fundamental que la implementación de un programa de mantenimiento. La inversión del costo de mantenimiento es del 10%.",
+      "subtemas": [
+        {
+          "titulo": "Organización del Mantenimiento",
+          "contenido": [
+            "Importancia de la organización en el mantenimiento.",
+            "Principios fundamentales para un mantenimiento satisfactorio."
+          ]
+        },
+        {
+          "titulo": "Costos del Mantenimiento",
+          "contenido": [
+            "Evaluación del costo-beneficio en el mantenimiento.",
+            "Inversión y costos asociados al mantenimiento."
+          ]
+        },
+        {
+          "titulo": "Resultados Económicos del Mantenimiento",
+          "contenido": [
+            "Beneficios económicos de un programa de mantenimiento.",
+            "Ejemplos de resultados económicos positivos."
+          ]
+        }
+      ],
+      "citas": [],
+      "ejercicios": [
+        "Enuncie una de las premisas en un plan de mantenimiento.",
+        "¿Cuáles son los distintos costos que intervienen en un plan de mantenimiento?"
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Organización y Costos del Mantenimiento",
+          "url": "/docs/clase4.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "src": "/img/clase4/organizacion-mantenimiento.png",
+          "descripcion": "Organización del mantenimiento"
+        }
+      ],
+      "audio": "/audios/clase4.mp3",
+      "video": "https://www.youtube.com/watch?v=video_de_la_clase4"
+    },
+    {
+      "numero": 5,
+      "titulo": "La Información al Servicio del Mantenimiento. Registros y Estadísticas",
+      "contenidoExtenso": "Para poder implementar con éxito un programa de mantenimiento, es clave cuál es la cultura del edificio, su diferencia con otras tareas, incluyendo todos los sentidos de los valores internos en el trabajo, es la suma de la práctica empleada para alcanzar el objetivo. Todo este sistema de fichas que son registradora del mantenimiento del edificio, se trabaja sobre un solo edificio sino de un conjunto, dando que cada administración tiene su independencia para la aplicación de un programa de mantenimiento.",
+      "subtemas": [
+        {
+          "titulo": "Información al Servicio del Mantenimiento",
+          "contenido": [
+            "La importancia de la información en el mantenimiento.",
+            "Cultura del edificio y su impacto en el mantenimiento."
+          ]
+        },
+        {
+          "titulo": "Registros de Control y Seguimiento",
+          "contenido": [
+            "Sistemas de fichas y registros de mantenimiento.",
+            "Independencia de cada administración en la aplicación de programas de mantenimiento."
+          ]
+        },
+        {
+          "titulo": "Estadística e Historial del Edificio",
+          "contenido": [
+            "Configuración de la historia y estadísticas del edificio.",
+            "Importancia de los datos históricos en la planificación del mantenimiento."
+          ]
+        }
+      ],
+      "citas": [],
+      "ejercicios": [
+        "¿Por qué es importante la historia de un edificio?"
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Información y Estadísticas del Mantenimiento",
+          "url": "/docs/clase5.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "src": "/img/clase5/informacion-mantenimiento.png",
+          "descripcion": "Información al servicio del mantenimiento"
+        }
+      ],
+      "audio": "/audios/clase5.mp3",
+      "video": "https://www.youtube.com/watch?v=video_de_la_clase5"
+    },
+    {
+      "numero": 6,
+      "titulo": "Implementación del Programa de Mantenimiento. Prioridades, Evaluación y Valuación",
+      "contenidoExtenso": "Para implementar el programa de mantenimiento en el edificio, el primer paso es la determinación de los elementos a controlar. Es decir, los elementos que, dada la cultura del edificio, se considerarán como se ha visto en las clases anteriores, se determinarán, y se establecerán los requisitos necesarios para detectar las fallas probables, y acciones para corregirlas. Los sistemas operativos y procedimientos para la contabilidad, financiación, gestión, programación y control, son elementos claves en un sistema de mantenimiento.",
+      "subtemas": [
+        {
+          "titulo": "Implementación del Programa de Mantenimiento",
+          "contenido": [
+            "Pasos para la implementación del programa de mantenimiento.",
+            "Determinación de los elementos a controlar y acciones para corregir fallas."
+          ]
+        },
+        {
+          "titulo": "Prioridades y Fórmulas de Criterio",
+          "contenido": [
+            "Sistemas operativos y procedimientos clave en un sistema de mantenimiento.",
+            "Evaluación y valuación del costo del programa de mantenimiento."
+          ]
+        },
+        {
+          "titulo": "Evaluación y Valuación",
+          "contenido": [
+            "Estudio comparativo entre el costo del plan de mantenimiento y el costo del resultado del mantenimiento.",
+            "Evaluación económica y social del resultado del grado de seguridad obtenido."
+          ]
+        }
+      ],
+      "citas": [],
+      "ejercicios": [
+        "Describa los pasos necesarios para implementar un programa de Mantenimiento.",
+        "¿Qué tareas exceden a las consideraciones económicas y deben ser realizadas obligatoriamente en el mantenimiento?"
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Implementación y Evaluación del Mantenimiento",
+          "url": "/docs/clase6.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "src": "/img/clase6/implementacion-programa.png",
+          "descripcion": "Implementación del programa de mantenimiento"
+        }
+      ],
+      "audio": "/audios/clase6.mp3",
+      "video": "https://www.youtube.com/watch?v=video_de_la_clase6"
+    },
+    {
+      "numero": 7,
+      "titulo": "Planificación de Recursos Económicos, Humanos y Técnicos",
+      "contenidoExtenso": "Como en toda las actividades, los planes no disponen de sumas considerables de dinero a dudas, por ello, la implementación del programa de mantenimiento es dependiente de los recursos disponibles. No solo de los recursos económicos, sino de los recursos humanos, ya que la aplicación del programa de mantenimiento integral y simultáneo, es parte de su realización. Los recursos humanos son de vital importancia en el logro de los objetivos buscados. Con buen personal se obtendrá la calidad deseada y se cumplirán con las metas económicas.",
+      "subtemas": [
+        {
+          "titulo": "Planificación de Recursos Económicos",
+          "contenido": [
+            "Dependencia de los recursos disponibles en la implementación del programa de mantenimiento.",
+            "Importancia de los recursos económicos y humanos."
+          ]
+        },
+        {
+          "titulo": "Los Recursos Humanos",
+          "contenido": [
+            "Capacitación y calidad del personal en el mantenimiento.",
+            "Importancia de los recursos humanos en el logro de los objetivos."
+          ]
+        },
+        {
+          "titulo": "Los Recursos Técnicos",
+          "contenido": [
+            "Soporte técnico brindado por profesionales para el programa de mantenimiento.",
+            "Recursos técnicos adecuados para la tarea de mantenimiento edilicio."
+          ]
+        }
+      ],
+      "citas": [],
+      "ejercicios": [
+        "Describa la importancia de los recursos humanos en el mantenimiento.",
+        "¿Cómo se planifican los recursos económicos para un programa de mantenimiento?"
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Planificación de Recursos",
+          "url": "/docs/clase7.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "src": "/img/clase7/planificacion-recursos.png",
+          "descripcion": "Planificación de recursos"
+        }
+      ],
+      "audio": "/audios/clase7.mp3",
+      "video": "https://www.youtube.com/watch?v=video_de_la_clase7"
+    },
+    {
+      "numero": 8,
+      "titulo": "El Control. Control de Calidad y Garantía de Calidad",
+      "contenidoExtenso": "La realización de controles, tanto de tareas como de recursos, es imprescindible para asegurarse a través de los programas de control de calidad y/o garantía de calidad. El control de calidad se trabaja verificando los atributos específicos de cada una de las partes componentes. El control de calidad brinda una seguridad al cliente por cuanto sobre el elemento controlado, pero no da seguridad sobre otros elementos no analizados. La garantía de calidad permite detectar y corregir las disconformidades, asegurando de esta forma que la tarea finalizada corresponda a la forma prevista.",
+      "subtemas": [
+        {
+          "titulo": "El Control",
+          "contenido": [
+            "Importancia de los controles en tareas y recursos.",
+            "Programas de control de calidad y garantía de calidad."
+          ]
+        },
+        {
+          "titulo": "Control de Calidad",
+          "contenido": [
+            "Verificación de atributos específicos en el control de calidad.",
+            "Seguridad al cliente sobre el elemento controlado."
+          ]
+        },
+        {
+          "titulo": "Garantía de Calidad",
+          "contenido": [
+            "Detección y corrección de disconformidades en la garantía de calidad.",
+            "Aseguramiento de que la tarea finalizada corresponda a la forma prevista."
+          ]
+        }
+      ],
+      "citas": [],
+      "ejercicios": [
+        "Indique la diferencia entre control y garantía de calidad.",
+        "Indique dos normas ISO y su contenido."
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Control y Garantía de Calidad",
+          "url": "/docs/clase8.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "src": "/img/clase8/control-calidad.png",
+          "descripcion": "Control de calidad"
+        }
+      ],
+      "audio": "/audios/clase8.mp3",
+      "video": "https://www.youtube.com/watch?v=video_de_la_clase8"
+    },
+    {
+      "numero": 9,
+      "titulo": "Tareas Complementarias. Seguridad e Higiene. Sectores Comunes y Privados",
+      "contenidoExtenso": "El edificio es considerado el ambiente de trabajo del personal de portería, y por tal motivo debe ajustarse a las normativas previstas por la Ley de Seguridad e Higiene en el trabajo cubierto por la ART. A continuación se da el listado de lo solicitado por la ART: Cartelería y capacitación en primeros auxilios, uso de extintores y evacuación. Botiquines de primeros auxilios. Pasamanos en escalera. Reparación del primer y último escalón. Ropa de trabajo de acuerdo a la clasificación del mismo.",
+      "subtemas": [
+        {
+          "titulo": "Tareas Complementarias",
+          "contenido": [
+            "Normativas de seguridad e higiene en el edificio.",
+            "Listado de lo solicitado por la ART para la seguridad en el edificio."
+          ]
+        },
+        {
+          "titulo": "Seguridad e Higiene en el Edificio",
+          "contenido": [
+            "Cartelería y capacitación en primeros auxilios.",
+            "Uso de extintores y evacuación, botiquines de primeros auxilios."
+          ]
+        },
+        {
+          "titulo": "Sectores Privados y Comunes",
+          "contenido": [
+            "Diferencias entre sectores privados y comunes en el edificio.",
+            "Tareas de limpieza y mantenimiento en sectores comunes."
+          ]
+        }
+      ],
+      "citas": [],
+      "ejercicios": [
+        "Enumere las obligaciones a cumplir exigidas por ART."
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Seguridad e Higiene",
+          "url": "/docs/clase9.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "src": "/img/clase9/seguridad-higiene.png",
+          "descripcion": "Seguridad e higiene en el edificio"
+        }
+      ],
+      "audio": "/audios/clase9.mp3",
+      "video": "https://www.youtube.com/watch?v=video_de_la_clase9"
+    },
+    {
+      "numero": 10,
+      "titulo": "Leyes y Ordenanzas. Código de la Edificación. Resoluciones",
+      "contenidoExtenso": "Una gran variedad de tareas y/o servicios, vinculados con la Higiene y seguridad del edificio, se encuentran reglamentados y regulados por normativas municipales, nacionales o de los entes reguladores. Por ello al siguiente se destacan las principales.",
+      "subtemas": [
+        {
+          "titulo": "Leyes y Ordenanzas",
+          "contenido": [
+            "Normativas municipales y nacionales para la higiene y seguridad del edificio.",
+            "Reglamentaciones y regulaciones por entes reguladores."
+          ]
+        },
+        {
+          "titulo": "Código de la Edificación",
+          "contenido": [
+            "Control de Caldera, Ascensores, Matafuegos, Instalación Antiincendio.",
+            "Medios de Escape, Tanques de Agua, Luces de Emergencia."
+          ]
+        },
+        {
+          "titulo": "Resoluciones",
+          "contenido": [
+            "Cumplimiento de normas de seguridad e higiene.",
+            "Contratación de un seguro de riesgo de trabajo (ART)."
+          ]
+        }
+      ],
+      "citas": [],
+      "ejercicios": [
+        "Indique tres instalaciones controladas por ordenanza.",
+        "En esas tres instalaciones indique la periodicidad y requisitos de la norma.",
+        "Defina qué es una ART."
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Leyes y Ordenanzas",
+          "url": "/docs/clase10.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "src": "/img/clase10/leyes-ordenanzas.png",
+          "descripcion": "Leyes y ordenanzas"
+        }
+      ],
+      "audio": "/audios/clase10.mp3",
+      "video": "https://www.youtube.com/watch?v=video_de_la_clase10"
+    },
+    {
+      "numero": 11,
+      "titulo": "Respaldo Profesional. Conservación vs Mantenimiento. Auditoría Técnica Edilicia",
+      "contenidoExtenso": "El administrador tiene absoluta libertad en la elección del profesional que lo asesorará o a quien consultará, debiendo elegir quien, a su criterio, le merezca su confianza, ya que en definitiva el éxito de su gestión en buena parte será asociado al profesional que lo asesore. La conservación se refiere a mantener el estado actual del edificio, mientras que el mantenimiento implica acciones proactivas para prevenir fallas y asegurar la funcionalidad continua. La auditoría técnica edilicia es un proceso de evaluación exhaustivo que se realiza para asegurar que todas las instalaciones y estructuras del edificio cumplan con las normativas y estándares de seguridad.",
+      "subtemas": [
+        {
+          "titulo": "Respaldo Profesional",
+          "contenido": [
+            "Libertad en la elección del profesional para asesoramiento.",
+            "Importancia del profesional en la gestión del mantenimiento."
+          ]
+        },
+        {
+          "titulo": "Diferencia entre Conservación y Mantenimiento",
+          "contenido": [
+            "Definición y diferencias entre conservación y mantenimiento.",
+            "Acciones proactivas en el mantenimiento para prevenir fallas."
+          ]
+        },
+        {
+          "titulo": "Auditoría Técnica Edilicia",
+          "contenido": [
+            "Proceso de evaluación exhaustivo en la auditoría técnica edilicia.",
+            "Cumplimiento de normativas y estándares de seguridad en el edificio."
+          ]
+        }
+      ],
+      "citas": [],
+      "ejercicios": [
+        "Defina qué es una auditoría técnica edilicia.",
+        "¿Cuál es la diferencia entre conservación y mantenimiento?"
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Auditoría Técnica Edilicia",
+          "url": "/docs/clase11.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "src": "/img/clase11/respaldo-profesional.png",
+          "descripcion": "Respaldo profesional"
+        }
+      ],
+      "audio": "/audios/clase11.mp3",
+      "video": "https://www.youtube.com/watch?v=video_de_la_clase11"
+    },
+    {
+      "numero": 12,
+      "titulo": "Información sobre Mantenimiento. Gestión de la Seguridad Edilicia",
+      "contenidoExtenso": "La información sobre mantenimiento es crucial para la planificación y ejecución de las tareas de mantenimiento. Esto incluye datos históricos, registros de control y seguimiento, y estadísticas del edificio. La gestión de la seguridad edilicia implica la implementación de programas de mantenimiento, la capacitación del personal, y la aplicación de normativas de seguridad para asegurar un ambiente seguro y funcional en el edificio.",
+      "subtemas": [
+        {
+          "titulo": "Información sobre Mantenimiento",
+          "contenido": [
+            "Importancia de la información en la planificación y ejecución del mantenimiento.",
+            "Datos históricos, registros de control y seguimiento, y estadísticas del edificio."
+          ]
+        },
+        {
+          "titulo": "Gestión de la Seguridad Edilicia",
+          "contenido": [
+            "Implementación de programas de mantenimiento.",
+            "Capacitación del personal y aplicación de normativas de seguridad."
+          ]
+        }
+      ],
+      "citas": [],
+      "ejercicios": [
+        "¿Qué es la gestión de la seguridad edilicia?",
+        "¿Cómo se puede mejorar la gestión de la seguridad edilicia?"
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Gestión de la Seguridad Edilicia",
+          "url": "/docs/clase12.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "src": "/img/clase12/gestion-seguridad.png",
+          "descripcion": "Gestión de la seguridad edilicia"
+        }
+      ],
+      "audio": "/audios/clase12.mp3",
+      "video": "https://www.youtube.com/watch?v=video_de_la_clase12"
+    }
+  ]
+}

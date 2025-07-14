@@ -29,10 +29,10 @@ const Header = () => {
 
             <Nav className="ml-auto navbar-nav">
               <Nav.Link as={Link} to="/" onClick={() => setIsMobileMenuOpen(false)}>INICIO</Nav.Link>
-              <Nav.Link as={Link} to="/clientes" onClick={() => setIsMobileMenuOpen(false)}>CLIENTES</Nav.Link>
-              <Nav.Link as={Link} to="/servicio" onClick={() => setIsMobileMenuOpen(false)}>SERVICIO</Nav.Link>
+              {/* <Nav.Link as={Link} to="/clientes" onClick={() => setIsMobileMenuOpen(false)}>CLIENTES</Nav.Link> */}
+              {/* <Nav.Link as={Link} to="/servicio" onClick={() => setIsMobileMenuOpen(false)}>SERVICIO</Nav.Link> */}
               <Nav.Link as={Link} to="/CursosListado1" onClick={() => setIsMobileMenuOpen(false)}>Cursos</Nav.Link>
-              <Nav.Link as={Link} to="/area-privada" onClick={() => setIsMobileMenuOpen(false)}>Área Privada</Nav.Link>
+              {/* <Nav.Link as={Link} to="/area-privada" onClick={() => setIsMobileMenuOpen(false)}>Área Privada</Nav.Link> */}
   
               <Nav.Link as={Link} to="/contacto" onClick={() => setIsMobileMenuOpen(false)}>CONTACTO</Nav.Link>
             </Nav>

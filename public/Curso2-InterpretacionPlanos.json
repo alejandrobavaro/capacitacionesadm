@@ -1,0 +1,339 @@
+{
+  "materia": "Mantenimiento de Bombas para Edificios",
+  "objetivos": [
+    "Adquirir conocimientos sobre los diferentes tipos de bombas utilizadas en edificios.",
+    "Desarrollar habilidades para realizar mantenimiento preventivo y correctivo en sistemas de bombeo.",
+    "Conocer las normativas y estándares de seguridad aplicables a los sistemas de bombeo.",
+    "Capacitarse en la gestión y organización de programas de mantenimiento para bombas."
+  ],
+  "profesor": "Ing. Carlos Méndez",
+  "clavesDeCorreccion": [
+    "Vea el video en forma completa.",
+    "Revíselo nuevamente, deteniéndose cuando lo crea necesario. Tome nota de los aspectos que le resulten destacados, anote sus dudas.",
+    "Cuando considere que está comprendido, comience a trabajar con el Módulo Gráfico, en él complementará: Material complementario, Bibliografía recomendada, Claves de autoevaluación.",
+    "Resuelva los ejercicios con los conocimientos que usted recuerde; si tiene dudas, vuelva al material, al video. En caso de dudas, acuda a la clave de corrección de resultados.",
+    "Una vez realizados, compare con la clave de corrección sus resultados.",
+    "Toda vez que lo dude, haga consultas tutoriales a la UNIDAD DE ORIENTACIÓN AL CURSANTE.",
+    "La realización de los trabajos es fundamental para su aprendizaje; le resultará de máxima utilidad para el examen presencial. No deje de hacerlos.",
+    "El examen presencial consistirá en un protocolo de prueba con ejercicios semejantes a los realizados para cada clase. Para aprobar la prueba, deberá obtener un 60% del puntaje total de la prueba. En caso de desaprobar, podrá recuperar la evaluación en el próximo turno."
+  ],
+  "fichaTecnica": {
+    "habilitacionProfesional": "Gestores ante los organismos estatales de regulación y autorregulación. (Nivel Terciario) TÉCNICO EN MANTENIMIENTO DE BOMBAS PARA EDIFICIOS",
+    "fundacion": "FUNDACIÓN REUNIÓN DE TÉCNICOS EN MANTENIMIENTO (F.R.T.M.)",
+    "preMatriculacion": "El curso está dirigido a técnicos en mantenimiento y a aspirantes a la actividad (inicial). Convoca a los interesados a habilitarse adquiriendo la aptitud profesional para el desempeño público de la función de TÉCNICO EN MANTENIMIENTO DE BOMBAS PARA EDIFICIOS.",
+    "emisor": "FUNDACIÓN REUNIÓN DE TÉCNICOS EN MANTENIMIENTO (F.R.T.M.)",
+    "aranceles": [
+      "Set-Didáctico (Gráfica + T.V.): $35,00 por materia.",
+      "Derecho de examen: $60,00 por materia.",
+      "Derecho de examen: (con presentación del troquelado Set-VHS) $85,00 por materia.",
+      "Derecho de examen: (sin troquelado) $150,00 por materia."
+    ],
+    "pagos": "Cheques o giros/Depósitos: RED/F.R.T.M. DE CAPACITACIÓN Cta. Cte. Bco. Galicia N° 54152/1.999/1 (FEDEFRA DE CAPACITACION)",
+    "materialesDidacticos": "Set-Vídeo / Clases-TV + Módulos Gráficos"
+  },
+  "contacto": {
+    "fundacion": {
+      "direccion": "Defensa 121, 6° Piso Of.120 (1065) Buenos Aires - Argentina",
+      "telefono": "(54-11) 4342-5788/5860/5444",
+      "fax": "(54-11) 4342-5788/5860/5444",
+      "email": "frtm@datamarkets.com.ar",
+      "web": "http://www.reunion-tm.com"
+    },
+    "unidadDeOrientacionAlCursante": {
+      "telefono": "(54-11) 4343-5788/5860/5444",
+      "fax": "(54-11) 4343-5788/5860/5444",
+      "email": "uoc@datamarkets.com.ar",
+      "web": "http://www.reunion-tm.com.ar"
+    }
+  },
+  "habilitacionDeEvaluacion": [
+    {
+      "localidad": "MAR DEL PLATA",
+      "telefono": "(0223) 493-0245",
+      "email": "uocmdq@jet.com.ar",
+      "evaluador": "Téc. Jorge J. Baró"
+    },
+    {
+      "localidad": "MENDOZA",
+      "direccion": "Av. Las Heras 625-4°",
+      "evaluador": "Téc. Ana Mabel Di Gregorio"
+    },
+    {
+      "localidad": "SANTA TERESITA",
+      "direccion": "Calle 3 N° 538",
+      "evaluador": "Téc. Emilio R. Escudé"
+    },
+    {
+      "localidad": "SALTA",
+      "direccion": "Av. Reyes Católicos 1522-45° - Of. 7",
+      "telefax": "(0387) 431-7238 / (0387) 431-7239",
+      "evaluador": "Téc. José Reyes Gorriti"
+    },
+    {
+      "localidad": "BARILOCHE",
+      "direccion": "S. Albarracín 45 - 1° piso",
+      "telefax": "(02944) 43-3324",
+      "email": "mdmdte@bariloche.com.ar",
+      "evaluador": "Téc. Massimo F. A. de Matteis"
+    },
+    {
+      "localidad": "RIO GRANDE",
+      "direccion": "Libertad 1383 - Loc. D y E Chacra II",
+      "telefax": "(02964) 44-4506",
+      "email": "saccons@netcombos.com.ar",
+      "evaluador": "Téc. Claudia Aísma Bongiovanni"
+    },
+    {
+      "localidad": "CATAMARCA",
+      "direccion": "Sarmiento 272",
+      "telefax": "(03833) 42-7971",
+      "evaluador": "Téc. Jorge Hernández"
+    },
+    {
+      "localidad": "SAN BERNARDO",
+      "direccion": "Chiozza 1774 - Cine Arenas - Loc. 2",
+      "telefax": "(02257) 46-5853",
+      "evaluador": "Téc. Ana M. Guzelvich"
+    },
+    {
+      "localidad": "LA PLATA",
+      "direccion": "Calle 44 N° 1077",
+      "telefax": "(0221) 424-9921",
+      "evaluador": "Téc. Angel M. Vinocur"
+    },
+    {
+      "localidad": "TUCUMÁN",
+      "direccion": "Las Heras 78-3° piso",
+      "telefax": "(0381) 422-3399",
+      "email": "mendiañaru@networld.com.ar",
+      "evaluador": "Téc. Irma G. Palavera"
+    },
+    {
+      "localidad": "CÓRDOBA",
+      "direccion": "Buenos Aires 280, N° 347 - 4° “G”",
+      "telefax": "(0351) 422-3399",
+      "evaluador": "Téc. Irma G. Palavera"
+    },
+    {
+      "localidad": "BUENOS AIRES (CF)",
+      "direccion": "Sede central",
+      "telefax": "(011) 4382-0123",
+      "email": "uocba@arnet.com.ar",
+      "evaluador": "Téc. Jorge"
+    }
+  ],
+  "clases": [
+    {
+      "numero": 1,
+      "titulo": "Introducción a las Bombas para Edificios",
+      "contenidoExtenso": "Las bombas son componentes esenciales en los sistemas de edificios, utilizadas para la circulación de agua, calefacción, y otros fluidos. Este módulo introduce los diferentes tipos de bombas, sus aplicaciones y la importancia del mantenimiento regular para asegurar su funcionamiento eficiente y prolongar su vida útil.",
+      "subtemas": [
+        {
+          "titulo": "Tipos de Bombas",
+          "contenido": [
+            "Descripción de bombas centrífugas, de desplazamiento positivo y sumergibles.",
+            "Aplicaciones comunes de cada tipo de bomba en edificios."
+          ]
+        },
+        {
+          "titulo": "Componentes Principales",
+          "contenido": [
+            "Partes principales de una bomba y su función.",
+            "Diagrama básico de una instalación de bombeo."
+          ]
+        }
+      ],
+      "diapositivas": [
+        {
+          "titulo": "Tipos de bombas y sus aplicaciones",
+          "imagen": "/img/diapositivas/clase1-1.png",
+          "descripcion": "Diferentes tipos de bombas y sus usos en edificios"
+        }
+      ],
+      "resumen": {
+        "puntosClave": [
+          "Las bombas son cruciales para el manejo de fluidos en edificios.",
+          "El mantenimiento regular es esencial para la eficiencia y longevidad de las bombas.",
+          "Conocer los tipos de bombas y sus aplicaciones ayuda a seleccionar la más adecuada."
+        ],
+        "conclusión": "La correcta selección y mantenimiento de bombas es fundamental para la operación eficiente de los sistemas de edificios."
+      },
+      "faq": [
+        {
+          "pregunta": "¿Con qué frecuencia se debe realizar el mantenimiento de una bomba?",
+          "respuesta": "El mantenimiento básico debe realizarse cada 3 a 6 meses, dependiendo del uso y tipo de bomba."
+        }
+      ],
+      "ejemploPractico": {
+        "titulo": "Selección de una bomba para un edificio residencial",
+        "descripción": "Estudio de caso para seleccionar una bomba adecuada para un edificio de 10 pisos.",
+        "solución": "Selección de una bomba centrífuga de alta eficiencia."
+      },
+      "citas": [
+        "El mantenimiento preventivo es clave para evitar fallos inesperados en los sistemas de bombeo."
+      ],
+      "ejercicios": [
+        {
+          "pregunta": "Describa los pasos básicos para el mantenimiento preventivo de una bomba centrífuga.",
+          "tipo": "desarrollo"
+        }
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Manual de Tipos de Bombas",
+          "url": "/docs/clase1.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "imágenes": [
+        {
+          "src": "/img/clase1/tipos-bombas.png",
+          "descripción": "Tipos de bombas comunes en edificios",
+          "posición": "despuésDeTexto"
+        }
+      ],
+      "audio": "/audios/clase1.mp3",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=video_clase1",
+        "duración": "14:20",
+        "descripción": "Introducción a las bombas para edificios"
+      }
+    },
+    {
+      "numero": 2,
+      "titulo": "Documentación Técnica y Normativas",
+      "contenidoExtenso": "La documentación técnica es esencial para el mantenimiento y operación de bombas. Este módulo cubre los requisitos de documentación, las normativas aplicables y la importancia de mantener registros actualizados.",
+      "subtemas": [
+        {
+          "titulo": "Documentación Requerida",
+          "contenido": [
+            "Listado de documentación necesaria para el mantenimiento de bombas.",
+            "Normativas internacionales y locales aplicables."
+          ]
+        }
+      ],
+      "diapositivas": [
+        {
+          "titulo": "Documentación necesaria para bombas",
+          "imagen": "/img/diapositivas/clase2-1.png",
+          "descripción": "Documentos esenciales para el mantenimiento de bombas"
+        }
+      ],
+      "resumen": {
+        "puntosClave": [
+          "La documentación adecuada es crucial para el cumplimiento de normativas.",
+          "Mantener registros actualizados facilita el mantenimiento y las inspecciones."
+        ],
+        "conclusión": "La documentación técnica es fundamental para la gestión eficiente y legal de los sistemas de bombeo."
+      },
+      "ejercicios": [
+        {
+          "pregunta": "Elabore una lista de verificación de documentación para un sistema de bombeo.",
+          "tipo": "práctico"
+        }
+      ],
+      "imágenes": [
+        {
+          "src": "/img/clase2/documentacion-bombas.png",
+          "descripción": "Ejemplo de documentación técnica para bombas"
+        }
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=video_clase2",
+        "duración": "11:30",
+        "descripción": "Cómo organizar la documentación técnica para bombas"
+      }
+    },
+    {
+      "numero": 3,
+      "titulo": "Mantenimiento Preventivo y Correctivo",
+      "contenidoExtenso": "El mantenimiento de bombas puede ser preventivo o correctivo. Este módulo explica las diferencias, beneficios y cómo implementar cada tipo de mantenimiento.",
+      "subtemas": [
+        {
+          "titulo": "Mantenimiento Preventivo",
+          "contenido": [
+            "Definición y beneficios del mantenimiento preventivo.",
+            "Ejemplos de mantenimiento preventivo en bombas."
+          ]
+        },
+        {
+          "titulo": "Mantenimiento Correctivo",
+          "contenido": [
+            "Definición y proceso del mantenimiento correctivo.",
+            "Diferencias entre mantenimiento preventivo y correctivo."
+          ]
+        }
+      ],
+      "ejercicios": [
+        "¿Cómo se clasifica el mantenimiento de bombas?",
+        "Explique la diferencia entre mantenimiento preventivo y correctivo."
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Mantenimiento Preventivo y Correctivo",
+          "url": "/docs/clase3.pdf"
+        }
+      ],
+      "imágenes": [
+        {
+          "src": "/img/clase3/mantenimiento-bombas.png",
+          "descripción": "Mantenimiento de bombas"
+        }
+      ],
+      "audio": "/audios/clase3.mp3",
+      "video": "https://www.youtube.com/watch?v=video_clase3"
+    },
+    {
+      "numero": 4,
+      "titulo": "Gestión de Costos y Recursos",
+      "contenidoExtenso": "La gestión eficiente de costos y recursos es crucial para el mantenimiento de bombas. Este módulo cubre cómo planificar y optimizar los recursos económicos y humanos.",
+      "subtemas": [
+        {
+          "titulo": "Planificación de Costos",
+          "contenido": [
+            "Evaluación de costos en el mantenimiento de bombas.",
+            "Inversión y costos asociados al mantenimiento."
+          ]
+        }
+      ],
+      "ejercicios": [
+        "Describa cómo se planifican los recursos económicos para un programa de mantenimiento de bombas."
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Gestión de Costos",
+          "url": "/docs/clase4.pdf"
+        }
+      ],
+      "imágenes": [
+        {
+          "src": "/img/clase4/gestion-costos.png",
+          "descripción": "Gestión de costos en mantenimiento de bombas"
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "titulo": "Seguridad y Normativas",
+      "contenidoExtenso": "La seguridad en el manejo y mantenimiento de bombas es fundamental. Este módulo aborda las normativas de seguridad y las mejores prácticas para operar bombas de manera segura.",
+      "subtemas": [
+        {
+          "titulo": "Normativas de Seguridad",
+          "contenido": [
+            "Normativas internacionales y locales de seguridad para bombas.",
+            "Prácticas seguras en el manejo de bombas."
+          ]
+        }
+      ],
+      "ejercicios": [
+        "Enumere las principales normativas de seguridad para el manejo de bombas."
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía de Seguridad en Bombas",
+          "url": "/docs/clase5.pdf"
+        }
+      ]
+    }
+  ]
+}

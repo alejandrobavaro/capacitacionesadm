@@ -2,21 +2,21 @@
 import React from "react";
 import MainHero from "./MainHero";
 import MainGaleriaHome from "./MainGaleriaHome";
-import MainNovedades from "./MainNovedades";
-import MainTestimonios from "./MainTestimonios";
-import MainPreguntasFrecuentes from "./MainPreguntasFrecuentes";
-import MainPromociones from "./MainPromociones";
+import CursosListado1 from "./CursosListado1";
+
+
 import "../assets/scss/_03-Componentes/_MainContent.scss";
 
 const MainContent = () => {
   return (
     <main className="MainContentContainer">
-      <MainHero />
-      <MainGaleriaHome />
-      {/* <MainNovedades /> */}
-      {/* <MainTestimonios /> */}
-      {/* <MainPreguntasFrecuentes /> */}
-      {/* <MainPromociones /> */}
+        <MainHero />
+         <CursosListado1 />
+
+          <MainGaleriaHome />
+
+      
+     
     </main>
   );
 };

@@ -1,9 +1,15 @@
 import React from "react";
+import MainHero from "./MainHero";
+import MainGaleriaHome from "./MainGaleriaHome";
 import "../assets/scss/_03-Componentes/_ContactoLogoRedes.scss";
 
 const ContactoLogoRedes = () => {
   return (
     <div>
+
+ <MainHero />
+    
+
       <div className="gridPadreContacto1">
         <div className="contact-logo-rede-container">
           <div className="logo-column">
@@ -69,6 +75,7 @@ const ContactoLogoRedes = () => {
           </div>
         </div>
       </div>
+      <MainGaleriaHome /> 
       <hr className="transparent-hr" />
     </div>
   );
