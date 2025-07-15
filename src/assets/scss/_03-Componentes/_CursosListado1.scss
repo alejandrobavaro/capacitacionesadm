@@ -1,207 +1,163 @@
+/* ------------------------------------------
+   CURSOS LISTADO - ESTILOS GENERALES
+------------------------------------------ */
 .cursos-listado {
-  padding: 1rem;
-  max-width: 1200px;
+  width: 100%;
+  padding: 16px;
   margin: 0 auto;
-  color: #2c3e50;
+  background: rgba(255, 255, 255, 0.95);
 
   .titulo-principal {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    font-weight: 600;
-    color: #34495e;
     text-align: center;
-    padding: 0 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #333;
   }
 
   .filtros-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
     justify-content: center;
+    gap: 8px;
+    margin-bottom: 16px;
 
     .filtro {
-      padding: 0.5rem 1rem;
-      background: #f8f9fa;
-      border: 1px solid #e0e0e0;
-      border-radius: 20px;
-      font-size: 0.85rem;
+      background: #f0f0f0;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      font-size: 0.9rem;
       cursor: pointer;
-      color: #4a4a4a;
-      transition: all 0.3s ease;
-      font-weight: 500;
+      transition: background 0.3s;
 
-      &.activo {
-        background: #3498db;
-        color: #fff;
-        border-color: #3498db;
-      }
-
+      &.activo,
       &:hover {
-        background: #e0e0e0;
-        color: #2c3e50;
+        background: #333;
+        color: #fff;
       }
     }
   }
 
   .barra-busqueda {
-    margin-bottom: 2rem;
-    
+    width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+
     input {
-      width: 100%;
-      max-width: 500px;
-      margin: 0 auto;
-      display: block;
-      padding: 0.75rem 1rem;
-      font-size: 1rem;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      background: #fff;
-      color: #333;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-      transition: border-color 0.3s, box-shadow 0.3s;
-
-      &:focus {
-        outline: none;
-        border-color: #3498db;
-        box-shadow: 0 2px 8px rgba(52, 152, 219, 0.2);
-      }
-
-      &::placeholder {
-        color: #999;
-      }
-    }
-  }
-
-  .grid-cursos {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-    padding: 0 1rem;
-
-    .card-curso {
-      background: #fff;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-
-      &:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 15px rgba(0,0,0,0.12);
-      }
-
-      h3 {
-        margin: 1rem 1rem 0.5rem;
-        font-size: 1.1rem;
-        line-height: 1.3;
-        min-height: 3rem;
-
-        a {
-          color: #2c3e50;
-          text-decoration: none;
-          transition: color 0.3s;
-
-          &:hover {
-            color: #3498db;
-            text-decoration: underline;
-          }
-        }
-      }
-
-      .categoria {
-        font-size: 0.85rem;
-        color: #7f8c8d;
-        margin: 0 1rem 0.5rem;
-        font-weight: 500;
-      }
-
-      .precio {
-        font-size: 1.1rem;
-        color: #27ae60;
-        font-weight: 600;
-        margin: 0 1rem 0.5rem;
-      }
-
-      .finalizados {
-        font-size: 0.8rem;
-        color: #95a5a6;
-        margin: 0 1rem 0.5rem;
-      }
-
-      .img-curso {
-        width: 100%;
-        height: 160px;
-        object-fit: cover;
-      }
-
-      .btn-ver-mas {
-        display: inline-block;
-        margin: 1rem auto;
-        padding: 0.6rem 1.2rem;
-        background: #3498db;
-        color: #fff;
-        border-radius: 6px;
-        font-size: 0.9rem;
-        text-decoration: none;
-        transition: background 0.3s;
-        font-weight: 500;
-        border: none;
-        cursor: pointer;
-        margin-top: auto;
-        margin-bottom: 1rem;
-
-        &:hover {
-          background: #2980b9;
-        }
-      }
-
-      .slick-slider {
-        border-bottom: 1px solid #eee;
-      }
+      width: 80%;
+      max-width: 400px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 0.9rem;
     }
   }
 
   .no-resultados {
     text-align: center;
-    margin: 2rem 0;
-    font-size: 1.1rem;
-    color: #e74c3c;
-    font-weight: 500;
+    font-size: 1rem;
+    color: #555;
   }
 
-  /*--------------Breakpoints--------------*/
-  @media (min-width: 768px) {
-    padding: 1.5rem;
+  .grid-cursos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
 
-    .titulo-principal {
-      font-size: 2.1rem;
-      margin-bottom: 2rem;
-    }
+    .card-curso {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
 
-    .filtros-container {
-      gap: 0.75rem;
-      margin-bottom: 2rem;
+      .img-curso {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
 
-      .filtro {
-        padding: 0.6rem 1.2rem;
-        font-size: 0.9rem;
+      .info-curso {
+        padding: 12px;
+
+        h3 {
+          font-size: 1.1rem;
+          margin: 0 0 8px;
+          color: #222;
+
+          a {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+
+        .categoria {
+          font-size: 0.85rem;
+          color: #666;
+          margin-bottom: 4px;
+        }
+
+        .precio {
+          font-weight: bold;
+          color: #000;
+          margin-bottom: 4px;
+        }
+
+        .finalizados {
+          font-size: 0.85rem;
+          color: #555;
+          margin-bottom: 8px;
+        }
+
+        .btn-ver-mas {
+          display: inline-block;
+          padding: 6px 10px;
+          background: #333;
+          color: #fff;
+          text-decoration: none;
+          border-radius: 4px;
+          font-size: 0.85rem;
+          transition: background 0.3s;
+
+          &:hover {
+            background: #555;
+          }
+        }
       }
     }
+  }
+}
+
+/* ------------------------------------------
+   TABLET
+------------------------------------------ */
+@media (min-width: 768px) {
+  .cursos-listado {
+    padding: 24px;
 
     .grid-cursos {
-      gap: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
     }
   }
+}
 
-  @media (min-width: 1024px) {
-    padding: 2rem;
+/* ------------------------------------------
+   DESKTOP
+------------------------------------------ */
+@media (min-width: 1024px) {
+  .cursos-listado {
+    padding: 32px;
 
     .grid-cursos {
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
     }
   }
 }

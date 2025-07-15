@@ -1,44 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
-
-/* Estilos generales del Footer */
 .footer-container {
-  display: grid;
-  grid-template-rows: auto auto; /* Define dos filas: una para el contenido y otra para el footer */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 30px;
-  // background-color: rgba(44, 4, 4, 0.767);
-  background-image: url(../_01-General/../../../../img/00-fondos/fondo4a.jpg);
+  padding: 30px 20px;
+  background-color: #fff; // Fondo blanco puro
   border-radius: 20px;
-  box-shadow: 0 0px 200px rgba(0, 225, 255, 0.63);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); // Sombra sutil para profundidad
   text-align: center;
+  font-family: 'Cinzel Decorative', serif;
+  color: #222; // Texto oscuro para buen contraste
 }
 
 .footer-content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   width: 100%;
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     flex-direction: row;
-    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
 .footer-column {
-  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 
   .footer-logo {
-    width: 100px;
-    transition: transform 0.3s ease;
+    width: 110px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     &:hover {
       transform: scale(1.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
   }
 }
@@ -46,47 +46,77 @@
 .social-links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  font-size: medium;
-  color: rgba(0, 225, 255, 0.63);
+  gap: 15px;
+  font-size: 1rem;
+  color: #444;
 
   a {
-    color: rgb(255, 255, 255);
+    color: #444;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
     transition: color 0.3s ease;
 
+    i {
+      font-size: 1.2rem;
+      color: #666;
+      transition: color 0.3s ease;
+    }
+
     &:hover {
-      color: #bee7ff;
+      color: #0077cc;
+      i {
+        color: #0077cc;
+      }
     }
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     flex-direction: row;
-    gap: 20px;
+    gap: 25px;
   }
+}
+
+.footer-divider {
+  border: none;
+  height: 1px;
+  background-color: #eee;
+  width: 100%;
+  margin: 30px 0;
 }
 
 .trademarkFooter {
   width: 100%;
   text-align: center;
-  margin-top: 20px;
-  padding: 0;
-  font-family: 'Cinzel Decorative', serif; /* Aplica la tipografía importada */
-
 }
 
-.tituloImportanteFooter4 {
-  font-size: 1.2em; /* Ajusta el tamaño del texto para que destaque */
-  
+.firmaDev {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+
   a {
     color: inherit;
     text-decoration: none;
-    cursor: pointer;
-    color: wheat;
-    font-size: medium;
-    
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.3s ease;
+
+    i {
+      font-size: 1.3rem;
+      color: #0077cc;
+      transition: color 0.3s ease;
+    }
+
     &:hover {
-      color: #e6fbff; /* Cambia el color en hover */
+      color: #004a80;
+
+      i {
+        color: #004a80;
+      }
     }
   }
 }

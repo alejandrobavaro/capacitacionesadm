@@ -1,32 +1,29 @@
+// ------------------------------------------
+// COMPONENTE: DETALLE DE CURSO CON DISEÑO MEJORADO
+// ------------------------------------------
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { FaClock, FaChartLine, FaTags } from 'react-icons/fa';
 
-// ------------------------------------------
-// SECCIÓN 1: IMPORTACIÓN DE COMPONENTES DE CURSO
-// ------------------------------------------
 import Curso1 from './Curso1';
 import Curso2 from './Curso2';
 import Curso3 from './Curso3';
 import '../assets/scss/_03-Componentes/_CursoDetalle.scss';
 
 // ------------------------------------------
-// SECCIÓN 2: COMPONENTE WRAPPER PARA ESTRUCTURA COMÚN
+// COMPONENTE WRAPPER PARA LA ESTRUCTURA GENERAL DEL CURSO DETALLE
 // ------------------------------------------
 const CursoWrapper = ({ children, cursoData }) => {
   return (
     <div className="curso-detalle-container">
-      {/* Cabecera con imagen y título */}
       <header className="curso-header">
         <div className="header-imagen">
           <img src={cursoData.imagen} alt={cursoData.titulo} />
           <div className="header-overlay"></div>
         </div>
-        
+
         <div className="header-contenido">
           <h1>{cursoData.titulo}</h1>
-          
-          {/* Metadatos del curso */}
           <div className="curso-meta">
             <span><FaClock /> {cursoData.duracion}</span>
             <span><FaChartLine /> {cursoData.nivel}</span>
@@ -35,7 +32,6 @@ const CursoWrapper = ({ children, cursoData }) => {
         </div>
       </header>
 
-      {/* Contenido principal (componente hijo) */}
       <main className="curso-content">
         {children}
       </main>
@@ -44,12 +40,11 @@ const CursoWrapper = ({ children, cursoData }) => {
 };
 
 // ------------------------------------------
-// SECCIÓN 3: COMPONENTE PRINCIPAL CURSO DETALLE
+// COMPONENTE PRINCIPAL: CURSO DETALLE
 // ------------------------------------------
 const CursoDetalle = () => {
   const { id } = useParams();
 
-  // Datos de los cursos que coinciden con cursos.json
   const cursosData = {
     '1': {
       titulo: 'Mantenimiento Preventivo en Consorcios',
@@ -74,29 +69,28 @@ const CursoDetalle = () => {
     }
   };
 
-  // Renderizado condicional por ID de curso
-  switch (id) {
-    case '1':
-      return (
-        <CursoWrapper cursoData={cursosData[id]}>
-          <Curso1 />
-        </CursoWrapper>
-      );
-    case '2':
-      return (
-        <CursoWrapper cursoData={cursosData[id]}>
-          <Curso2 />
-        </CursoWrapper>
-      );
-    case '3':
-      return (
-        <CursoWrapper cursoData={cursosData[id]}>
-          <Curso3 />
-        </CursoWrapper>
-      );
-    default:
-      return <div className="curso-no-encontrado">Curso no encontrado</div>;
-  }
+  const renderCurso = () => {
+    switch (id) {
+      case '1':
+        return <Curso1 />;
+      case '2':
+        return <Curso2 />;
+      case '3':
+        return <Curso3 />;
+      default:
+        return <div className="curso-no-encontrado">Curso no encontrado</div>;
+    }
+  };
+
+  const cursoData = cursosData[id];
+
+  return cursoData ? (
+    <CursoWrapper cursoData={cursoData}>
+      {renderCurso()}
+    </CursoWrapper>
+  ) : (
+    <div className="curso-no-encontrado">Curso no encontrado</div>
+  );
 };
 
 export default CursoDetalle;

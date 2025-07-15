@@ -5,25 +5,24 @@ import "../assets/scss/_03-Componentes/_ContactoLogoRedes.scss";
 
 const ContactoLogoRedes = () => {
   return (
-    <div>
-
- <MainHero />
-    
+    <div className="contacto-wrapper">
+      <MainHero />
 
       <div className="gridPadreContacto1">
         <div className="contact-logo-rede-container">
+          
+          {/* LOGO */}
           <div className="logo-column">
-            <div className="logo-secondary-container">
-              <a href="#">
-                <img
-                  alt="icono"
-                  className="logo-img logo-secondary"
-                  src="/img/02-logos/logo1.png"
-                />
-              </a>
-            </div>
+            <a href="#">
+              <img
+                alt="logo institucional"
+                className="logo-secondary"
+                src="/img/02-logos/logo1.png"
+              />
+            </a>
           </div>
 
+          {/* ÍCONOS DE CONTACTO */}
           <div className="contact-icons">
             <div className="contact-item">
               <a
@@ -58,24 +57,24 @@ const ContactoLogoRedes = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="bi bi-person-arms-up" /> Escríbenos un mail <i className="bi bi-envelope" />
+                <i className="bi bi-envelope" /> Enviar un mail
               </a>
             </div>
-            
-            {/* Imagen ajustada */}
+
+            {/* IMAGEN EXTRA */}
             <div className="contact-image-container">
-              <a href="#">
-                <img
-                  alt="icono"
-                  className="contact-image"
-                  src="/img/05-img-costados-larga/1.jpeg"
-                />
-              </a>
+              <img
+                alt="imagen adicional"
+                className="contact-image"
+                src="../../public/img/04-img-banners/logosbanner1.png"
+              />
             </div>
           </div>
+
         </div>
       </div>
-      <MainGaleriaHome /> 
+
+      <MainGaleriaHome />
       <hr className="transparent-hr" />
     </div>
   );

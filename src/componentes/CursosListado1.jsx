@@ -1,30 +1,29 @@
+// ------------------------------------------
+// COMPONENTE PRINCIPAL: LISTADO DE CURSOS
+// ------------------------------------------
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { motion } from "framer-motion";
 import "../assets/scss/_03-Componentes/_CursosListado1.scss";
 
-// ------------------------------------------
-// COMPONENTE PRINCIPAL: LISTADO DE CURSOS
-// ------------------------------------------
 const CursosListado1 = () => {
   // ------------------------------------------
   // SECCIÓN 1: ESTADOS DEL COMPONENTE
   // ------------------------------------------
-  const [data, setData] = useState([]); // Almacena los datos de los cursos
-  const [searchTerm, setSearchTerm] = useState(""); // Almacena el término de búsqueda
-  const [selectedCategory, setSelectedCategory] = useState("TODOS"); // Almacena la categoría seleccionada
-  const [categorias, setCategorias] = useState([]); // Almacena las categorías disponibles
+  const [data, setData] = useState([]); // Guarda los datos de cursos desde cursos.json
+  const [searchTerm, setSearchTerm] = useState(""); // Guarda el término de búsqueda del input
+  const [selectedCategory, setSelectedCategory] = useState("TODOS"); // Categoría activa para filtro
+  const [categorias, setCategorias] = useState([]); // Guarda categorías únicas extraídas
 
   // ------------------------------------------
-  // SECCIÓN 2: EFECTO PARA CARGAR DATOS INICIALES
+  // SECCIÓN 2: EFECTO PARA CARGAR DATOS AL INICIAR
   // ------------------------------------------
   useEffect(() => {
     fetch("/cursos.json")
       .then((response) => response.json())
       .then((data) => {
         setData(data);
-        // Extrae categorías únicas de los datos
         const categoriasUnicas = ["TODOS", ...new Set(data.map(item => item.categoria))];
         setCategorias(categoriasUnicas);
       })
@@ -32,11 +31,11 @@ const CursosListado1 = () => {
   }, []);
 
   // ------------------------------------------
-  // SECCIÓN 3: MANEJADORES DE EVENTOS
+  // SECCIÓN 3: MANEJO DE FILTRO Y BÚSQUEDA
   // ------------------------------------------
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
-    setSearchTerm(""); // Limpia la búsqueda al cambiar de categoría
+    setSearchTerm("");
   };
 
   const handleSearchChange = (e) => {
@@ -44,7 +43,7 @@ const CursosListado1 = () => {
   };
 
   // ------------------------------------------
-  // SECCIÓN 4: FILTRADO DE DATOS
+  // SECCIÓN 4: FILTRADO DE DATOS POR CATEGORÍA Y BÚSQUEDA
   // ------------------------------------------
   const filteredData = data.filter(item => {
     const matchesCategory = selectedCategory === "TODOS" || item.categoria === selectedCategory;
@@ -53,33 +52,26 @@ const CursosListado1 = () => {
   });
 
   // ------------------------------------------
-  // SECCIÓN 5: CONFIGURACIÓN DEL SLIDER
+  // SECCIÓN 5: CONFIGURACIÓN DE SLIDER PARA IMÁGENES
   // ------------------------------------------
   const sliderSettings = {
     dots: false,
     infinite: true,
-    speed: 400,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     arrows: false,
   };
 
   return (
-    <motion.div 
-      className="cursos-listado" 
-      initial={{ opacity: 0 }} 
-      animate={{ opacity: 1 }}
-    >
-      {/* ------------------------------------------
-          SECCIÓN 6: TÍTULO PRINCIPAL
-          ------------------------------------------ */}
-      <h2 className="titulo-principal">📚 Cursos para Profesionales de Consorcios y Edificios</h2>
+    <motion.div className="cursos-listado" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
 
-      {/* ------------------------------------------
-          SECCIÓN 7: FILTROS POR CATEGORÍA
-          ------------------------------------------ */}
+      {/* TÍTULO PRINCIPAL */}
+      <h2 className="titulo-principal">Cursos Profesionales para Consorcios y Edificios</h2>
+
+      {/* FILTROS DE CATEGORÍA */}
       <div className="filtros-container">
         {categorias.map((cat, index) => (
           <button
@@ -92,9 +84,7 @@ const CursosListado1 = () => {
         ))}
       </div>
 
-      {/* ------------------------------------------
-          SECCIÓN 8: BARRA DE BÚSQUEDA
-          ------------------------------------------ */}
+      {/* INPUT DE BÚSQUEDA */}
       <div className="barra-busqueda">
         <input
           type="text"
@@ -104,22 +94,15 @@ const CursosListado1 = () => {
         />
       </div>
 
-      {/* ------------------------------------------
-          SECCIÓN 9: RESULTADOS DE LA BÚSQUEDA
-          ------------------------------------------ */}
+      {/* LISTADO DE CURSOS O MENSAJE DE SIN RESULTADOS */}
       {filteredData.length === 0 ? (
-        <h4 className="no-resultados">No se encontraron resultados.</h4>
+        <h4 className="no-resultados">No se encontraron cursos.</h4>
       ) : (
         <div className="grid-cursos">
           {filteredData.map(item => (
-            <motion.div 
-              key={item.id} 
-              className="card-curso" 
-              whileHover={{ scale: 1.03 }}
-            >
-              {/* ------------------------------------------
-                  SECCIÓN 9.1: SLIDER DE IMÁGENES DEL CURSO
-                  ------------------------------------------ */}
+            <motion.div key={item.id} className="card-curso" whileHover={{ scale: 1.02 }}>
+
+              {/* SLIDER DE IMÁGENES DEL CURSO */}
               <Slider {...sliderSettings}>
                 {item["imagenes slider"].map((imagen, index) => (
                   <div key={index}>
@@ -128,24 +111,19 @@ const CursosListado1 = () => {
                 ))}
               </Slider>
 
-              {/* ------------------------------------------
-                  SECCIÓN 9.2: INFORMACIÓN DEL CURSO
-                  ------------------------------------------ */}
-              <h3><Link to={`/CursosListado1/${item.id}`}>{item.nombre}</Link></h3>
-              <p className="categoria">{item.categoria} - {item.tipo}</p>
-              <p className="precio">💲 {item.precio}</p>
-              <p className="finalizados">✔ {item.finalizados} finalizados</p>
-
-              {/* ------------------------------------------
-                  SECCIÓN 9.3: BOTÓN PARA VER DETALLES
-                  ------------------------------------------ */}
-              <Link to={`/CursosListado1/${item.id}`} className="btn-ver-mas">
-                Ver detalles
-              </Link>
+              {/* INFORMACIÓN DEL CURSO */}
+              <div className="info-curso">
+                <h3><Link to={`/CursosListado1/${item.id}`}>{item.nombre}</Link></h3>
+                <p className="categoria">{item.categoria} | {item.tipo}</p>
+                <p className="precio">Precio: ${item.precio}</p>
+                <p className="finalizados">{item.finalizados} finalizados</p>
+                <Link to={`/CursosListado1/${item.id}`} className="btn-ver-mas">Ver detalles</Link>
+              </div>
             </motion.div>
           ))}
         </div>
       )}
+
     </motion.div>
   );
 };

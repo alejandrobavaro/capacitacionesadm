@@ -14,49 +14,49 @@
       "Muy didáctico, me dio herramientas concretas."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-cursos/id2-1.png",
-      "/img/10-imagenes-cursos/id2-2.png",
-      "/img/10-imagenes-cursos/id2-3.png"
+      "/img/10-imagenes-cursos/bannercurso1a.png",
+      "/img/10-imagenes-cursos/bannercurso1b.png"   
     ]
   },
   {
     "id": 2,
-    "nombre": "Interpretación de Planos Edilicios",
+    "nombre": "...",
     "imagenes portada": "/img/10-imagenes-cursos/id3.png",
     "tipo": "Teórico",
-    "categoria": "Arquitectura",
+    "categoria": "....",
     "complejidad": "intermedia",
-    "precio": "consultar",
-    "finalizados": 2200,
+    "precio": "0",
+    "finalizados": 0,
     "comentarios": [
       "Ahora puedo leer planos y entender mejor las reparaciones.",
       "Muy útil para administradores sin formación técnica.",
       "Explicaciones claras y con ejemplos prácticos."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-cursos/id3-1.png",
-      "/img/10-imagenes-cursos/id3-2.png",
-      "/img/10-imagenes-cursos/id3-3.png"
+      "/img/10-imagenes-cursos/bannercurso2bb.png",
+      "/img/10-imagenes-cursos/bannercurso2aa.png"   
     ]
   },
   {
     "id": 3,
-    "nombre": "Mantenimiento Preventivo en Consorcios",
+    "nombre": "...",
     "imagenes portada": "/img/10-imagenes-cursos/id2.png",
     "tipo": "Práctico",
-    "categoria": "Mantenimiento",
+    "categoria": "...",
     "complejidad": "intermedia",
-    "precio": "consultar",
-    "finalizados": 1500,
+    "precio": "0",
+    "finalizados": 0,
     "comentarios": [
       "Evitamos muchos gastos gracias al mantenimiento preventivo.",
       "Recomiendo este curso para cualquier administrador.",
       "Muy didáctico, me dio herramientas concretas."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-cursos/id2-1.png",
-      "/img/10-imagenes-cursos/id2-2.png",
-      "/img/10-imagenes-cursos/id2-3.png"
+      "/img/10-imagenes-cursos/bannercurso3aa.png",
+      "/img/10-imagenes-cursos/bannercurso3bb.png"   
     ]
   }
-]
+  ]
+  
+
+

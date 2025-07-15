@@ -1,268 +1,97 @@
-.telefonoWhattsapp {
-  font-size: small; 
-  text-align: center; 
-  white-space: nowrap;
-  color: #ffffff;
-}
-
-.logoWhats {
-  width: 1em;
-}
-
-.mapaEstilo {
-  background-color: transparent;
-  color: #ffffff; 
-  font-size: 10px;
+.contacto-wrapper {
   width: 100%;
-  height: 600px;
-  padding: 20px;
-  border-radius: 20px;
-  border: 5px solid #0026ff;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .gridPadreContacto1 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-content: center;
-  align-items: start;
-  margin: 0 auto;
-  max-width: 1050px;
-  padding: 20px;
-  border-bottom: 2px solid #fbff007c;
-  border-radius: 30px;
+  grid-template-columns: 1fr;
   gap: 20px;
-  
-  @media (max-width: 768px) {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  }
-  
-  @media (max-width: 480px) {
-    padding: 10px;
-    gap: 10px;
-    margin: 0;
-  }
+  padding: 20px;
 }
 
 .contact-logo-rede-container {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   gap: 20px;
-  padding: 20px;
-  background: #03002c70; 
-  border-radius: 50px;
-  width: 100%;
-  
-  @media (min-width: 992px) {
+
+  @media (min-width: 768px) {
     flex-direction: row;
     align-items: flex-start;
-  }
-  
-  @media (max-width: 768px) {
-    gap: 15px;
-    padding: 15px;
-  }
-  
-  @media (max-width: 480px) {
-    gap: 10px;
-    padding: 10px;
   }
 }
 
 .logo-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 10px;
-  padding: 0;
-  width: 100%;
-  max-width: 600px;
-  background: transparent;
-
-  @media (max-width: 768px) {
-    max-width: 300px;
-  }
-
-  @media (max-width: 480px) {
-    max-width: 100%;
-    padding: 10px;
-  }
-}
-
-.logo-main {
-  width: 100%;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-  &:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.808);
-  }
-}
-
-.logo-secondary-container {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-
-  @media (max-width: 480px) {
-    width: 100%;
-  }
-}
-
-.logo-secondary {
-  width: 400px;
-  transition: transform 0.3s ease;
-
-  &:hover {
-    transform: scale(1.1);
-  }
-
-  @media (max-width: 768px) {
-    width: 70px;
-  }
-
-  @media (max-width: 480px) {
+  max-width: 300px;
+  img {
     width: 100%;
     max-width: 200px;
-    margin: 0 auto;
+    transition: transform 0.3s;
+    
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 }
-
 
 .contact-icons {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  background-color: transparent;
-  border-radius: 15px;
-  padding: 20px;
+  gap: 15px;
   width: 100%;
-  text-align: center;
 
-  // Añade esto para contener la imagen:
-  .contact-image-container {
-    width: 100%;
-    margin-top: 20px;
-    
-    .contact-image {
-      max-width: 100%;
-      height: auto;
-      max-height: 300px; // Ajusta este valor según necesites
-      border-radius: 10px;
-      object-fit: contain;
-    }
-  }
-
-  @media (max-width: 768px) {
-    padding: 15px;
-    
-    .contact-image-container {
-      .contact-image {
-        max-height: 250px;
-      }
-    }
-  }
-
-  @media (max-width: 480px) {
+  .contact-item {
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     padding: 10px;
-    
-    .contact-image-container {
-      .contact-image {
-        max-height: 200px;
-      }
-    }
-  }
-}
-
-
-.contact-item {
-  border-radius: 20px;
-  padding: 10px;
-  border: none;
-  background-color: transparent;
-  color: #f4ffdf;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  transition: color 0.3s ease, transform 0.3s ease;
-
-  &:hover {
-    color: #fbff00;
-    transform: translateY(-2px);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
-  }
-
-  @media (max-width: 768px) {
+    text-align: center;
     font-size: 16px;
-  }
+    transition: background 0.3s, color 0.3s;
 
-  @media (max-width: 480px) {
-    font-size: 14px;
-  }
-
-  i {
-    font-size: 20px;
-
-    @media (max-width: 768px) {
-      font-size: 18px;
+    &:hover {
+      background: #f0f0f0;
+      color: #0026ff;
     }
 
-    @media (max-width: 480px) {
-      font-size: 16px;
+    a {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: center;
     }
   }
 
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-}
+  .contact-image-container {
+    margin-top: 20px;
 
-.side-image-container {
-  width: 100%;
-  text-align: center;
-  margin: 20px 0;
-  
-  @media (min-width: 768px) {
-    flex: 1;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-}
-
-.side-image {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-  
-  @media (min-width: 992px) {
-    max-height: 500px;
-  }
-  
-  @media (max-width: 991px) {
-    max-height: 400px;
-  }
-  
-  @media (max-width: 480px) {
-    max-height: 300px;
+    .contact-image {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
   }
 }
 
 .transparent-hr {
   border: none;
   height: 1px;
-  background-color: rgba(255, 208, 0, 0.774);
-  margin: 20px 0;
+  background: rgba(255, 208, 0, 0.7);
+  margin: 30px 0;
 }
 
-@media (max-width: 480px) {
-  .logo-column .logo-main {
-    display: none;
+@media (min-width: 768px) {
+  .contact-icons .contact-image-container .contact-image {
+    max-height: 300px;
   }
 }

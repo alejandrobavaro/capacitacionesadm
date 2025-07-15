@@ -4,9 +4,9 @@ import "../assets/scss/_03-Componentes/_MainHero.scss";
 
 const MainHero = () => {
   const images = [
-    "/img/00-fondos/fondo3.jpeg",
-    "/img/00-fondos/fondo4.jpeg",
-    "/img/00-fondos/fondo5.jpeg",
+    "/img/04-img-banners/hero1.png",
+   "/img/04-img-banners/hero2.png",
+   "/img/04-img-banners/hero3.png"
   ];
 
   const settings = {
