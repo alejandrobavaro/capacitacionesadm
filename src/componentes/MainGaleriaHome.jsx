@@ -3,7 +3,7 @@ import "../assets/scss/_03-Componentes/_MainGaleriaHome.scss";
 
 const MainGaleriaHome = () => {
   const galeria = [
-    "../../public/img/10-imagenes-cursos/bannerclase2.png",
+    "/img/10-imagenes-cursos/bannerclase2.png",
     "/img/10-imagenes-cursos/bannerclase3.png",
     "/img/10-imagenes-cursos/bannerclase2.png",
   ];

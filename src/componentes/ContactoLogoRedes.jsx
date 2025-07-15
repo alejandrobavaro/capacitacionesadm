@@ -66,7 +66,7 @@ const ContactoLogoRedes = () => {
               <img
                 alt="imagen adicional"
                 className="contact-image"
-                src="../../public/img/04-img-banners/logosbanner1.png"
+                src="/img/04-img-banners/logosbanner1.png"
               />
             </div>
           </div>
