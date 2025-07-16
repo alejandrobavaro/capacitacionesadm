@@ -1,22 +1,16 @@
-// MainContent.jsx
 import React from "react";
-import MainHero from "./MainHero";
+import CursosListadoMantenimiento from "./CursosListadoMantenimiento";
 import MainGaleriaHome from "./MainGaleriaHome";
-import CursosListado1 from "./CursosListado1";
-
-
 import "../assets/scss/_03-Componentes/_MainContent.scss";
 
 const MainContent = () => {
   return (
     <main className="MainContentContainer">
-        <MainHero />
-         <CursosListado1 />
-
-          <MainGaleriaHome />
-
+      {/* Componente principal - Listado de cursos compacto */}
+      <CursosListadoMantenimiento />
       
-     
+   
+      <MainGaleriaHome />
     </main>
   );
 };

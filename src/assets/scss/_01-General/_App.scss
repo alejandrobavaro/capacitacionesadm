@@ -10,121 +10,51 @@
 html {
   font-size: 100%;
   scroll-behavior: smooth;
+  height: 100%;
 }
 
-/*--------------Estilos Body--------------*/
 body {
-  background-color: #f8f9fa; // Fondo claro por defecto
+  background-color: #f8f9fa;
   font-family: 'Raleway', sans-serif;
   color: #333;
   line-height: 1.6;
-  text-align: center;
-  transition: background-color 0.3s ease, color 0.3s ease;
-
-  // Eliminamos la animación de fondo y la imagen para un look más profesional
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-/*--------------Estilos para el Contenedor Principal--------------*/
+/*--------------Layout Principal--------------*/
 .app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.95); // Fondo semi-transparente
 }
 
 .main-content {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  gap: 2rem;
-}
-
-.content {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-/*--------------Estilos para Textos y Encabezados--------------*/
-p {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.7;
-  margin-bottom: 1rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-  line-height: 1.2;
-  margin-bottom: 1rem;
-  color: #2c3e50;
-}
-
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-}
-
-h2 {
-  font-size: 2rem;
-  color: #34495e;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-/*--------------Estilos para Enlaces--------------*/
-a {
-  color: #3498db;
-  text-decoration: none;
-  transition: color 0.3s ease;
-
-  &:hover {
-    color: #2980b9;
-    text-decoration: underline;
-  }
-}
-
-/*--------------Estilos para Listas--------------*/
-ul, ol {
-  padding-left: 1.5rem;
-  margin-bottom: 1rem;
-
-  li {
-    margin-bottom: 0.5rem;
+  padding-top: 50px; /* Espacio reservado para el header */
+  margin-top: 0; /* Eliminamos el margen negativo */
+  
+  > .content {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
 
 /*--------------Breakpoints--------------*/
 @media (min-width: 768px) {
   .main-content {
-    padding: 1.5rem;
-    gap: 2.5rem;
-  }
-
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2.25rem;
+    padding-top: 55px;
+    margin-top: -55px;
   }
 }
 
 @media (min-width: 1024px) {
   .main-content {
-    padding: 2rem;
-    gap: 3rem;
-  }
-
-  .content {
-    padding: 0 2rem;
-  }
-
-  h1 {
-    font-size: 3.5rem;
+    padding-top: 60px;
+    margin-top: -60px;
   }
 }

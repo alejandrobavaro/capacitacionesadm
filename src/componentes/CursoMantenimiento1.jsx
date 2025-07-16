@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import "../assets/scss/_03-Componentes/_Curso1.scss";
+import "../assets/scss/_03-Componentes/_CursoMantenimiento1.scss";
 
 // =============================================
 // COMPONENTE PRINCIPAL - CURSO 1
 // =============================================
-const Curso1 = () => {
+const CursoMantenimiento1 = () => {
   // -------------------------------------------
   // SECCIÓN 1: ESTADOS DEL COMPONENTE
   // -------------------------------------------
@@ -26,7 +26,7 @@ const Curso1 = () => {
   // -------------------------------------------
   // Este useEffect se ejecuta una vez al montar el componente
   useEffect(() => {
-    fetch("/Curso1-MantenimientoEdilicio.json")
+    fetch("/CursoMantenimiento1.json")
       .then(response => {
         // Verifica si la respuesta de la red fue exitosa
         if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
@@ -450,4 +450,4 @@ const Curso1 = () => {
   );
 };
 
-export default Curso1;
+export default CursoMantenimiento1;

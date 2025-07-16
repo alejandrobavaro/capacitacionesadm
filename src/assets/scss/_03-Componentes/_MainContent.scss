@@ -1,245 +1,25 @@
-//---------Estilos Generales--------------------//
-.mainContent {
+/*--------------Estilos del Contenido Principal Ultra Compacto--------------*/
+.MainContentContainer {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  background: transparent;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 0px 100px rgba(98, 0, 255, 0.2);
-  color: #ffffff;
-}
-
+  padding: 0; /* Eliminamos todo padding para máxima compresión */
   
-
-
-//---------Carrusel--------------------//
-.banner-container {
-  margin-bottom: 40px;
-}
-
-.banner-image {
-  width: 100%;
-  border-radius: 20px;
-}
-
-//---------Contenedor General--------------------//
-.MainContent {
+  /* Layout en columna sin espacios entre componentes */
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 0; /* Eliminamos completamente el gap */
 }
 
-//---------Sección de Títulos--------------------//
-.h2Titulo {
-  font-size: x-large;
-  margin-bottom: 20px;
-  color: #ffffff;
+/*--------------Breakpoints--------------*/
+@media (min-width: 768px) {
+  .MainContentContainer {
+    padding: 0; /* Mantenemos sin padding en tablet */
+  }
 }
 
-//---------Estilos de Noticias--------------------//
-.newsSection {
-  background-color: rgba(0, 0, 0, 0.329);
-  border-radius: 15px;
-  padding: 20px;
-}
-
-.newsRow {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.newsItem {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.newsText {
-  padding: 15px;
-}
-
-.newsTitle {
-  font-size: large;
-  color: #83b5ff !important;
-  margin-bottom: 10px;
-}
-
-.newsDescription {
-  font-size: small;
-  color: #fcdada !important;
-}
-
-.newsDetails {
-  font-size: 14px;
-  color: #ffffff !important;
-  margin-top: 10px;
-}
-
-.newsItem img {
-  width: 100%;
-  height: auto;
-  border-bottom: 3px solid rgb(255, 0, 0);
-}
-
-.imagenSuscripcion{
-  width: 50%;
-  height: auto;
-  border-bottom: 3px solid rgb(255, 0, 0);
-  border-radius: 50%;
-}
-
-//---------Estilos de Publicidades--------------------//
-.adSection {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  padding: 20px;
-}
-
-.adRow {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.adItem {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.adItem img {
-  width: 100%;
-  height: auto;
-  border-bottom: 3px solid rgb(255, 0, 0);
-}
-
-.adDescription {
-  margin-top: 10px;
-  font-size: 15px;
-  color: #ddd;
-}
-
-//---------Estilos de Torneos--------------------//
-.tournamentSection {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  padding: 20px;
-}
-
-.tournamentRow {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.tournamentItem {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.tournamentText {
-  padding: 10px;
-}
-
-.tournamentTitle {
-  font-size: small;
-  text-transform: none;
-  color: #fff !important;
-}
-
-.tournamentDescription {
-  font-size: small;
-  color: #ddd;
-}
-
-.tournamentItem img {
-  width: 100%;
-  height: auto;
-  border-bottom: 3px solid rgb(255, 0, 0);
-}
-
-//---------Estilos de servicio--------------------//
-.servicioSection {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  padding: 20px;
-}
-
-.servicioRow {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.servicioItem {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.servicioText {
-  padding: 10px;
-}
-
-.servicioTitle {
-  font-size: 22px;
-  color: #fff;
-}
-
-.servicioDescription {
-  font-size: 16px;
-  color: #ddd;
-  margin-top: 10px;
-}
-
-.servicioItem img {
-  width: 100%;
-  height: auto;
-  border-bottom: 3px solid #0ff;
-}
-
-//---------Estilos de Suscripción--------------------//
-.subscriptionSection {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  padding: 20px;
-}
-
-.subscriptionItem {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-  padding: 20px;
-}
-
-.subscriptionText {
-  font-size: 18px;
-  color: #ddd;
-  margin-bottom: 20px;
-}
-
-.botonEnviar {
-  background-color: #0ff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  color: #000;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.botonEnviar:hover {
-  background-color: #00aaff;
+@media (min-width: 1024px) {
+  .MainContentContainer {
+    padding: 0; /* Mantenemos sin padding en desktop */
+  }
 }

@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "nombre": "Mantenimiento Preventivo en Consorcios",
+    "nombre": "Mantenimiento Edilicio 1",
     "imagenes portada": "/img/10-imagenes-cursos/id2.png",
     "tipo": "Práctico",
     "categoria": "Mantenimiento",
     "complejidad": "intermedia",
-    "precio": "0",
+    "precio": "SIN COSTO",
     "finalizados": 0,
     "comentarios": [
       "Evitamos muchos gastos gracias al mantenimiento preventivo.",
@@ -14,9 +14,53 @@
       "Muy didáctico, me dio herramientas concretas."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-cursos/bannercurso1a.png",
-      "/img/10-imagenes-cursos/bannercurso1b.png"   
-    ]
+      "/img/10-imagenes-cursos/bannerCursoMantenimiento1a.png",
+      "/img/10-imagenes-cursos/bannerCursoMantenimiento1b.png"
+    ],
+    "profesor": "Ing. José Daniel Antonucci",
+    "objetivos": [
+      "Lograr el conocimiento del edificio como propiedad.",
+      "Crear conciencia y dar las bases para el mantenimiento edilicio.",
+      "Definir la posición del administrador frente a la seguridad edilicia.",
+      "Conocer y sistematizar el cumplimiento de las normas en el mantenimiento y seguridad edilicia."
+    ],
+    "contenido": [
+      {
+        "clase": 1,
+        "tema": "El Edificio y sus Componentes",
+        "subtemas": ["Riesgos de Falla Funcional", "Riesgos de Falla Operativa"]
+      },
+      {
+        "clase": 2,
+        "tema": "La Documentación Técnica",
+        "subtemas": ["Código de la Edificación", "Empresas de Servicios"]
+      },
+      {
+        "clase": 3,
+        "tema": "Distintos Tipos de Mantenimiento",
+        "subtemas": ["Mantenimiento Correctivo", "Mantenimiento Preventivo"]
+      }
+    ],
+    "bibliografia": [
+      "Código de la Edificación de la Ciudad de Buenos Aires",
+      "Código de Habilitaciones de la Ciudad de Buenos Aires",
+      "Normas ISO serie 9000",
+      "Normas IRAM",
+      "Revista Reunión de Administradores",
+      "Resolución del ENRE N° 207",
+      "Ordenanzas Municipales N° 33.677, 45.593, 49.308, 36.128, 40.423, 45.425, 35.392, 36.352"
+    ],
+    "orientaciones_estudio": [
+      "Vea el video en forma completa.",
+      "Revise nuevamente deteniéndose cuando lo crea necesario, tome nota de los aspectos que le resulten destacados. Anote sus dudas.",
+      "Cuando considere que está comprendido, comience a trabajar con el Módulo Gráfico.",
+      "Trate de resolver los ejercicios con los conocimientos que usted recuerda; si tiene dudas, vuelva al video o a los materiales complementarios las veces que sea necesario.",
+      "Una vez realizados, compruebe con la clave de corrección sus resultados.",
+      "No olvide que puede hacer consultas tutoriales a la UNIDAD DE ORIENTACIÓN AL CURSANTE toda vez que lo considere necesario.",
+      "La realización de los ejercicios durante su aprendizaje le resultará de máxima utilidad para el examen presencial. No deje de hacerlos.",
+      "El examen presencial consistirá en un protocolo de prueba con ejercicios semejantes a los realizados para cada clase. Para aprobar la evaluación presencial deberá obtener un 60% del puntaje total de la prueba. En caso de desaprobar, podrá recuperar la evaluación en el próximo turno."
+    ],
+    "profesion": "Ingeniero civil. Fue Secretario del Consejo de Ingeniería Civil de Jurisdicción Nacional. Presidente de la Asociación de Ingenieros Civiles de la Ciudad de Buenos Aires. Vicepresidente de la Federación Argentina de la Ingeniería Civil. Profesor de la Universidad de Belgrano -UB- en la Tecnicatura en Administración de Propiedad Horizontal. Profesor de la Universidad Católica de Córdoba y de la Universidad del Aconcagua de Mendoza. Actualmente Profesor de la Universidad Católica Argentina -UCA- en la carrera de Ingeniería."
   },
   {
     "id": 2,
@@ -33,8 +77,8 @@
       "Explicaciones claras y con ejemplos prácticos."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-cursos/bannercurso2bb.png",
-      "/img/10-imagenes-cursos/bannercurso2aa.png"   
+      "/img/10-imagenes-cursos/bannerCursoMantenimiento2bb.png",
+      "/img/10-imagenes-cursos/bannerCursoMantenimiento2aa.png"
     ]
   },
   {
@@ -52,11 +96,8 @@
       "Muy didáctico, me dio herramientas concretas."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-cursos/bannercurso3aa.png",
-      "/img/10-imagenes-cursos/bannercurso3bb.png"   
+      "/img/10-imagenes-cursos/bannerCursoMantenimiento3aa.png",
+      "/img/10-imagenes-cursos/bannerCursoMantenimiento3bb.png"
     ]
   }
-  ]
-  
-
-
+]

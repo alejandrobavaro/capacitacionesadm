@@ -33,7 +33,7 @@ import SesionLogin from "./componentes/SesionLogin";
 // ------------------------------------------
 // SECCIÓN 5: IMPORTACIÓN DE COMPONENTES DE CURSOS
 // ------------------------------------------
-import CursosListado1 from "./componentes/CursosListado1";
+import CursosListadoMantenimiento from "./componentes/CursosListadoMantenimiento";
 import CursoDetalle from "./componentes/CursoDetalle";
 
 // ------------------------------------------
@@ -119,8 +119,8 @@ function App() {
             {/* ------------------------------------------
                 SECCIÓN 9.2.4: RUTAS DE CURSOS
                 ------------------------------------------ */}
-            <Route path="/CursosListado1" element={<CursosListado1 />} />
-            <Route path="/CursosListado1/:id" element={<CursoDetalle />} />
+            <Route path="/CursosListadoMantenimiento" element={<CursosListadoMantenimiento />} />
+            <Route path="/CursosListadoMantenimiento/:id" element={<CursoDetalle />} />
           </Routes>
         </div>
       </div>

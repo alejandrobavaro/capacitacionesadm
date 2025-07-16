@@ -1,5 +1,5 @@
 /* ============================================= */
-/* ESTILOS PARA COMPONENTE CURSO1 - VERSIÓN MEJORADA */
+/* ESTILOS PARA COMPONENTE CursoMantenimiento3 - MANTENIMIENTO DE ASCENSORES */
 /* Estrategia: Mobile-first */
 /* Breakpoints: 768px (tablet), 1024px (desktop) */
 /* ============================================= */
@@ -8,12 +8,11 @@
 .curso-libro {
   display: flex;
   min-height: 100vh;
-  background-color: rgba(226, 226, 226, 0.37); /* Azul pastel gastado */
+  background-color: rgba(203, 227, 239, 0.9); /* Azul pastel gastado */
   color: #333;
   font-family: 'Georgia', serif;
   line-height: 1.6;
   position: relative;
-  border-radius: 20px;
 
   /* Sidebar abierto */
   &.sidebar-open {
@@ -26,11 +25,11 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: #a6b0b9;
+    background: #4a7ba6;
     color: white;
     border: none;
     padding: 1rem 0.5rem;
-    border-radius: 20px;
+    border-radius: 0 4px 4px 0;
     cursor: pointer;
     z-index: 100;
     transition: all 0.3s ease;
@@ -616,6 +615,41 @@
         background: #f5f5f5;
         transform: translateX(5px);
       }
+    }
+  }
+}
+
+/* Sedes de evaluación */
+.curso-sedes {
+  background: white;
+  border-radius: 6px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  background: rgba(155, 89, 182, 0.1);
+  border-left: 4px solid #9b59b6;
+
+  h3 {
+    color: #9b59b6;
+    margin-bottom: 1rem;
+  }
+
+  /* Lista de sedes */
+  .sedes-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    /* Cada sede */
+    .sede-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem;
+      background: white;
+      border-radius: 4px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      font-size: 0.95rem;
     }
   }
 }

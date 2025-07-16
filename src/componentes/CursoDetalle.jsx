@@ -1,25 +1,25 @@
 // ------------------------------------------
-// COMPONENTE: DETALLE DE CURSO CON DISEÑO MEJORADO
+// COMPONENTE: DETALLE DE CURSO - VERSIÓN COMPACTA
 // ------------------------------------------
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { FaClock, FaChartLine, FaTags } from 'react-icons/fa';
 
-import Curso1 from './Curso1';
-import Curso2 from './Curso2';
-import Curso3 from './Curso3';
+import CursoMantenimiento1 from './CursoMantenimiento1';
+import CursoMantenimiento2 from './CursoMantenimiento2';
+import CursoMantenimiento3 from './CursoMantenimiento3';
 import '../assets/scss/_03-Componentes/_CursoDetalle.scss';
 
 // ------------------------------------------
-// COMPONENTE WRAPPER PARA LA ESTRUCTURA GENERAL DEL CURSO DETALLE
+// WRAPPER SIMPLIFICADO PARA EL CURSO
 // ------------------------------------------
 const CursoWrapper = ({ children, cursoData }) => {
   return (
     <div className="curso-detalle-container">
+      {/* Header compacto del curso */}
       <header className="curso-header">
         <div className="header-imagen">
           <img src={cursoData.imagen} alt={cursoData.titulo} />
-          <div className="header-overlay"></div>
         </div>
 
         <div className="header-contenido">
@@ -32,6 +32,7 @@ const CursoWrapper = ({ children, cursoData }) => {
         </div>
       </header>
 
+      {/* Contenido principal del curso */}
       <main className="curso-content">
         {children}
       </main>
@@ -40,45 +41,43 @@ const CursoWrapper = ({ children, cursoData }) => {
 };
 
 // ------------------------------------------
-// COMPONENTE PRINCIPAL: CURSO DETALLE
+// COMPONENTE PRINCIPAL
 // ------------------------------------------
 const CursoDetalle = () => {
   const { id } = useParams();
 
+  // Datos estáticos de los cursos
   const cursosData = {
     '1': {
-      titulo: 'Mantenimiento Preventivo en Consorcios',
+      titulo: 'Curso Mantenimiento 1',
       duracion: '8 semanas',
+      nivel: 'Intermedio',
+      categoria: 'Mantenimiento',
+      imagen: '/img/10-imagenes-cursos/id1-1.png'
+    },
+    '2': {
+      titulo: 'Curso Mantenimiento 2',
+      duracion: '6 semanas',
       nivel: 'Intermedio',
       categoria: 'Mantenimiento',
       imagen: '/img/10-imagenes-cursos/id2-1.png'
     },
-    '2': {
-      titulo: 'Interpretación de Planos Edilicios',
-      duracion: '6 semanas',
-      nivel: 'Intermedio',
-      categoria: 'Arquitectura',
-      imagen: '/img/10-imagenes-cursos/id3-1.png'
-    },
     '3': {
-      titulo: 'Mantenimiento Edilicio',
+      titulo: 'Curso Mantenimiento 3',
       duracion: '4 semanas',
       nivel: 'Básico',
-      categoria: 'Técnico',
-      imagen: '/img/10-imagenes-cursos/id1-1.png'
+      categoria: 'Mantenimiento',
+      imagen: '/img/10-imagenes-cursos/id3-1.png'
     }
   };
 
+  // Renderizado condicional del curso específico
   const renderCurso = () => {
     switch (id) {
-      case '1':
-        return <Curso1 />;
-      case '2':
-        return <Curso2 />;
-      case '3':
-        return <Curso3 />;
-      default:
-        return <div className="curso-no-encontrado">Curso no encontrado</div>;
+      case '1': return <CursoMantenimiento1 />;
+      case '2': return <CursoMantenimiento2 />;
+      case '3': return <CursoMantenimiento3 />;
+      default: return <div className="curso-no-encontrado">Curso no encontrado</div>;
     }
   };
 
