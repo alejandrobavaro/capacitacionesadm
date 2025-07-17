@@ -227,282 +227,693 @@
         "descripcion": "Video explicativo sobre componentes edilicios"
       }
     },
+    
     {
       "numero": 2,
-      "titulo": "La Documentación Técnica. Código de la Edificación. Empresas de Servicios",
-      "contenidoExtenso": "Toda obra requiere documentación. El documento técnico correspondiente a su ejecución y terminación, tanto de las obras civiles como de los problemas de mantenimiento. Es de mucha importancia para la documentación técnica que el consorcio debe tener disponible, ya que el mismo debe estar actualizado y completo. Código de la Edificación: De acuerdo a la regla, establecida por el código de la edificación, todo inmueble deberá contar con la siguiente documentación aprobada: Plano de Arquitectura con plantas, cortes, fachadas. Empresas de Servicios: Las distintas empresas de servicios requieren para sus instalaciones los planos de obra y conforme aprobados.",
+      "titulo": "La Documentación Técnica en Edificios",
+      "contenidoExtenso": "La documentación técnica constituye el patrimonio informativo esencial de cualquier edificio. Su correcta gestión impacta directamente en la eficiencia del mantenimiento, el valor de la propiedad y el cumplimiento legal. Un edificio sin documentación adecuada enfrenta riesgos operativos, legales y económicos significativos.\n\nEl Código de la Edificación establece requisitos mínimos que todo consorcio debe cumplir, mientras que las empresas de servicios exigen documentación específica para garantizar la seguridad de sus instalaciones. Mantener estos documentos organizados y accesibles es responsabilidad fundamental de la administración.",
       "subtemas": [
         {
-          "titulo": "Documentación Obligatoria",
+          "titulo": "Requisitos del Código de la Edificación",
           "contenido": [
-            "Listado completo de documentación requerida por ley",
-            "Consecuencias legales de no contar con la documentación actualizada",
-            "Ejemplo de ordenamiento de documentos para fácil acceso"
+            "Documentación obligatoria según ley: planos arquitectónicos, estructurales y de instalaciones",
+            "Importancia del 'conforme a obra' versus planos originales",
+            "Sanciones por incumplimiento documental",
+            "Ejemplo práctico: Caso de multa por falta de planos actualizados"
+          ]
+        },
+        {
+          "titulo": "Exigencias de Empresas de Servicios",
+          "contenido": [
+            "Requisitos documentales diferenciados por tipo de servicio",
+            "Protocolos de actualización para modificaciones en instalaciones",
+            "Análisis comparativo: Aguas vs. Energía vs. Gas",
+            "Caso real: Demora en reparación por documentación incompleta"
+          ]
+        },
+        {
+          "titulo": "Gestión Documental Eficiente",
+          "contenido": [
+            "Sistemas de organización física y digital",
+            "Control de versiones y actualizaciones",
+            "Checklist para auditorías documentales",
+            "Ejemplo: Implementación exitosa en edificio de 20 pisos"
           ]
         }
       ],
       "diapositivas": [
         {
-          "titulo": "Documentación requerida por el Código de Edificación",
-          "imagen": "/img/diapositivas/clase2-1.png",
-          "descripcion": "Listado completo de documentos obligatorios"
+          "titulo": "Documentación Obligatoria por Ley",
+          "imagen": "/img/diapositivas/clase2-ley.png",
+          "descripcion": "Infografía con los 5 documentos básicos exigidos por el Código"
+        },
+        {
+          "titulo": "Requisitos por Empresa de Servicios",
+          "imagen": "/img/diapositivas/clase2-empresas.png",
+          "descripcion": "Tabla comparativa de exigencias documentales"
+        },
+        {
+          "titulo": "Flujo de Actualización Documental",
+          "imagen": "/img/diapositivas/clase2-flujo.png",
+          "descripcion": "Diagrama del proceso de actualización y verificación"
         }
       ],
       "resumen": {
         "puntosClave": [
-          "La documentación técnica es un requisito legal",
-          "Facilita el mantenimiento y las inspecciones",
-          "Debe estar accesible para el administrador y autoridades"
+          "La documentación técnica es requisito legal y herramienta operativa",
+          "Cada modificación edilicia debe reflejarse en la documentación",
+          "Las empresas de servicios pueden denegar atención por falta de documentación",
+          "La organización sistemática ahorra tiempo en emergencias",
+          "La responsabilidad documental es compartida entre administración y consejo"
         ],
-        "conclusion": "Mantener la documentación actualizada y organizada ahorra tiempo y problemas legales"
+        "conclusion": "Invertir en un sistema de gestión documental robusto previene problemas legales, agiliza mantenimientos y preserva el valor del inmueble. La documentación completa es tan vital como las propias instalaciones físicas."
       },
+      "faq": [
+        {
+          "pregunta": "¿Qué hacer si faltan planos originales del edificio?",
+          "respuesta": "Se debe contratar un profesional matriculado para reconstruir la documentación mediante relevamiento, con costos que suelen oscilar entre 2-5% del valor de expensas mensuales durante 3 meses."
+        },
+        {
+          "pregunta": "¿Las copias digitales tienen validez legal?",
+          "respuesta": "Sí, siempre que sean fieles a los originales, estén certificadas por profesional habilitado y se mantengan los soportes físicos como respaldo."
+        }
+      ],
+      "ejemploPractico": {
+        "titulo": "Regularización documental en Edificio San Martín",
+        "descripcion": "Proceso de 6 meses para reconstruir la documentación faltante en edificio de 1992, incluyendo enfrentamiento con empresas de servicios y reducción del 30% en tiempos de reparación posterior",
+        "solucion": "Implementación de sistema digital-physical con QR para acceso rápido a planos y certificados"
+      },
+      "citas": [
+        "La documentación incompleta es el diagnóstico incompleto del médico: conduce a tratamientos erróneos y costosos - Arq. Daniel Fernández"
+      ],
       "ejercicios": [
         {
-          "pregunta": "Elabore un checklist de verificación de documentación para un edificio de 8 pisos",
+          "pregunta": "Elabore un plan de acción para un edificio que carece del 60% de su documentación técnica",
+          "tipo": "desarrollo"
+        },
+        {
+          "pregunta": "Seleccione la secuencia correcta para actualizar documentación después de una reforma:",
+          "tipo": "opcionMultiple",
+          "opciones": [
+            "Reforma → Fotografías → Actualización planos → Firma profesional → Archivo",
+            "Firma profesional → Reforma → Fotografías → Archivo → Actualización planos",
+            "Fotografías → Reforma → Archivo → Firma profesional → Actualización planos"
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "pregunta": "Simulación: Usted es administrador y una empresa de gas solicita planos actualizados para una instalación. ¿Qué documentos debe presentar?",
           "tipo": "practico"
+        }
+      ],
+      "materialComplementario": [
+        {
+          "titulo": "Guía Rápida de Documentación Obligatoria",
+          "url": "/material/guia-documentacion.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Plantilla de Control Documental",
+          "url": "/material/plantilla-control.xlsx",
+          "tipo": "planilla"
+        },
+        {
+          "titulo": "Listado de Matriculados Habilitados",
+          "url": "/material/matriculados.json",
+          "tipo": "datos"
         }
       ],
       "imagenes": [
         {
-          "src": "/img/10-imagenes-cursos/id1-1.png",
-          "descripcion": "Ejemplo de organización de documentos"
+          "src": "/img/10-imagenes-cursos/clase2-organizacion.jpg",
+          "descripcion": "Ejemplo de archivo físico organizado con sistema de color",
+          "posicion": "despuesDeTexto",
+          "textoAsociado": "Sistema de codificación por colores para rápida identificación de documentos"
+        },
+        {
+          "src": "/img/10-imagenes-cursos/clase2-digital.jpg",
+          "descripcion": "Plataforma digital de gestión documental",
+          "posicion": "finalSeccion",
+          "textoAsociado": "Interfaz moderna para consulta de planos y certificados"
         }
       ],
       "video": {
         "url": "https://www.youtube.com/watch?v=video_de_la_clase2",
-        "duracion": "12:45",
-        "descripcion": "Cómo organizar la documentación técnica"
-      }
+        "duracion": "18:20",
+        "descripcion": "Proceso completo de actualización documental paso a paso"
+      },
+      "audio": "/audios/clase2.mp3"
     },
     {
       "numero": 3,
       "titulo": "Distintos Tipos de Mantenimiento. Mantenimiento Preventivo y Correctivo",
-      "contenidoExtenso": "En función de la forma y el momento en que se efectúa, se distinguen dos clases de trabajos: Trabajos de mantenimiento y Trabajos de reparación. Mantenimiento Preventivo: Se define con este término a aquel mantenimiento realizado en forma programada, de manera que su resultado sea mantener en forma temprana la detección de fallas. Mantenimiento Correctivo: Se define como mantenimiento correctivo a aquel realizado en forma programada para accionar sobre una falla prevista o latente con acción sobre el edificio en estado potencial.",
+      "contenidoExtenso": "En esta clase se abordan los distintos tipos de mantenimiento que se pueden realizar en un edificio, centrándonos en el mantenimiento preventivo y correctivo. El mantenimiento preventivo se realiza de manera programada para evitar fallas futuras, mientras que el mantenimiento correctivo se lleva a cabo para solucionar fallas ya ocurridas. Ambos tipos de mantenimiento son esenciales para garantizar la funcionalidad y seguridad del edificio.",
       "subtemas": [
         {
           "titulo": "Mantenimiento Preventivo",
           "contenido": [
-            "Definición y beneficios del mantenimiento preventivo.",
-            "Ejemplos de mantenimiento preventivo en edificios."
+            "Se define como el mantenimiento realizado en forma programada para evitar fallas en el futuro.",
+            "Se realiza para corregir una falla ya producida y consiste en la reparación o reemplazo de componentes dañados.",
+            "Trabajos de reparación.",
+            "Definir los trabajos a realizar para corregir fallas detectadas en el mantenimiento preventivo.",
+            "Cuyo efecto produce un impacto en la economía, de confiar o de patológico."
           ]
         },
         {
           "titulo": "Mantenimiento Correctivo",
           "contenido": [
-            "Definición y proceso del mantenimiento correctivo.",
-            "Diferencias entre mantenimiento preventivo y correctivo."
+            "Se define como mantenimiento correctivo a aquel realizado para solucionar fallas previstas o no previstas de manera inmediata.",
+            "En el mantenimiento correctivo siempre se trabaja sobre fallas ya ocurridas.",
+            "Se efectúa la reparación ya sufrido el daño o falla.",
+            "En función a la forma y oportunidad de la acción ejecutada al consorcio surgen algunas consecuencias de manera preventiva o correctiva.",
+            "Daños al consorcio."
           ]
         }
       ],
-      "citas": [],
+      "diapositivas": [
+        {
+          "titulo": "Mantenimiento Preventivo",
+          "imagen": "/img/clase3/mantenimiento-preventivo.png",
+          "descripcion": "Ejemplo de mantenimiento preventivo en edificios"
+        },
+        {
+          "titulo": "Mantenimiento Correctivo",
+          "imagen": "/img/clase3/mantenimiento-correctivo.png",
+          "descripcion": "Ejemplo de mantenimiento correctivo en edificios"
+        }
+      ],
+      "resumen": {
+        "puntosClave": [
+          "El mantenimiento preventivo ayuda a evitar fallas futuras.",
+          "El mantenimiento correctivo se enfoca en reparar fallas ya ocurridas.",
+          "Ambos tipos de mantenimiento son cruciales para la gestión eficiente de un edificio."
+        ],
+        "conclusión": "Un buen programa de mantenimiento debe incluir tanto estrategias preventivas como correctivas para asegurar la longevidad y seguridad del edificio."
+      },
+      "faq": [
+        {
+          "pregunta": "¿Con qué frecuencia se debe realizar el mantenimiento preventivo?",
+          "respuesta": "Se recomienda realizar mantenimiento preventivo al menos una vez al año, aunque la frecuencia puede variar dependiendo del tipo de edificio y sus componentes."
+        },
+        {
+          "pregunta": "¿Qué componentes suelen requerir más mantenimiento correctivo?",
+          "respuesta": "Los sistemas hidráulicos y eléctricos son los que generalmente requieren más mantenimiento correctivo debido a su uso constante y al desgaste natural."
+        }
+      ],
+      "ejemploPractico": {
+        "titulo": "Implementación de un programa de mantenimiento en un edificio residencial",
+        "descripcion": "Estudio de caso de un edificio residencial que implementó un programa de mantenimiento preventivo y correctivo, reduciendo las fallas en un 50%.",
+        "solucion": "La implementación de un programa de mantenimiento regular y la capacitación del personal fueron clave para el éxito."
+      },
+      "citas": [
+        "El mantenimiento adecuado es esencial para la seguridad y el valor a largo plazo de cualquier edificio."
+      ],
       "ejercicios": [
         "¿Cómo se clasifica el mantenimiento?",
-        "Explique la diferencia entre trabajo de reparación y de mantenimiento.",
-        "Indique la diferencia entre control y garantía de calidad.",
-        "Indique dos normas ISO y su contenido."
+        "Explica la diferencia entre trabajo de reparación y de mantenimiento.",
+        "Describe un ejemplo de mantenimiento preventivo y otro de mantenimiento correctivo.",
+        "¿Por qué es importante tener un plan de mantenimiento en un edificio?"
       ],
       "materialComplementario": [
         {
           "titulo": "Guía de Mantenimiento Preventivo y Correctivo",
-          "url": "/docs/clase3.pdf"
+          "url": "/docs/clase3.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Checklist de Mantenimiento",
+          "url": "/docs/checklist-clase3.docx",
+          "tipo": "documento"
         }
       ],
       "imagenes": [
         {
           "src": "/img/clase3/mantenimiento-preventivo.png",
-          "descripcion": "Mantenimiento preventivo"
+          "descripcion": "Mantenimiento preventivo",
+          "posicion": "despuesDeTexto",
+          "textoAsociado": "Ejemplo de mantenimiento preventivo en un edificio."
+        },
+        {
+          "src": "/img/clase3/mantenimiento-correctivo.png",
+          "descripcion": "Mantenimiento correctivo",
+          "posicion": "finalSeccion",
+          "textoAsociado": "Ejemplo de mantenimiento correctivo en un edificio."
         }
       ],
       "audio": "/audios/clase3.mp3",
-      "video": "https://www.youtube.com/watch?v=video_de_la_clase3"
-    },
+      "video": {
+        "url": "https://www.youtube.com/watch?v=video_de_la_clase3",
+        "duracion": "20:00",
+        "descripcion": "Video explicativo sobre mantenimiento preventivo y correctivo"
+      }
+    }
+    ,
     {
       "numero": 4,
-      "titulo": "Organización del Mantenimiento. Costos y Resultados Económicos",
-      "contenidoExtenso": "Es importante disponer de personal capacitado y realmente para adquirir la mentalidad del trabajo deben ser optimizados. A igual trabajo, el resultado satisfactorio del mantenimiento debe cumplir tres principios o premisas fundamentales: Servicios programados minimizan la ejecución de trabajos de emergencia, y elimina los costos de la mano de obra. Las tareas a desarrollar deben ser las justas y necesarias, ya que las extra-redundancias generan costos y producen beneficios nulos. Evaluación del costo-beneficio, es fundamental que la implementación de un programa de mantenimiento. La inversión del costo de mantenimiento es del 10%.",
+      "titulo": "Organización del Mantenimiento",
+      "contenidoExtenso": "La organización del mantenimiento es esencial para garantizar la eficiencia y efectividad de cualquier programa de mantenimiento en un edificio. En esta clase, se exploran los principios fundamentales del mantenimiento programado, los costos asociados y los resultados económicos esperados. Un mantenimiento bien organizado no solo reduce costos, sino que también mejora la calidad de vida de los residentes y prolonga la vida útil del edificio.",
       "subtemas": [
         {
-          "titulo": "Organización del Mantenimiento",
+          "titulo": "Principios del Mantenimiento Programado",
           "contenido": [
-            "Importancia de la organización en el mantenimiento.",
-            "Principios fundamentales para un mantenimiento satisfactorio."
+            "A igual trabajo, el realizado dentro del mantenimiento tiene un costo inferior al realizado de emergencia.",
+            "La adecuada programación minimiza la ejecución de trabajos de emergencia y elimina los costos secundarios que produce el desperfecto hasta su reparación.",
+            "Las tareas a desarrollar deben ser las justas y necesarias, ya que las sobreabundantes generan costos sin producir beneficio alguno."
           ]
         },
         {
           "titulo": "Costos del Mantenimiento",
           "contenido": [
-            "Evaluación del costo-beneficio en el mantenimiento.",
-            "Inversión y costos asociados al mantenimiento."
+            "Costo de análisis y ejecución del programa.",
+            "Costo de implementación técnico administrativa.",
+            "Costo de realización de los trabajos.",
+            "Costo de control y seguimiento."
           ]
         },
         {
           "titulo": "Resultados Económicos del Mantenimiento",
           "contenido": [
-            "Beneficios económicos de un programa de mantenimiento.",
-            "Ejemplos de resultados económicos positivos."
+            "Todo trabajo que se hace dentro de un programa de mantenimiento tendrá que ser realizado en algún momento como trabajo de emergencia, con un costo seguramente igual o menor.",
+            "Todo trabajo hecho en el mantenimiento se circunscribe y afecta únicamente a lo estipulado.",
+            "Todo trabajo hecho en emergencia generalmente afecta a un conjunto, aumentando los costos.",
+            "Los beneficios difíciles de contemplar incluyen la continuidad de los servicios y la reducción de interrupciones."
           ]
         }
       ],
-      "citas": [],
+      "diapositivas": [
+        {
+          "titulo": "Principios del Mantenimiento Programado",
+          "imagen": "/img/clase4/principios-mantenimiento.png",
+          "descripcion": "Principios fundamentales del mantenimiento programado."
+        },
+        {
+          "titulo": "Costos del Mantenimiento",
+          "imagen": "/img/clase4/costos-mantenimiento.png",
+          "descripcion": "Desglose de los costos asociados al mantenimiento."
+        }
+      ],
+      "resumen": {
+        "puntosClave": [
+          "El mantenimiento programado es más económico que las reparaciones de emergencia.",
+          "La planificación adecuada minimiza los trabajos de emergencia y sus costos asociados.",
+          "Es esencial contar con recursos humanos adecuados y proveedores idóneos para un mantenimiento efectivo.",
+          "Los resultados económicos del mantenimiento incluyen la reducción de costos a largo plazo y la mejora en la continuidad de los servicios."
+        ],
+        "conclusión": "Un programa de mantenimiento bien organizado y ejecutado no solo reduce costos, sino que también mejora la calidad de vida de los residentes y prolonga la vida útil del edificio."
+      },
+      "faq": [
+        {
+          "pregunta": "¿Por qué es importante la programación en el mantenimiento?",
+          "respuesta": "La programación es esencial porque permite realizar trabajos de manera eficiente y económica, minimizando la necesidad de reparaciones de emergencia que suelen ser más costosas."
+        },
+        {
+          "pregunta": "¿Qué factores deben considerarse al determinar el costo de un programa de mantenimiento?",
+          "respuesta": "Deben considerarse los costos de análisis y ejecución del programa, implementación técnico administrativa, realización de los trabajos y control y seguimiento."
+        }
+      ],
+      "ejemploPractico": {
+        "titulo": "Implementación de un programa de mantenimiento en un edificio de oficinas",
+        "descripcion": "Estudio de caso de un edificio de oficinas que implementó un programa de mantenimiento programado, reduciendo los costos de reparaciones de emergencia en un 40%.",
+        "solucion": "La clave del éxito fue la planificación adecuada, la selección de proveedores idóneos y el seguimiento constante del programa."
+      },
+      "citas": [
+        "Un programa de mantenimiento bien organizado es la clave para la eficiencia y la reducción de costos a largo plazo."
+      ],
       "ejercicios": [
         "Enuncie una de las premisas en un plan de mantenimiento.",
-        "¿Cuáles son los distintos costos que intervienen en un plan de mantenimiento?"
+        "¿Cuáles son los distintos costos que intervienen en un plan de mantenimiento?",
+        "Describa cómo la implementación de un programa de mantenimiento puede reducir los costos a largo plazo.",
+        "¿Por qué es importante contar con proveedores idóneos en un programa de mantenimiento?"
       ],
       "materialComplementario": [
         {
-          "titulo": "Guía de Organización y Costos del Mantenimiento",
-          "url": "/docs/clase4.pdf"
+          "titulo": "Guía de Organización del Mantenimiento",
+          "url": "/docs/clase4.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Plantilla de Costos de Mantenimiento",
+          "url": "/docs/costos-clase4.xlsx",
+          "tipo": "planilla"
         }
       ],
       "imagenes": [
         {
-          "src": "/img/clase4/organizacion-mantenimiento.png",
-          "descripcion": "Organización del mantenimiento"
+          "src": "/img/clase4/principios-mantenimiento.png",
+          "descripcion": "Principios del mantenimiento programado.",
+          "posicion": "despuesDeTexto",
+          "textoAsociado": "Principios fundamentales del mantenimiento programado."
+        },
+        {
+          "src": "/img/clase4/costos-mantenimiento.png",
+          "descripcion": "Costos del mantenimiento.",
+          "posicion": "finalSeccion",
+          "textoAsociado": "Desglose de los costos asociados al mantenimiento."
         }
       ],
       "audio": "/audios/clase4.mp3",
-      "video": "https://www.youtube.com/watch?v=video_de_la_clase4"
-    },
+      "video": {
+        "url": "https://www.youtube.com/watch?v=video_de_la_clase4",
+        "duracion": "22:00",
+        "descripcion": "Video explicativo sobre la organización del mantenimiento."
+      }
+    }
+    ,
     {
       "numero": 5,
-      "titulo": "La Información al Servicio del Mantenimiento. Registros y Estadísticas",
-      "contenidoExtenso": "Para poder implementar con éxito un programa de mantenimiento, es clave cuál es la cultura del edificio, su diferencia con otras tareas, incluyendo todos los sentidos de los valores internos en el trabajo, es la suma de la práctica empleada para alcanzar el objetivo. Todo este sistema de fichas que son registradora del mantenimiento del edificio, se trabaja sobre un solo edificio sino de un conjunto, dando que cada administración tiene su independencia para la aplicación de un programa de mantenimiento.",
+      "titulo": "La Información al Servicio del Mantenimiento",
+      "contenidoExtenso": "Para implementar efectivamente las tareas de mantenimiento en un edificio, es crucial contar con la documentación adecuada que permita ejecutar cada etapa de manera sistemática. Tradicionalmente, este proceso se realizaba mediante fichas de registro y planillas, que permitían conocer detalles como cuándo se realizaría una actividad, quién la ejecutaría, cómo se controlaría y cuál sería su costo. Aunque este sistema aún es válido para casos aislados, en el contexto de administraciones que manejan múltiples edificios, la informática se ha convertido en una herramienta indispensable. Los programas adecuados permiten planificar, hacer seguimiento y controlar el mantenimiento de manera rápida y eficiente, facilitando la gestión de múltiples edificios y la comparación de resultados entre ellos.",
       "subtemas": [
         {
-          "titulo": "Información al Servicio del Mantenimiento",
+          "titulo": "Sistemas de Información para Mantenimiento",
           "contenido": [
-            "La importancia de la información en el mantenimiento.",
-            "Cultura del edificio y su impacto en el mantenimiento."
+            "La importancia de contar con documentación detallada para la ejecución de tareas de mantenimiento.",
+            "Uso de fichas de registro y planillas para casos aislados.",
+            "La informática como herramienta esencial para la gestión de múltiples edificios.",
+            "Beneficios de utilizar programas de gestión para el mantenimiento edilicio."
           ]
         },
         {
           "titulo": "Registros de Control y Seguimiento",
           "contenido": [
-            "Sistemas de fichas y registros de mantenimiento.",
-            "Independencia de cada administración en la aplicación de programas de mantenimiento."
+            "La importancia de realizar y registrar el control de las tareas de mantenimiento.",
+            "Ajuste de las acciones de control y seguimiento a una programación predeterminada.",
+            "Uso de registros para implementar programas de control de calidad o garantía de calidad."
           ]
         },
         {
-          "titulo": "Estadística e Historial del Edificio",
+          "titulo": "Estadísticas e Historial del Edificio",
           "contenido": [
-            "Configuración de la historia y estadísticas del edificio.",
-            "Importancia de los datos históricos en la planificación del mantenimiento."
+            "Configuración de la historia y estadísticas de los edificios utilizando informática.",
+            "Uso de datos históricos para optimizar recursos humanos, técnicos y económicos.",
+            "Transferencia de la historia y estadísticas del edificio entre administraciones."
           ]
         }
       ],
-      "citas": [],
+      "diapositivas": [
+        {
+          "titulo": "Sistemas de Información para Mantenimiento",
+          "imagen": "/img/clase5/sistemas-informacion.png",
+          "descripcion": "Uso de sistemas de información en el mantenimiento edilicio."
+        },
+        {
+          "titulo": "Registros de Control y Seguimiento",
+          "imagen": "/img/clase5/registros-control.png",
+          "descripcion": "Importancia de los registros de control y seguimiento."
+        }
+      ],
+      "resumen": {
+        "puntosClave": [
+          "La documentación adecuada es esencial para la ejecución efectiva de tareas de mantenimiento.",
+          "La informática facilita la gestión de múltiples edificios y mejora la eficiencia del mantenimiento.",
+          "Los registros de control y seguimiento son fundamentales para garantizar la calidad del mantenimiento.",
+          "Las estadísticas e historial del edificio permiten optimizar recursos y mejorar la planificación."
+        ],
+        "conclusión": "La implementación de sistemas de información adecuados y el mantenimiento de registros detallados son clave para una gestión eficiente del mantenimiento edilicio. La historia y estadísticas del edificio no solo mejoran la planificación y optimización de recursos, sino que también facilitan la transferencia de información entre administraciones."
+      },
+      "faq": [
+        {
+          "pregunta": "¿Por qué es importante la documentación en el mantenimiento edilicio?",
+          "respuesta": "La documentación es crucial porque permite ejecutar tareas de manera sistemática, realizar un seguimiento adecuado y garantizar la calidad del mantenimiento."
+        },
+        {
+          "pregunta": "¿Cómo facilita la informática la gestión del mantenimiento?",
+          "respuesta": "La informática permite planificar, hacer seguimiento y controlar el mantenimiento de manera rápida y eficiente, facilitando la gestión de múltiples edificios y la comparación de resultados."
+        }
+      ],
+      "ejemploPractico": {
+        "titulo": "Implementación de un sistema de información en una administración de edificios",
+        "descripcion": "Estudio de caso de una administración que implementó un sistema de información para gestionar el mantenimiento de múltiples edificios, mejorando la eficiencia y reduciendo costos.",
+        "solucion": "La implementación del sistema permitió una mejor planificación, seguimiento y control del mantenimiento, optimizando recursos y mejorando la calidad del servicio."
+      },
+      "citas": [
+        "La información adecuada es la base de un mantenimiento eficiente y de calidad."
+      ],
       "ejercicios": [
-        "¿Por qué es importante la historia de un edificio?"
+        "¿Por qué es importante la historia de un edificio en el mantenimiento?",
+        "Describa cómo los registros de control y seguimiento contribuyen a la calidad del mantenimiento.",
+        "Explique cómo la informática puede mejorar la gestión del mantenimiento en múltiples edificios.",
+        "¿Qué beneficios aporta la transferencia de la historia y estadísticas del edificio entre administraciones?"
       ],
       "materialComplementario": [
         {
-          "titulo": "Guía de Información y Estadísticas del Mantenimiento",
-          "url": "/docs/clase5.pdf"
+          "titulo": "Guía de Sistemas de Información para Mantenimiento",
+          "url": "/docs/clase5.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Plantilla de Registros de Control",
+          "url": "/docs/registros-clase5.xlsx",
+          "tipo": "planilla"
         }
       ],
       "imagenes": [
         {
-          "src": "/img/clase5/informacion-mantenimiento.png",
-          "descripcion": "Información al servicio del mantenimiento"
+          "src": "/img/clase5/sistemas-informacion.png",
+          "descripcion": "Sistemas de información para mantenimiento.",
+          "posicion": "despuesDeTexto",
+          "textoAsociado": "Uso de sistemas de información en el mantenimiento edilicio."
+        },
+        {
+          "src": "/img/clase5/registros-control.png",
+          "descripcion": "Registros de control y seguimiento.",
+          "posicion": "finalSeccion",
+          "textoAsociado": "Importancia de los registros de control y seguimiento."
         }
       ],
       "audio": "/audios/clase5.mp3",
-      "video": "https://www.youtube.com/watch?v=video_de_la_clase5"
-    },
+      "video": {
+        "url": "https://www.youtube.com/watch?v=video_de_la_clase5",
+        "duracion": "20:00",
+        "descripcion": "Video explicativo sobre la información al servicio del mantenimiento."
+      }
+    }
+    ,
     {
       "numero": 6,
-      "titulo": "Implementación del Programa de Mantenimiento. Prioridades, Evaluación y Valuación",
-      "contenidoExtenso": "Para implementar el programa de mantenimiento en el edificio, el primer paso es la determinación de los elementos a controlar. Es decir, los elementos que, dada la cultura del edificio, se considerarán como se ha visto en las clases anteriores, se determinarán, y se establecerán los requisitos necesarios para detectar las fallas probables, y acciones para corregirlas. Los sistemas operativos y procedimientos para la contabilidad, financiación, gestión, programación y control, son elementos claves en un sistema de mantenimiento.",
+      "titulo": "Implementación del Programa de Mantenimiento",
+      "contenidoExtenso": "La implementación exitosa de un programa de mantenimiento requiere una comprensión profunda de los factores humanos y la cultura del mantenimiento. Es esencial reconocer cómo estos elementos se diferencian de otras tareas y cómo se integran los valores internos en el trabajo para alcanzar los objetivos deseados. El primer paso en la implementación es determinar todas las tareas necesarias para el mantenimiento del edificio, basándose en el conocimiento de sus componentes y las posibles fallas. Esto incluye tanto las obras civiles como las instalaciones, formando una matriz completa de tareas y acciones a realizar. Posteriormente, se establecen las frecuencias de ejecución para cada tarea, considerando las normativas vigentes y el aporte técnico de profesionales responsables. Finalmente, se asignan los costos económicos a cada actividad, lo que permite definir el flujo de financiamiento requerido y ajustar el plan según las prioridades y criterios establecidos.",
       "subtemas": [
         {
-          "titulo": "Implementación del Programa de Mantenimiento",
+          "titulo": "Pasos para la Implementación",
           "contenido": [
-            "Pasos para la implementación del programa de mantenimiento.",
-            "Determinación de los elementos a controlar y acciones para corregir fallas."
+            "Determinación de todas las tareas necesarias para el mantenimiento del edificio.",
+            "Formación de una matriz que involucra todas las partes del edificio y sus instalaciones.",
+            "Inserción de tareas normalizadas y de cumplimiento obligatorio en la matriz.",
+            "Establecimiento de frecuencias de ejecución para cada tarea.",
+            "Descripción técnica completa de cada tarea, incluyendo materiales, mano de obra y tipo de control."
           ]
         },
         {
-          "titulo": "Prioridades y Fórmulas de Criterio",
+          "titulo": "Prioridades y Criterios",
           "contenido": [
-            "Sistemas operativos y procedimientos clave en un sistema de mantenimiento.",
-            "Evaluación y valuación del costo del programa de mantenimiento."
+            "Tareas y actividades que hacen a la seguridad edilicia y deben realizarse por obligatoriedad normativa.",
+            "Tareas que cumplen con normativas y disposiciones vigentes.",
+            "Tareas de mantenimiento que, sin afectar la seguridad, ponen en riesgo la continuidad de servicios esenciales.",
+            "Tareas que pueden ser diferidas en el tiempo sin afectar la seguridad o normativas."
           ]
         },
         {
-          "titulo": "Evaluación y Valuación",
+          "titulo": "Evaluación del Programa",
           "contenido": [
-            "Estudio comparativo entre el costo del plan de mantenimiento y el costo del resultado del mantenimiento.",
-            "Evaluación económica y social del resultado del grado de seguridad obtenido."
+            "Evaluación económica y social del resultado del mantenimiento.",
+            "Comparación de ahorros logrados frente a reparaciones de emergencia.",
+            "Análisis del grado de seguridad obtenido y funcionamiento de servicios.",
+            "Determinación de la conveniencia para el consorcio de poner en funcionamiento el plan analizado."
           ]
         }
       ],
-      "citas": [],
+      "diapositivas": [
+        {
+          "titulo": "Pasos para la Implementación",
+          "imagen": "/img/clase6/pasos-implementacion.png",
+          "descripcion": "Pasos necesarios para implementar un programa de mantenimiento."
+        },
+        {
+          "titulo": "Prioridades y Criterios",
+          "imagen": "/img/clase6/prioridades-criterios.png",
+          "descripcion": "Criterios para establecer prioridades en el mantenimiento."
+        }
+      ],
+      "resumen": {
+        "puntosClave": [
+          "La implementación de un programa de mantenimiento requiere una planificación detallada y una comprensión profunda de los factores humanos y técnicos.",
+          "Es esencial formar una matriz completa de tareas y establecer frecuencias de ejecución basadas en normativas y aportes técnicos.",
+          "Las prioridades en el mantenimiento deben seguir un orden basado en la seguridad, normativas, continuidad de servicios y tareas diferibles.",
+          "La evaluación económica y social del programa de mantenimiento es crucial para determinar su conveniencia y eficacia."
+        ],
+        "conclusión": "La implementación de un programa de mantenimiento efectivo requiere una planificación detallada, la asignación adecuada de recursos y una evaluación continua para garantizar su éxito y conveniencia para el consorcio."
+      },
+      "faq": [
+        {
+          "pregunta": "¿Por qué es importante seguir un orden de prioridades en el mantenimiento?",
+          "respuesta": "Seguir un orden de prioridades asegura que las tareas más críticas para la seguridad y el cumplimiento normativo se realicen primero, optimizando los recursos y garantizando la continuidad de los servicios esenciales."
+        },
+        {
+          "pregunta": "¿Cómo se determina la frecuencia de ejecución de las tareas de mantenimiento?",
+          "respuesta": "La frecuencia de ejecución se determina basándose en normativas vigentes, el aporte técnico de profesionales responsables y la experiencia previa con el edificio y sus componentes."
+        }
+      ],
+      "ejemploPractico": {
+        "titulo": "Implementación de un programa de mantenimiento en un edificio comercial",
+        "descripcion": "Estudio de caso de un edificio comercial que implementó un programa de mantenimiento basado en prioridades y criterios establecidos, logrando una reducción del 30% en costos de reparaciones de emergencia.",
+        "solucion": "La clave del éxito fue la planificación detallada, la asignación adecuada de recursos y la evaluación continua del programa."
+      },
+      "citas": [
+        "Un programa de mantenimiento bien implementado es la base para la seguridad y eficiencia de cualquier edificio."
+      ],
       "ejercicios": [
-        "Describa los pasos necesarios para implementar un programa de Mantenimiento.",
-        "¿Qué tareas exceden a las consideraciones económicas y deben ser realizadas obligatoriamente en el mantenimiento?"
+        "Describe los pasos necesarios para implementar un programa de mantenimiento.",
+        "¿Qué tareas exceden a las consideraciones económicas y deben ser realizadas obligatoriamente en el mantenimiento?",
+        "Explica cómo se establecen las prioridades en un programa de mantenimiento.",
+        "¿Por qué es importante realizar una evaluación económica y social del programa de mantenimiento?"
       ],
       "materialComplementario": [
         {
-          "titulo": "Guía de Implementación y Evaluación del Mantenimiento",
-          "url": "/docs/clase6.pdf"
+          "titulo": "Guía de Implementación de Programas de Mantenimiento",
+          "url": "/docs/clase6.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Plantilla de Prioridades y Criterios",
+          "url": "/docs/prioridades-clase6.xlsx",
+          "tipo": "planilla"
         }
       ],
       "imagenes": [
         {
-          "src": "/img/clase6/implementacion-programa.png",
-          "descripcion": "Implementación del programa de mantenimiento"
+          "src": "/img/clase6/pasos-implementacion.png",
+          "descripcion": "Pasos para la implementación de un programa de mantenimiento.",
+          "posicion": "despuesDeTexto",
+          "textoAsociado": "Pasos necesarios para implementar un programa de mantenimiento."
+        },
+        {
+          "src": "/img/clase6/prioridades-criterios.png",
+          "descripcion": "Prioridades y criterios en el mantenimiento.",
+          "posicion": "finalSeccion",
+          "textoAsociado": "Criterios para establecer prioridades en el mantenimiento."
         }
       ],
       "audio": "/audios/clase6.mp3",
-      "video": "https://www.youtube.com/watch?v=video_de_la_clase6"
-    },
+      "video": {
+        "url": "https://www.youtube.com/watch?v=video_de_la_clase6",
+        "duracion": "25:00",
+        "descripcion": "Video explicativo sobre la implementación del programa de mantenimiento."
+      }
+    }
+    ,
     {
       "numero": 7,
-      "titulo": "Planificación de Recursos Económicos, Humanos y Técnicos",
-      "contenidoExtenso": "Como en toda las actividades, los planes no disponen de sumas considerables de dinero a dudas, por ello, la implementación del programa de mantenimiento es dependiente de los recursos disponibles. No solo de los recursos económicos, sino de los recursos humanos, ya que la aplicación del programa de mantenimiento integral y simultáneo, es parte de su realización. Los recursos humanos son de vital importancia en el logro de los objetivos buscados. Con buen personal se obtendrá la calidad deseada y se cumplirán con las metas económicas.",
+      "titulo": "Planificación de Recursos Económicos",
+      "contenidoExtenso": "La planificación de los recursos económicos es un aspecto crucial en la gestión de cualquier programa de mantenimiento. Generalmente, los consorcios no cuentan con grandes reservas de dinero para llevar a cabo un programa de mantenimiento integral de manera simultánea. Por lo tanto, la labor del administrador y del profesional a cargo del plan de mantenimiento es esencial para alcanzar los objetivos propuestos. Es importante destacar que la formulación de un plan de mantenimiento debe ser independiente de las limitaciones económicas. Primero, se debe desarrollar un programa integral sin considerar los costos, y luego, durante la etapa de implementación, se priorizan las tareas según la necesidad y se asignan los recursos económicos disponibles para compatibilizar los gastos con las acciones a realizar.",
       "subtemas": [
         {
           "titulo": "Planificación de Recursos Económicos",
           "contenido": [
-            "Dependencia de los recursos disponibles en la implementación del programa de mantenimiento.",
-            "Importancia de los recursos económicos y humanos."
+            "La planificación de recursos económicos es esencial para la implementación de un programa de mantenimiento.",
+            "Los consorcios suelen tener limitaciones económicas, por lo que la priorización de tareas es crucial.",
+            "El programa de mantenimiento debe desarrollarse de manera integral, independientemente de los costos iniciales.",
+            "La asignación de recursos económicos se realiza en la etapa de implementación, priorizando tareas según la necesidad."
           ]
         },
         {
-          "titulo": "Los Recursos Humanos",
+          "titulo": "Recursos Humanos",
           "contenido": [
-            "Capacitación y calidad del personal en el mantenimiento.",
-            "Importancia de los recursos humanos en el logro de los objetivos."
+            "La calidad de los recursos humanos es vital para alcanzar los objetivos del mantenimiento.",
+            "La formación y capacitación del personal involucrado es fundamental para obtener la calidad deseada.",
+            "El administrador debe asegurar que todos los involucrados se sientan responsables y partícipes del programa.",
+            "La capacitación debe incluir al administrador, portero, encargado, contratistas e incluso a los propietarios."
           ]
         },
         {
-          "titulo": "Los Recursos Técnicos",
+          "titulo": "Recursos Técnicos",
           "contenido": [
-            "Soporte técnico brindado por profesionales para el programa de mantenimiento.",
-            "Recursos técnicos adecuados para la tarea de mantenimiento edilicio."
+            "El administrador debe contar con recursos técnicos adecuados para el mantenimiento edilicio.",
+            "El soporte técnico puede ser brindado por profesionales contratados y por contratistas ya existentes en el consorcio.",
+            "El administrador tiene libertad para elegir al profesional que lo asesorará, basándose en su confianza y criterio.",
+            "Es importante que el administrador evalúe conscientemente hasta dónde puede decidir sin asesoramiento especializado, especialmente en temas de seguridad."
           ]
         }
       ],
-      "citas": [],
+      "diapositivas": [
+        {
+          "titulo": "Planificación de Recursos Económicos",
+          "imagen": "/img/clase7/planificacion-economica.png",
+          "descripcion": "Importancia de la planificación de recursos económicos en el mantenimiento."
+        },
+        {
+          "titulo": "Recursos Humanos",
+          "imagen": "/img/clase7/recursos-humanos.png",
+          "descripcion": "La importancia de los recursos humanos en el mantenimiento."
+        }
+      ],
+      "resumen": {
+        "puntosClave": [
+          "La planificación de recursos económicos es esencial para la implementación de un programa de mantenimiento efectivo.",
+          "La calidad de los recursos humanos y su capacitación son fundamentales para el éxito del programa.",
+          "El administrador debe contar con recursos técnicos adecuados y elegir profesionales de confianza para el asesoramiento.",
+          "La priorización de tareas y la asignación de recursos económicos deben realizarse durante la etapa de implementación."
+        ],
+        "conclusión": "La planificación de recursos económicos, junto con la gestión adecuada de los recursos humanos y técnicos, es crucial para el éxito de cualquier programa de mantenimiento. La capacitación del personal y la elección de profesionales de confianza son aspectos clave que el administrador debe considerar para garantizar la calidad y eficiencia del mantenimiento."
+      },
+      "faq": [
+        {
+          "pregunta": "¿Por qué es importante la planificación de recursos económicos en el mantenimiento?",
+          "respuesta": "La planificación de recursos económicos es importante porque permite priorizar tareas y asignar fondos de manera eficiente, asegurando que el programa de mantenimiento se lleve a cabo de manera efectiva y sostenible."
+        },
+        {
+          "pregunta": "¿Cómo puede el administrador asegurar la calidad de los recursos humanos?",
+          "respuesta": "El administrador puede asegurar la calidad de los recursos humanos mediante la capacitación y formación continua del personal involucrado, fomentando un sentido de responsabilidad y participación en el programa de mantenimiento."
+        }
+      ],
+      "ejemploPractico": {
+        "titulo": "Implementación de un programa de mantenimiento en un consorcio con recursos limitados",
+        "descripcion": "Estudio de caso de un consorcio que, a pesar de tener recursos económicos limitados, logró implementar un programa de mantenimiento efectivo mediante la priorización de tareas y la capacitación del personal.",
+        "solucion": "La clave del éxito fue la planificación cuidadosa de los recursos económicos, la capacitación del personal y la elección de profesionales de confianza para el asesoramiento técnico."
+      },
+      "citas": [
+        "La planificación cuidadosa y la gestión eficiente de los recursos son la base de un programa de mantenimiento exitoso."
+      ],
       "ejercicios": [
-        "Describa la importancia de los recursos humanos en el mantenimiento.",
-        "¿Cómo se planifican los recursos económicos para un programa de mantenimiento?"
+        "Defina qué profesiones dan soporte técnico a los administradores.",
+        "¿Por qué es importante disponer de personal capacitado en un programa de mantenimiento?",
+        "Describa cómo se asignan los recursos económicos en la etapa de implementación de un programa de mantenimiento.",
+        "Explique la importancia de la elección de profesionales de confianza para el asesoramiento técnico."
       ],
       "materialComplementario": [
         {
-          "titulo": "Guía de Planificación de Recursos",
-          "url": "/docs/clase7.pdf"
+          "titulo": "Guía de Planificación de Recursos Económicos",
+          "url": "/docs/clase7.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Plantilla de Capacitación de Personal",
+          "url": "/docs/capacitacion-clase7.xlsx",
+          "tipo": "planilla"
         }
       ],
       "imagenes": [
         {
-          "src": "/img/clase7/planificacion-recursos.png",
-          "descripcion": "Planificación de recursos"
+          "src": "/img/clase7/planificacion-economica.png",
+          "descripcion": "Planificación de recursos económicos.",
+          "posicion": "despuesDeTexto",
+          "textoAsociado": "Importancia de la planificación de recursos económicos en el mantenimiento."
+        },
+        {
+          "src": "/img/clase7/recursos-humanos.png",
+          "descripcion": "Recursos humanos en el mantenimiento.",
+          "posicion": "finalSeccion",
+          "textoAsociado": "La importancia de los recursos humanos en el mantenimiento."
         }
       ],
       "audio": "/audios/clase7.mp3",
-      "video": "https://www.youtube.com/watch?v=video_de_la_clase7"
-    },
+      "video": {
+        "url": "https://www.youtube.com/watch?v=video_de_la_clase7",
+        "duracion": "20:00",
+        "descripcion": "Video explicativo sobre la planificación de recursos económicos en el mantenimiento."
+      }
+    }
+    ,
     {
       "numero": 8,
       "titulo": "El Control. Control de Calidad y Garantía de Calidad",

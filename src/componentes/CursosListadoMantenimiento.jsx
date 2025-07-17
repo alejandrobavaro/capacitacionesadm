@@ -19,9 +19,12 @@ const CursosListadoMantenimiento = () => {
       .then((response) => response.json())
       .then((data) => {
         setData(data);
-        setCategorias(["TODOS", ...new Set(data.map(item => item.categoria))]);
+        setCategorias([
+          "TODOS",
+          ...new Set(data.map((item) => item.categoria)),
+        ]);
       })
-      .catch(error => console.error("Error:", error));
+      .catch((error) => console.error("Error:", error));
   }, []);
 
   // ==================== MANEJADORES ====================
@@ -33,18 +36,21 @@ const CursosListadoMantenimiento = () => {
   const abrirModal = (curso) => {
     setCursoSeleccionado(curso);
     setModalIsOpen(true);
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
   };
 
   const cerrarModal = () => {
     setModalIsOpen(false);
-    document.body.style.overflow = 'auto';
+    document.body.style.overflow = "auto";
   };
 
   // ==================== FILTRADO ====================
-  const filteredData = data.filter(item => {
-    const matchesCategory = selectedCategory === "TODOS" || item.categoria === selectedCategory;
-    const matchesSearchTerm = item.nombre.toLowerCase().includes(searchTerm.toLowerCase());
+  const filteredData = data.filter((item) => {
+    const matchesCategory =
+      selectedCategory === "TODOS" || item.categoria === selectedCategory;
+    const matchesSearchTerm = item.nombre
+      .toLowerCase()
+      .includes(searchTerm.toLowerCase());
     return matchesCategory && matchesSearchTerm;
   });
 
@@ -58,21 +64,32 @@ const CursosListadoMantenimiento = () => {
     autoplay: true,
     autoplaySpeed: 5000,
     arrows: false,
-    appendDots: dots => <div className="slider-dots-container"><ul>{dots}</ul></div>,
-    customPaging: () => <div className="custom-dot"></div>
+    appendDots: (dots) => (
+      <div className="slider-dots-container">
+        <ul>{dots}</ul>
+      </div>
+    ),
+    customPaging: () => <div className="custom-dot"></div>,
   };
 
   // ==================== RENDER ====================
   return (
-    <motion.div className="cursos-listado" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+    <motion.div
+      className="cursos-listado"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+    >
       {/* SECCIÓN SUPERIOR (MANTENIDA COMO SOLICITASTE) */}
       <div className="seccion-superior">
         <div className="filtros-busqueda-container">
           <div className="titulo-container">
-            <h2 className="titulo-principal">
-              Cursos de <span className="titulo-destacado">Mantenimiento Edilicio</span>
-            </h2>
-            <p className="subtitulo">Capacitación profesional para administradores</p>
+          <h2 className="titulo-principal">
+  <span>Cursos de</span>
+  <span className="titulo-destacado" style={{marginLeft: '8px'}}>Mantenimiento Edilicio</span>
+</h2>
+            <p className="subtitulo">
+              Capacitación profesional para administradores
+            </p>
           </div>
 
           <div className="filtros-container">
@@ -106,18 +123,18 @@ const CursosListadoMantenimiento = () => {
             <p>Intenta con otros términos de búsqueda</p>
           </div>
         ) : (
-          filteredData.map(item => (
-            <motion.div 
-              key={item.id} 
+          filteredData.map((item) => (
+            <motion.div
+              key={item.id}
               className="curso-card"
               whileHover={{ y: -5 }}
             >
               <div className="card-badge">{item.tipo}</div>
-              
+
               <Slider {...sliderSettings} className="curso-slider">
                 {item["imagenes slider"]?.map((img, i) => (
                   <div key={i} className="slider-item">
-                    <img src={img} alt={`${item.nombre} - Imagen ${i+1}`} />
+                    <img src={img} alt={`${item.nombre} - Imagen ${i + 1}`} />
                   </div>
                 ))}
               </Slider>
@@ -134,14 +151,11 @@ const CursosListadoMantenimiento = () => {
                 </div>
 
                 <div className="card-footer">
-                  <button 
-                    className="info-btn"
-                    onClick={() => abrirModal(item)}
-                  >
+                  <button className="info-btn" onClick={() => abrirModal(item)}>
                     Ver detalles
                   </button>
-                  <Link 
-                    to={`/CursosListadoMantenimiento/${item.id}`} 
+                  <Link
+                    to={`/CursosListadoMantenimiento/${item.id}`}
                     className="action-btn"
                   >
                     Ingresar
@@ -160,7 +174,7 @@ const CursosListadoMantenimiento = () => {
             <button className="close-modal" onClick={cerrarModal}>
               &times;
             </button>
-            
+
             <div className="modal-header">
               <h2>{cursoSeleccionado.nombre}</h2>
               <div className="modal-subheader">
@@ -222,8 +236,8 @@ const CursosListadoMantenimiento = () => {
             </div>
 
             <div className="modal-actions">
-              <Link 
-                to={`/CursosListadoMantenimiento/${cursoSeleccionado.id}`} 
+              <Link
+                to={`/CursosListadoMantenimiento/${cursoSeleccionado.id}`}
                 className="primary-btn"
                 onClick={cerrarModal}
               >

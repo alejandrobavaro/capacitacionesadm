@@ -3,46 +3,58 @@ import { motion } from "framer-motion";
 import "../assets/scss/_03-Componentes/_CursoMantenimiento1.scss";
 
 // =============================================
-// COMPONENTE PRINCIPAL - CURSO 1
+// COMPONENTE PRINCIPAL - CURSO MANTENIMIENTO 1
 // =============================================
 const CursoMantenimiento1 = () => {
   // -------------------------------------------
   // SECCIÓN 1: ESTADOS DEL COMPONENTE
   // -------------------------------------------
-  // Estado para almacenar los datos del curso cargados desde el JSON
+  // Almacena los datos del curso cargados desde el JSON
   const [curso, setCurso] = useState(null);
   
-  // Estado para manejar errores en la carga del curso
+  // Maneja errores en la carga del curso
   const [error, setError] = useState(null);
   
-  // Estado para controlar qué clase está activa (se muestra)
+  // Controla qué clase está activa (visible)
   const [activeClassIndex, setActiveClassIndex] = useState(0);
   
-  // Estado para controlar si el sidebar de información está abierto o cerrado
+  // Controla si el sidebar de información está abierto
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   // -------------------------------------------
-  // SECCIÓN 2: EFECTO PARA CARGAR LOS DATOS DEL CURSO
+  // SECCIÓN 2: CARGA DE DATOS DEL CURSO
   // -------------------------------------------
-  // Este useEffect se ejecuta una vez al montar el componente
+  // Efecto que se ejecuta al montar el componente
+  // Realiza la petición al archivo JSON local
   useEffect(() => {
     fetch("/CursoMantenimiento1.json")
       .then(response => {
-        // Verifica si la respuesta de la red fue exitosa
         if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
         return response.json();
       })
-      .then(data => setCurso(data)) // Guarda los datos en el estado
+      .then(data => setCurso(data))
       .catch(err => {
         console.error("Error al cargar el curso:", err);
         setError("No se pudo cargar el contenido del curso. Por favor intenta más tarde.");
       });
-  }, []); // El array vacío asegura que se ejecute solo una vez
+  }, []);
 
   // -------------------------------------------
-  // SECCIÓN 3: MANEJO DE ERRORES
+  // SECCIÓN 3: SCROLL AUTOMÁTICO AL CAMBIAR DE CLASE
   // -------------------------------------------
-  // Si hay un error, muestra este componente en lugar del contenido normal
+  // Efecto que se ejecuta cada vez que cambia la clase activa
+  // Hace scroll suave al inicio de la página
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }, [activeClassIndex]);
+
+  // -------------------------------------------
+  // SECCIÓN 4: MANEJO DE ERRORES
+  // -------------------------------------------
+  // Si hay error, muestra mensaje en lugar del contenido
   if (error) {
     return (
       <div className="curso-error">
@@ -54,9 +66,9 @@ const CursoMantenimiento1 = () => {
   }
 
   // -------------------------------------------
-  // SECCIÓN 4: ESTADO DE CARGA
+  // SECCIÓN 5: ESTADO DE CARGA
   // -------------------------------------------
-  // Muestra un spinner mientras se cargan los datos
+  // Muestra spinner mientras se cargan los datos
   if (!curso) {
     return (
       <div className="curso-cargando">
@@ -70,16 +82,15 @@ const CursoMantenimiento1 = () => {
   const currentClass = curso.clases[activeClassIndex];
 
   // -------------------------------------------
-  // SECCIÓN 5: FUNCIONES PARA RENDERIZAR CONTENIDO
+  // SECCIÓN 6: FUNCIONES DE RENDERIZADO
   // -------------------------------------------
   
-  // Función para renderizar el contenido principal con multimedia
+  // Renderiza contenido principal con multimedia
   const renderContenidoConMultimedia = () => {
     const paragraphs = currentClass.contenidoExtenso.split('\n');
     const elements = [];
 
-    // Agrega imagen principal si existe
-    if (currentClass.imagenes && currentClass.imagenes.length > 0) {
+    if (currentClass.imagenes?.length > 0) {
       elements.push(
         <div key="imagen-principal" className="contenido-media">
           <img 
@@ -94,26 +105,20 @@ const CursoMantenimiento1 = () => {
       );
     }
 
-    // Agrega cada párrafo del contenido
     paragraphs.forEach((paragraph, i) => {
       if (paragraph.trim() !== '') {
         elements.push(<p key={`p-${i}`}>{paragraph}</p>);
       }
     });
 
-    // Agrega diapositivas si existen
-    if (currentClass.diapositivas && currentClass.diapositivas.length > 0) {
+    if (currentClass.diapositivas?.length > 0) {
       elements.push(
         <div key="diapositivas" className="diapositivas-container">
           <h3>Diapositivas de la clase</h3>
           <div className="diapositivas-grid">
             {currentClass.diapositivas.map((diapo, index) => (
               <div key={index} className="diapositiva-item">
-                <img 
-                  src={diapo.imagen} 
-                  alt={diapo.descripcion}
-                  loading="lazy"
-                />
+                <img src={diapo.imagen} alt={diapo.descripcion} loading="lazy" />
                 <h4>{diapo.titulo}</h4>
                 {diapo.descripcion && <p className="pie-diapositiva">{diapo.descripcion}</p>}
               </div>
@@ -123,7 +128,6 @@ const CursoMantenimiento1 = () => {
       );
     }
 
-    // Agrega video si existe
     if (currentClass.video) {
       elements.push(
         <div key="video-final" className="contenido-media video">
@@ -147,9 +151,9 @@ const CursoMantenimiento1 = () => {
     return elements;
   };
 
-  // Función para renderizar las preguntas frecuentes (FAQ)
+  // Renderiza preguntas frecuentes
   const renderFAQ = () => {
-    if (!currentClass.faq || currentClass.faq.length === 0) return null;
+    if (!currentClass.faq?.length) return null;
     
     return (
       <div className="faq-section">
@@ -172,7 +176,7 @@ const CursoMantenimiento1 = () => {
     );
   };
 
-  // Función para renderizar el ejemplo práctico
+  // Renderiza ejemplo práctico
   const renderEjemploPractico = () => {
     if (!currentClass.ejemploPractico) return null;
     
@@ -191,9 +195,9 @@ const CursoMantenimiento1 = () => {
     );
   };
 
-  // Función para renderizar los ejercicios
+  // Renderiza ejercicios
   const renderEjercicios = () => {
-    if (!currentClass.ejercicios || currentClass.ejercicios.length === 0) return null;
+    if (!currentClass.ejercicios?.length) return null;
     
     return (
       <div className="ejercicios-section">
@@ -221,9 +225,9 @@ const CursoMantenimiento1 = () => {
     );
   };
 
-  // Función para renderizar citas destacadas
+  // Renderiza citas destacadas
   const renderCitas = () => {
-    if (!currentClass.citas || currentClass.citas.length === 0) return null;
+    if (!currentClass.citas?.length) return null;
     
     return (
       <div className="citas-section">
@@ -239,7 +243,7 @@ const CursoMantenimiento1 = () => {
     );
   };
 
-  // Función para renderizar el resumen de la clase
+  // Renderiza resumen de la clase
   const renderResumen = () => {
     if (!currentClass.resumen) return null;
     
@@ -253,7 +257,6 @@ const CursoMantenimiento1 = () => {
               <li key={index}>{punto}</li>
             ))}
           </ul>
-          
           <h4>Conclusión:</h4>
           <p>{currentClass.resumen.conclusion}</p>
         </div>
@@ -261,7 +264,7 @@ const CursoMantenimiento1 = () => {
     );
   };
 
-  // Función para renderizar la información general del curso en el sidebar
+  // Renderiza información del curso en sidebar
   const renderCourseInfo = () => {
     return (
       <div className="course-info-sidebar">
@@ -324,19 +327,19 @@ const CursoMantenimiento1 = () => {
   };
 
   // =============================================
-  // RENDERIZADO PRINCIPAL DEL COMPONENTE
+  // RENDERIZADO PRINCIPAL
   // =============================================
   return (
     <div className={`curso-libro ${sidebarOpen ? 'sidebar-open' : ''}`}>
-      {/* Botón para abrir/cerrar el sidebar de información del curso */}
+      {/* Botón toggle para sidebar */}
       <button className="toggle-sidebar" onClick={() => setSidebarOpen(!sidebarOpen)}>
         {sidebarOpen ? '◄' : '►'} Información del curso
       </button>
       
-      {/* Sidebar con información general del curso */}
+      {/* Sidebar con información del curso */}
       {sidebarOpen && renderCourseInfo()}
       
-      {/* Contenido principal del curso */}
+      {/* Contenido principal */}
       <div className="curso-main-content">
         {/* Cabecera con título y metadatos */}
         <header className="curso-cabecera">
@@ -352,22 +355,9 @@ const CursoMantenimiento1 = () => {
           </div>
         </header>
 
-        {/* Navegación entre clases (selector de clases) */}
-        <nav className="curso-navegacion">
-          <div className="clase-selector">
-            {curso.clases.map((clase, index) => (
-              <button
-                key={index}
-                className={index === activeClassIndex ? 'active' : ''}
-                onClick={() => setActiveClassIndex(index)}
-              >
-                {clase.numero}
-              </button>
-            ))}
-          </div>
-        </nav>
 
-        {/* Contenido principal de la clase actual */}
+
+        {/* Contenido de la clase actual */}
         <main className="curso-contenido">
           <motion.div
             key={activeClassIndex}
@@ -375,15 +365,15 @@ const CursoMantenimiento1 = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3 }}
           >
-            {/* Objetivos de aprendizaje de la clase actual */}
-            {currentClass.subtemas && currentClass.subtemas.length > 0 && (
+            {/* Objetivos de aprendizaje */}
+            {currentClass.subtemas?.length > 0 && (
               <div className="curso-objetivos">
                 <h3>Objetivos de aprendizaje</h3>
                 <ul>
                   {currentClass.subtemas.map((subtema, index) => (
                     <React.Fragment key={index}>
                       <li><strong>{subtema.titulo}</strong></li>
-                      {subtema.contenido && subtema.contenido.map((item, i) => (
+                      {subtema.contenido?.map((item, i) => (
                         <li key={i} className="sub-objetivo">{item}</li>
                       ))}
                     </React.Fragment>
@@ -392,20 +382,20 @@ const CursoMantenimiento1 = () => {
               </div>
             )}
 
-            {/* Contenido principal con texto y multimedia */}
+            {/* Artículo principal */}
             <article className="curso-articulo">
               {renderContenidoConMultimedia()}
             </article>
 
-            {/* Secciones adicionales de la clase */}
+            {/* Secciones adicionales */}
             {renderEjemploPractico()}
             {renderCitas()}
             {renderResumen()}
             {renderFAQ()}
             {renderEjercicios()}
 
-            {/* Recursos adicionales (material complementario) */}
-            {currentClass.materialComplementario && currentClass.materialComplementario.length > 0 && (
+            {/* Recursos adicionales */}
+            {currentClass.materialComplementario?.length > 0 && (
               <aside className="curso-recursos">
                 <h3>Recursos adicionales</h3>
                 <div className="recursos-lista">
@@ -426,7 +416,7 @@ const CursoMantenimiento1 = () => {
           </motion.div>
         </main>
 
-        {/* Navegación inferior (anterior/siguiente clase) */}
+        {/* Navegación inferior */}
         <footer className="curso-pie">
           {activeClassIndex > 0 && (
             <button 
@@ -444,6 +434,21 @@ const CursoMantenimiento1 = () => {
               Clase {curso.clases[activeClassIndex + 1].numero}: {curso.clases[activeClassIndex + 1].titulo} →
             </button>
           )}
+
+                  {/* Selector de clases */}
+        <nav className="curso-navegacion">
+          <div className="clase-selector">
+            {curso.clases.map((clase, index) => (
+              <button
+                key={index}
+                className={index === activeClassIndex ? 'active' : ''}
+                onClick={() => setActiveClassIndex(index)}
+              >
+                {clase.numero}
+              </button>
+            ))}
+          </div>
+        </nav>
         </footer>
       </div>
     </div>

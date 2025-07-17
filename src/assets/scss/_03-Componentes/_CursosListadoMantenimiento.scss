@@ -1,6 +1,6 @@
 /* ============= ESTILOS PRINCIPALES ============= */
 .cursos-listado {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #2c3e50;
   background: #fff;
   padding-bottom: 40px;
@@ -34,15 +34,31 @@
   margin: 0 0 4px 0;
   color: #2c3e50;
   line-height: 1.2;
+
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+    white-space: nowrap;
+
+    span {
+      display: block;
+      white-space: nowrap;
+    }
+  }
 }
 
 .titulo-destacado {
-  color: #4a5568;
-  position: relative;
+  color: #2c3e50;
+  background-color: rgba(74, 85, 104, 0.1);
+  padding: 2px 8px 4px;
+  border-radius: 6px;
+  font-weight: 700;
   display: inline-block;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-left: 3px solid #4a5568; // Borde lateral para más énfasis
+
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 2px;
     left: 0;
@@ -67,9 +83,15 @@
   gap: 8px;
   padding-bottom: 6px;
   scrollbar-width: none;
-
+  
   &::-webkit-scrollbar {
     display: none;
+  }
+  
+  @media (min-width: 768px) {
+    flex: 0 0 auto;
+    padding-bottom: 0;
+    overflow-x: visible;
   }
 }
 
@@ -99,7 +121,13 @@
 
 .barra-busqueda {
   width: 100%;
-
+  
+  @media (min-width: 768px) {
+    flex: 1;
+    min-width: 0; /* Permite que se reduzca */
+    max-width: 60%; /* Limita al 60% del ancho */
+  }
+  
   input {
     width: 100%;
     padding: 10px 14px;
@@ -108,7 +136,7 @@
     font-size: 0.9rem;
     background: #f8f9fa;
     transition: border 0.2s;
-
+    
     &:focus {
       outline: none;
       border-color: #4a5568;
@@ -159,7 +187,7 @@
 
   .slider-item {
     height: 180px;
-    
+
     img {
       width: 100%;
       height: 100%;
@@ -304,8 +332,12 @@
   animation: fadeIn 0.3s;
 
   @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
 
@@ -320,8 +352,14 @@
   animation: slideUp 0.3s;
 
   @keyframes slideUp {
-    from { transform: translateY(20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 }
 
@@ -412,7 +450,7 @@
     padding-left: 15px;
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 5px;
@@ -484,7 +522,7 @@
         font-size: 0.9rem;
 
         &::before {
-          content: '•';
+          content: "•";
           position: absolute;
           left: 0;
           color: #4a5568;

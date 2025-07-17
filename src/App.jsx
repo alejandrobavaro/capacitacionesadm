@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 // SECCIÓN 1: IMPORTACIÓN DE ESTILOS GLOBALES
 // ------------------------------------------
 import "./assets/scss/_01-General/_App.scss";
-import "./assets/scss/_01-General/_Toastify.scss";
+
 
 // ------------------------------------------
 // SECCIÓN 2: IMPORTACIÓN DE COMPONENTES PRINCIPALES
@@ -21,7 +21,6 @@ import Footer from "./componentes/Footer";
 // ------------------------------------------
 import ContactoLogoRedes from "./componentes/ContactoLogoRedes";
 import ContactoFormularioSlider from "./componentes/ContactoFormularioSlider";
-import Clientes from "./componentes/Clientes";
 
 // ------------------------------------------
 // SECCIÓN 4: IMPORTACIÓN DE COMPONENTES DE SESIÓN
@@ -36,31 +35,6 @@ import SesionLogin from "./componentes/SesionLogin";
 import CursosListadoMantenimiento from "./componentes/CursosListadoMantenimiento";
 import CursoDetalle from "./componentes/CursoDetalle";
 
-// ------------------------------------------
-// SECCIÓN 6: IMPORTACIÓN DE OTROS COMPONENTES
-// ------------------------------------------
-import Servicio from "./componentes/Servicio";
-import MainPreguntasFrecuentes from "./componentes/MainPreguntasFrecuentes";
-import MainTestimonios from "./componentes/MainTestimonios";
-
-// ------------------------------------------
-// SECCIÓN 7: IMPORTACIÓN DE COMPONENTES DE ÁREA PRIVADA
-// ------------------------------------------
-import AreaPrivada from "./componentes/AreaPrivada";
-import AreaAdministracionSistema from "./componentes/AreaAdministracionSistema";
-import AreaAdministracionReclamos from "./componentes/AreaAdministracionReclamos";
-import AreaAdministracionExpensas from "./componentes/AreaAdministracionExpensas";
-import AreaConsorcistas from "./componentes/AreaConsorcistas";
-import AreaReportes from "./componentes/AreaReportes";
-
-// ------------------------------------------
-// SECCIÓN 8: COMPONENTE TEMPORAL PARA REPORTES
-// ------------------------------------------
-const ReportesComponent = () => (
-  <div className="admin-container">
-    <h2>Módulo de Reportes en desarrollo</h2>
-  </div>
-);
 
 // ------------------------------------------
 // SECCIÓN 9: COMPONENTE PRINCIPAL DE LA APLICACIÓN
@@ -95,26 +69,6 @@ function App() {
                 </>
               }
             />
-            <Route path="/clientes" element={<Clientes />} />
-            <Route path="/servicio" element={<Servicio />} />
-
-            {/* ------------------------------------------
-                SECCIÓN 9.2.2: RUTAS DEL ÁREA PRIVADA CON SUB-RUTAS
-                ------------------------------------------ */}
-            <Route path="/area-privada" element={<AreaPrivada />}>
-              <Route index element={<Navigate to="sistema" replace />} />
-              <Route path="sistema" element={<AreaAdministracionSistema />} />
-              <Route path="reclamos" element={<AreaAdministracionReclamos />} />
-              <Route path="expensas" element={<AreaAdministracionExpensas />} />
-              <Route path="usuarios" element={<AreaConsorcistas />} />
-              <Route path="reportes" element={<AreaReportes />} />
-            </Route>
-
-            {/* ------------------------------------------
-                SECCIÓN 9.2.3: RUTAS DE INFORMACIÓN
-                ------------------------------------------ */}
-            <Route path="/MainPreguntasFrecuentes" element={<MainPreguntasFrecuentes />} />
-            <Route path="/MainTestimonios" element={<MainTestimonios />} />
 
             {/* ------------------------------------------
                 SECCIÓN 9.2.4: RUTAS DE CURSOS

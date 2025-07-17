@@ -19,7 +19,11 @@ const CursoWrapper = ({ children, cursoData }) => {
       {/* Header compacto del curso */}
       <header className="curso-header">
         <div className="header-imagen">
-          <img src={cursoData.imagen} alt={cursoData.titulo} />
+          <img 
+            src={cursoData.imagen} 
+            alt={cursoData.titulo} 
+            className="curso-imagen-portada" 
+          />
         </div>
 
         <div className="header-contenido">
